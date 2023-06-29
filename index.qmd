@@ -19,7 +19,7 @@ format:
     height: 720
     incremental: true
     auto-stretch: false
-    css: [assets/custom.css, assets/pacman.css, assets/tachyons-addon.css]
+    css: [assets/custom.css, assets/tachyons-addon.css]
     include-after: |
       <link rel="stylesheet" href="assets/syntax-highlight.css">
       <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.min.css">
@@ -69,6 +69,9 @@ fa_list <- function(x, incremental = FALSE) {
         "</ul>", sep = "\n")
 }
 
+
+
+
 ```
 
 ::: title-box
@@ -88,10 +91,7 @@ fa_list <- function(x, incremental = FALSE) {
 
 
 
-##  Kolgrafafjörður {background-image="images/2.png"}
-
-
-
+##  [Kolgrafafjörður]{.strokeme} {background-image="images/2.png" .slide-number:first-child}
 
 ::: {.notes}
 This is the peaceful fjord Kolgrafafjörður in Snæfellsnes peninsula. I will just call it fjord for simplification
@@ -99,14 +99,18 @@ This is the peaceful fjord Kolgrafafjörður in Snæfellsnes peninsula. I will j
 
 ##  {background-image="images/3.png"}
 
+
 ## {background-image="images/4.png"}
 <span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>
 
 ## {background-image="images/sildhne.png"}
-<span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>
+<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>
+- <span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>
 
 ## {background-image="images/robert2013B.png"}
-<span style="font-size:30pt;">[Following this, we noticed a wash-up of dead benthic organisms, such as crabs, starfish and bivalves, on the shores.]{.strokeme}</span>
+<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>
+<span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>
+- <span style="font-size:30pt;">[Following this, we noticed a wash-up of dead benthic organisms, such as crabs, starfish and bivalves, on the shores.]{.strokeme}</span>
 
 ##  {background-image="images/6b.png"}
 ...we went sampling
@@ -121,20 +125,30 @@ This is the first sampling trip in june, 4 months after.Stations were from a for
 I spent the winter sorting species and the project sparked further interest.
 :::
 
-##  
+##  Reset the main goals
 
-* At first our aim was to investigate the immediate impacts of a catastrophe in 2013.
-* But as the project sparked more interest we sought out the funding to examine it decently.
-* Drawing from the work of others (<span style="font-size:20pt;">[Eivind Oug, Tor Eiliv Lein, Regina Küfner & Inger-Britt Falk-Petersen]{.monash-blue2} (1991). Environmental effects of a herring mass mortality in northern Norway. Impact on and recovery of rockyshore and soft-bottom biotas</span>) We set our main goals to:
+<br>
+<div class="control-diet" data-id="trt1">examine **species composition** and **succession** of macrofauna from 2013 to 2017</div>
+<div class="sugar-diet" data-id="trt2"> document the eventual return to equilibrium in the fjord</div>
+<br>
+Drawing from the work of others 
 
-1. &nbsp; examine the species composition and succession of macrofauna from 2013 to 2017,
-2. &nbsp; document the eventual return to equilibrium in the fjord
-
-. . .
+- <span style="font-size:20pt;">[(Eivind Oug, Tor Eiliv Lein, Regina Küfner & Inger-Britt Falk-Petersen]{.monash-blue2} (1991). Environmental effects of a herring mass mortality in northern Norway. Impact on and recovery of rockyshore and soft-bottom biotas)</span>
 
 
+::: {.notes}
+At first our aim was to investigate the immediate impacts of a catastrophe in 2013.
+But as the project sparked more interest we sought out the funding to examine it decently.
+:::
+
+- ...and Guðmundur Víðir
 
 ## {background-image="images/DominantGroups.png"}
+
+::: {.notes}
+We sorted the species for 5 years. After Guðmundur Víðir got sick of cancer he decided to finish the 2017 samples rather than taking on the next year in line.
+I got the 2016 sample handed to me and sorted through the rest
+:::
 
 
 ##  {background-image="images/8.png"}
