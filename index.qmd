@@ -1,0 +1,149 @@
+---
+pagetitle: "From Disaster to Recovery:"
+subtitle: "A Study of Benthic Community Response to Anoxia"
+abstract: |
+ Síldardauðinn maður. 
+author: "Valtýr Sigurðsson"
+date: "4th July 2023"
+host: "Stellenbosch conference"
+institute: "BioPol"
+strip-comments: true
+format: 
+  revealjs:
+    slide-number: true
+    multiplex: true
+    theme: assets/monash.scss
+    show-slide-number: all
+    controls: true
+    width: 1280
+    height: 720
+    incremental: true
+    auto-stretch: false
+    css: [assets/custom.css, assets/pacman.css, assets/tachyons-addon.css]
+    include-after: |
+      <link rel="stylesheet" href="assets/syntax-highlight.css">
+      <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.min.css">
+      <script src="assets/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+callout-icon: false
+output-file: index.html
+execute:
+  echo: true
+---
+
+##  {#title-slide background="images/sh.png"}
+
+```{r setup, include = FALSE}
+library(tidyverse)
+
+rotating_text <- function(x, align = "center") {
+  glue::glue('
+<div style="overflow: hidden; height: 2em;">
+<ul class="content__container__list {align}" style="text-align: {align}">
+<li class="content__item" style="padding-bottom: 25px;">{x[1]}</li>
+<li class="content__item" style="padding-bottom: 25px;"><img src="images/Biopol_logo_small-transparent.png" alt="Logo" height="36px"></li>
+<li class="content__item" style="padding-bottom: 25px;">{x[3]}</li>
+<li class="content__item" style="padding-bottom: 25px;"><img src="images/logoNNV.svg" alt="Logo" height="36px"></li>
+</ul>
+</div>')
+}
+
+rotating_textB <- function(x, align = "center") {
+  glue::glue('
+<div style="overflow: hidden; height: 1.2em;">
+<ul class="content__container__list {align}" style="text-align: {align}">
+<li class="content__container__list__item">{x[1]}</li>
+<li class="content__container__list__item">{x[2]}</li>
+<li class="content__container__list__item">{x[3]}</li>
+<li class="content__container__list__item">{x[4]}</li>
+</ul>
+</div>')
+}
+
+
+fa_list <- function(x, incremental = FALSE) {
+  icons <- names(x)
+  fragment <- ifelse(incremental, "fragment", "")
+  items <- glue::glue('<li class="{fragment}"><span class="fa-li"><i class="{icons}"></i></span> {x}</li>')
+  paste('<ul class="fa-ul">', 
+        paste(items, collapse = "\n"),
+        "</ul>", sep = "\n")
+}
+
+```
+
+::: title-box
+<h2>`r rmarkdown::metadata$pagetitle`</h2>
+
+<h3>`r rmarkdown::metadata$subtitle`</h3>
+
+👨‍💻🏻‍💻 [`r rmarkdown::metadata$author`]{.author}
+
+<br>
+
+`r rotating_text(c('<i class="fa-solid fa-envelope"></i> valtyr@BioPol.is','![](images/Biopol_logo_small-transparent.png)', 'Northwest Natural Research center','<i class="fa-solid fa-globe"></i> NNv.is'))`
+:::
+
+
+------------------------------------------------------------------------
+
+
+
+##  Kolgrafafjörður {background-image="images/2.png"}
+
+
+
+
+::: {.notes}
+This is the peaceful fjord Kolgrafafjörður in Snæfellsnes peninsula. I will just call it fjord for simplification
+:::
+
+##  {background-image="images/3.png"}
+
+## {background-image="images/4.png"}
+<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>
+
+## {background-image="images/sildhne.png"}
+<span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>
+
+## {background-image="images/robert2013B.png"}
+<span style="font-size:30pt;">[Following this, we noticed a wash-up of dead benthic organisms, such as crabs, starfish and bivalves, on the shores.]{.strokeme}</span>
+
+##  {background-image="images/6b.png"}
+...we went sampling
+
+::: {.notes}
+This is the first sampling trip in june, 4 months after.Stations were from a former reserch in 1999
+:::
+
+##  {background-image="images/7.png"}
+
+::: {.notes}
+I spent the winter sorting species and the project sparked further interest.
+:::
+
+##  
+
+* At first our aim was to investigate the immediate impacts of a catastrophe in 2013.
+* But as the project sparked more interest we sought out the funding to examine it decently.
+* Drawing from the work of others (<span style="font-size:20pt;">[Eivind Oug, Tor Eiliv Lein, Regina Küfner & Inger-Britt Falk-Petersen]{.monash-blue2} (1991). Environmental effects of a herring mass mortality in northern Norway. Impact on and recovery of rockyshore and soft-bottom biotas</span>) We set our main goals to:
+
+1. &nbsp; examine the species composition and succession of macrofauna from 2013 to 2017,
+2. &nbsp; document the eventual return to equilibrium in the fjord
+
+. . .
+
+
+
+## {background-image="images/DominantGroups.png"}
+
+
+##  {background-image="images/8.png"}
+
+
+##  {background-image="images/9.png"}
+
+##  {background-image="images/11.png"}
+##  {background-iframe="https://valtyrio.shinyapps.io/docs/" background-interactive="true"}
+
+##  {background-image="images/13.png"}
+##  {background-image="images/12.png"}
