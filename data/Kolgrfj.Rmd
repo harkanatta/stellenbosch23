@@ -1,0 +1,649 @@
+---
+title: "Næstu skref"
+author: "Valtýr"
+date: "2023-01-03"
+output: html_document
+---
+
+
+```{r pakkar, message=FALSE, warning=FALSE, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+Rpakkar <- c("tidyverse","benthos","worrms", "plyr", "data.table", "DT", "dplyr", "here", "BBI", "ggh4x", "gplots","PDE", "magick", "tesseract", "xlsx", "ggpubr", "factoextra")
+#install.packages('pacman')
+pacman::p_load(Rpakkar, character.only = TRUE)
+#remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"))
+#install.packages("PDE", dependencies = TRUE)
+#Sys.setlocale("LC_ALL", "Icelandic") # `Sys.setlocale` er hér fyrir íslenskar dagsetningar.
+```
+
+
+
+
+```{r innlestur, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+allartalningar <- read_csv("C:/Users/35484/Documents/vinna/github/stellenbosch23/data/allartalningar.csv")
+```
+
+```{r hreinsun, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+df <- allartalningar
+df$Flokkun <- str_to_sentence(df$Flokkun) #Stór stafur í byrjun heitis
+df$gamalt <- df$Flokkun
+df$Flokkun <- sapply(allartalningar$Flokkun, function(x) gsub("\\ kemur líka Heteromastus filiformis|\\ Sipunculidea/|\\.|\\ TUNICATA EÐA FLEIRI?|\\ nýsestir|\\ ungviði|\\ ungv.|\\ ungv|\\ juv|\\ sp.|\\ sp|\\ ath","",x)) #Laga heitin. Eykur benthos::is_accepted(taxon = Flokkun) úr 432 í 522
+
+# Hér er búið að fækka einstaka heitum úr 289 í 250
+# length(unique(df$Flokkun))
+# length(unique(allartalningar$Flokkun))
+
+df <- df %>% mutate(Flokkun = case_when(
+  str_detect(Flokkun, "Campanulariidae sp") ~ "Campanulariidae",
+  str_detect(Flokkun, "Cycloterus lumpus") ~ "Cyclopterus lumpus",
+  str_detect(Flokkun, "Götungar") ~ "Foraminifera",
+  str_detect(Flokkun, "Möttuldýr?" ) ~ "Tunicata",
+  str_detect(Flokkun, "Nephtiydae" ) ~ "Nephtyidae",
+  str_detect(Flokkun, "Phyllodoce maculata" ) ~ "Phyllodoce maculata",
+  str_detect(Flokkun, "Polynoida" ) ~ "Polynoidae",
+  str_detect(Flokkun, "Sternapsis scutata") ~ "Sternaspis scutata",
+  str_detect(Flokkun, "Terribellides stroemi") ~ "Terebellides stroemii",
+  str_detect(Flokkun, "Tubificoides benedict") ~ "Tubificoides benedii",
+  str_detect(Flokkun, "Clinocardium cillaturn" ) ~ "Ciliatocardium ciliatum ciliatum",
+  str_detect(Flokkun, "Gattyana cirrosa" ) ~ "Gattyana cirrhosa",
+  str_detect(Flokkun, "Möttuldýr" ) ~ "Tunicata",
+  str_detect(Flokkun, "Nemertea=nemertina" ) ~ "Nemertea",
+  str_detect(Flokkun, "Nudibranch"  ) ~ "Nudibranchia",
+  #str_detect(Flokkun,"Polydora"  ) ~ "Spionidae", #mjög margir
+  str_detect(Flokkun, "Priapulus candatus" ) ~ "Priapulus caudatus",
+  str_detect(Flokkun, "Priapulus camelus" ) ~ "Priapulus caudatus",
+  str_detect(Flokkun, "Sipunculidea/Sipunculidae") ~ "Sipunculidae",
+  str_detect(Flokkun, "Terribellides kozloffi" ) ~ "Tubificoides kozloffi", #líklegast
+  str_detect(Flokkun, "Tubicoides kozloffi" ) ~ "Tubificoides kozloffi",
+  str_detect(Flokkun, "Tubificoides benedict" ) ~ "Tubificoides benedii",
+  str_detect(Flokkun, "Tubificoides benedi" ) ~ "Tubificoides benedii",
+  str_detect(Flokkun, "Terebellides benedi" ) ~ "Tubificoides benedii", #líklegast
+  str_detect(Flokkun, "Astartidae borealis" ) ~ "Astarte borealis",
+  str_detect(Flokkun, "Cerastoderma ovale") ~ "Parvicardium pinnulatum",
+  str_detect(Flokkun, "Exogone verrugera") ~ "Exogone verugera",
+  str_detect(Flokkun, "Nuculana tenuis" ) ~ "Ennucula tenuis",
+  str_detect(Flokkun, "Opistobranchia") ~ "Opisthobranchia",
+  str_detect(Flokkun, "Serripes groenlandica") ~ "Serripes groenlandicus",
+  str_detect(Flokkun, "Cardidae"   ) ~ "Cardiidae",
+  str_detect(Flokkun, "Henricia sanguinolenta") ~ "Henricia sanguinolenta", # kannski setja id 123974 í DF$worms
+  str_detect(Flokkun, "Macoma calcaria" ) ~ "Macoma calcarea",
+  #str_detect(Flokkun,"Musculus"   ) ~ "Tellina", # id 138533 í DF$worms
+  str_detect(Flokkun, "Ophryotrocha cf Cosmetandra") ~ "Ophryotrocha cosmetandra",
+  str_detect(Flokkun, "Praxillella m"  ) ~ "Praxillella", # id 129360  í DF$worms
+  str_detect(Flokkun, "Ranaormur"  ) ~ "Nemertea",
+  str_detect(Flokkun, "Terebellidae"  ) ~ "Terebellidae", # id 982 í DF$worms
+  str_detect(Flokkun, "Terebellides benedi"  ) ~ "Terebellides", 
+  str_detect(Flokkun, "Tubicoides benedi" ) ~ "Tubificoides benedii",
+  str_detect(Flokkun, "Cardidae" ) ~ "Cardiidae", 
+  str_detect(Flokkun, "Corophium bonellii" ) ~ "Crassicorophium bonellii", #á eftir að keyra þetta einu sinni enn með þessum
+  str_detect(Flokkun, "Corophium bonnellii" ) ~ "Crassicorophium bonellii",
+  str_detect(Flokkun, "Plergonium spinosum" ) ~ "Pleurogonium spinosissimum",
+  str_detect(Flokkun, "spio" ) ~ "Spio",
+  str_detect(Flokkun, "Skeljar" ) ~ "Bivalvia",
+  TRUE ~ Flokkun
+))
+
+# Hér er búið að fækka einstaka heitum úr 250 í 230
+
+```
+
+```{r hreinsunB, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+  remove_list <- paste(c("—Ssekkt",
+                         "—ßekkt",
+                         "Foraminifera",
+                         "Götungar",
+                         "Harpacticoida",
+                         "Hydrozoa",
+                         "Lirfur",
+                         "lirfur",
+                         "lirfa",
+                         "Skordýr",
+                         "Ranaormur",
+                         "Lirfurogdrasl",
+                         "Bandormur",
+                         "Lirfa",
+                         "egg",
+                         "Óþekkt",
+                         "Nematoda",
+                         "Nemertea",
+                         "Möttuldýr?",
+                         "Porifera",
+                         "Plerugoniumnosissum",
+                         "Terebellides benedi",
+                         "Plergoniumnosum",
+                         "egg/lirfur",
+                         "Ostracoda",
+                         "Copepoda",
+                         "Collembola",
+                         "Cyclopterus lumpus"
+                         ), collapse = '|')
+  
+  
+  remove_ind <- lapply(strsplit(remove_list , "\\|")[[1]] , \(x) grep(x , df$Flokkun , fixed = T)) |> 
+    unlist() |> 
+    unique()
+  df <- df[-remove_ind,]  #Öll heiti í remove_list tekin úr 'allartalningar' og sett í df
+
+         A <- c()
+        
+         for (i in unique(df$Flokkun)) {
+           A[i] <- try(wm_name2id(name = i) )
+         }
+         A <- as.data.frame(A)
+         A$flokkun <- row.names(A)
+         DF <- merge(df,A, by.x="Flokkun", by.y="flokkun")
+         DF$worms <- as.integer(as.character(DF$A)) #Öll heiti í remove_list tekin úr 'allartalningar' og sett í df
+         
+         
+         unique(DF$Flokkun[is.na(DF$worms)]) # "Skoða óvirk heiti"
+        
+
+DF <- DF %>% mutate(worms = case_when(
+ str_detect(Flokkun, "Oligochaeta"  ) ~ as.integer(2036),
+ str_detect(Flokkun, "Polydora" ) ~ as.integer(129619),
+ str_detect(Flokkun, "rækjulirfa" ) ~ as.integer(106789),
+# str_detect(Flokkun, "Skeljar"  ) ~ as.integer(105),
+ str_detect(Flokkun,"Spio"  ) ~ as.integer(129625),
+ str_detect(Flokkun,"Mediomastus filiformis") ~ as.integer(335480),
+ str_detect(Flokkun,"Mya"   ) ~ as.integer(138211),
+# str_detect(Flokkun,"Plerugoniumnosissum" ) ~ "Plerugonium spinosissum" #gsub tók út sp :\ en finnst annars ekkert
+# str_detect(Flokkun,"Priapulus camelus") ~ Kíkja á B5A og C úr 2014
+# str_detect(Flokkun,"spio"  ) ~ as.integer(129625),
+# str_detect(Flokkun,"Terebellides benedi" ) ~ # Kíkja í sýnin
+# str_detect(Flokkun,"—ßekkt"  ) ~
+# str_detect(Flokkun,"egg/lirfur"  ) ~
+ str_detect(Flokkun,"Nepthys"  ) ~ as.integer(129370), 
+# str_detect(Flokkun,"Plergoniumnosum" ) ~ "Plergonium spinosum"
+# str_detect(Flokkun,"Skordýr"  ) ~ 
+# str_detect(Flokkun, "lirfurOgDrasl" ) ~,
+ str_detect(Flokkun,"Campanulariidae sp"  ) ~ as.integer(1606),
+str_detect(Flokkun, "Henricia sanguinolenta" ) ~ as.integer(129374),
+str_detect(Flokkun, "Phyllodoce maculata" ) ~ as.integer(334510),
+str_detect(Flokkun, "Terebellidae" ) ~ as.integer(982),
+str_detect(Flokkun, "Astarte" ) ~ as.integer(137683),
+str_detect(Flokkun, "Leda" ) ~ as.integer(138259),# accepted name er Nuculana  131435  
+str_detect(Flokkun, "Syllis gracilis" ) ~ as.integer(131435),
+str_detect(Flokkun, "Yoldia hyperborea" ) ~ as.integer(141989), 
+str_detect(Flokkun, "Musculus" ) ~ as.integer(138225), 
+ TRUE ~ worms
+))
+
+```
+
+```{r taxa, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+ DFekkina <- DF[!is.na(DF$worms),]
+         B <- list()
+         for (i in 1:length(DFekkina$worms)) {
+           B[[i]] <-  wm_classification(DFekkina$worms[i])
+         }
+         df_list <- lapply(1:length(B), 
+                           function(x) (pivot_wider(B[[x]][-1], names_from = rank, values_from = scientificname)))
+         
+         rass <- bind_rows(df_list)
+         #print(rass,n=50)
+         geggjad <- cbind(rass,DFekkina)
+         
+
+rass <- geggjad %>% mutate(Nu = N*skipting,
+                           Nfm= case_when(
+                             Artal != 1999 ~ round(Nu/(3*0.04)),
+                             TRUE ~ round(Nu/0.0225)))
+         
+#write.csv(rass, "KolgrTaxa.csv",na="", row.names = F, fileEncoding = "latin1")
+#rass <- ddply(geggjad,.(Class),summarise,N=sum(N))
+#pie(rass$N,rass$Phylum)
+
+```
+
+
+
+
+## Including Plots
+
+Samkvæmt skýrslu Hafró frá 2022 „Vistfræðileg viðmið við ástandsflokkun strandsjávar“ er „gæðavísirinn NQI1 (Norwegian Quality Index 1, Rygg 2006) talinn henta best við mat á hryggleysingjum á mjúkum botni í strandsjó við Ísland og því er mælt með notkun hans við ástandsflokkun strandsjávar.“
+
+
+```{r vegan}
+KolgrTaxa <- read_csv("KolgrTaxa.csv", na = "empty") 
+   
+   remove_list <- paste(c(
+     "nýsestir",
+     "ungviði",
+     "ungv",
+     "ungv.",
+     "juv"
+   ), collapse = '|') 
+   
+   remove_ind <- lapply(strsplit(remove_list , "\\|")[[1]] , \(x) grep(x , KolgrTaxa$gamalt , fixed = T)) |> 
+     unlist() |> 
+     unique()
+   
+   ekkiungvidi <- KolgrTaxa[-remove_ind,] 
+   
+   df <- ekkiungvidi %>% 
+     mutate(Artal = factor(Artal)) %>% 
+     filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+     ddply(.(Artal, stod,Flokkun),summarise, N=sum(Nfm)) %>% 
+     arrange(N)
+   
+   jorundur <- df %>% 
+     filter(!Flokkun %in% c("Copepoda","Collembola", "Cyclopterus lumpus")) %>% 
+     mutate(
+       Flokkun = case_when(
+         Artal == 1999 & Flokkun == "Ampharete acutifrons" ~ "Ampharetinae",
+         Artal == 1999 & Flokkun == "Bivalvia" ~ NA,
+         Artal == 2013 & Flokkun == "Harmothoe" ~ "Harmothoe extenuata",
+         Artal == 2013 & Flokkun == "Polynoidae" ~ "Harmothoe extenuata",
+         Artal == 2014 & Flokkun == "Praxillella" ~ "Praxillella praetermissa",
+         Artal == 2014 & Flokkun == "Syllidae" ~ "Syllis cornuta",
+         Artal == 2015 & Flokkun == "Syllidae" ~ "Syllis cornuta",
+         Artal == 2015 & Flokkun == "Mya" ~ "Mya arenaria",
+         Artal == 2015 & Flokkun == "Mytilidae" ~ "Mytilus edulis",
+         Artal == 2015 & Flokkun == "Bivalvia" ~ NA,
+         Artal == 2016 & Flokkun == "Ampharetidae" ~ "Amphitrite cirrata",
+         Artal == 2016 & Flokkun == "Aricidea" ~ "Aricidea suecica",
+         Artal == 2016 & Flokkun == "Capitellidae" ~ "Capitella capitata",
+         Artal == 2016 & Flokkun == "Cirratulidae" ~ "Cirratulus cirratus",
+         Artal == 2016 & Flokkun == "Cossuridae" ~ "Cossura longocirrata",
+         Artal == 2016 & Flokkun == "Nephtyidae" ~ "Nephtys",
+         Artal == 2016 & Flokkun == "Pectinariidae" ~ "Pectinaria koreni",
+         Artal == 2016 & Flokkun == "Phyllodocida" ~ "Phyllodoce maculata",
+         Artal == 2016 & Flokkun == "Spio" ~ "Spio filicornis",
+         Artal == 2016 & Flokkun == "Spionidae" ~ "Spio filicornis",
+         Artal == 2016 & Flokkun == "Syllidae" ~ "Syllis",
+         Artal == 2016 & Flokkun == "Cardiidae" ~ "Cardium",
+         Artal == 2016 & Flokkun == "Cardiidae" ~ "Cardium",
+         Artal == 2017 & Flokkun == "Mya" ~ "Mya arenaria",
+         Artal == 2017 & Flokkun == "Maldanidae" ~ "Praxillella praetermissa",
+       TRUE ~ Flokkun)) %>% 
+     drop_na() 
+```
+ 
+ 
+ 
+```{r Benthosindexar, echo=FALSE}
+library(benthos)
+  tafla <- jorundur %>% 
+    #filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+    ddply(.(Artal, stod),summarise, Nn = total_abundance(count = N),
+          S = species_richness(taxon = Flokkun, count = N),
+          D_Margalef = margalef(taxon = Flokkun, count = N),
+          SN_Rygg = rygg(taxon = Flokkun, count = N),
+          SNa_Rygg = rygg(taxon = Flokkun, count = N, adjusted = TRUE),
+          H = shannon(taxon = Flokkun, count = N),
+          AMBI=ambi(taxon = Flokkun, count = N)) %>% 
+    pivot_longer(!c(Artal,stod,Nn),names_to = "index", values_to = "Skor")
+
+  
+p<-ggplot(tafla,                    # Einfaldir punktar með línum
+         aes(x = Artal,
+             y = Skor,
+             col = stod)) +
+    geom_line() +
+    #theme_classic() +
+    #theme(strip.background = element_blank()) +
+    ggh4x::facet_grid2( ~ index, scales = "free_y", independent = "y") +
+    geom_point(colour="black", shape=21, size = 4,
+               aes(fill=stod)) +
+    labs(title = "Fjölbreytileikastuðlar", caption = "(Botndýr í Kolgrafafirði 1999 og 2013-2017)")
+
+```
+
+ 
+```{r BBIindexar, echo=FALSE, message=FALSE, warning=FALSE}
+library(BBI)
+  BBIlisti <- list()
+   BBIastand <- list()
+   nEQR <- list()
+   for (i in unique(jorundur$Artal)) {
+     my_BBI <- jorundur %>% filter(Artal %in% c(i)) %>%
+       ddply(.(Artal,stod,Flokkun),summarise, N=sum(N)) %>% 
+       select(-Artal) %>%
+       pivot_wider(names_from = stod, values_from = N) %>% 
+       BBI()
+     # calculating nEQR values and ecological quality status
+     BBIlisti[[i]] <- as.data.frame(cbind(my_BBI$BBI, Artal=i))
+     BBIastand[[i]] <- my_BBI$BBIclass
+     nEQR[[i]] <- as.data.frame(nEQR(my_BBI$BBI)[1])
+   }
+   
+   rass <- do.call(rbind,nEQR)
+   names(rass) <- c("nAMBI","nISI","nNSI","nNQI1","nShannon","nEQR")
+   mm <- as.matrix(rass, ncol = 7)
+   
+   heatmap.2(x = mm, Rowv = FALSE, Colv = FALSE, dendrogram = "none",
+             cellnote = mm, notecol = "black", notecex = .51,
+             trace = "none", key = FALSE, srtCol=0,   adjCol = c(0.5,1))
+   
+   heatmap.2(mm,dendrogram = "row", srtCol=0,   adjCol = c(0.5,1))
+   
+   
+      rass %>% 
+     select(nNQI1, nAMBI, nShannon) %>% 
+     as.matrix() %>% 
+     heatmap.2(dendogram = "row", srtCol=0,   adjCol = c(0.5,1)) 
+```
+
+```{r Nokkrarmyndir}
+
+  tafla <- jorundur %>% 
+    ddply(.(Artal, stod),summarise, Nn = total_abundance(count = N),
+          S = species_richness(taxon = Flokkun, count = N),
+          D_Margalef = margalef(taxon = Flokkun, count = N),
+          SN_Rygg = rygg(taxon = Flokkun, count = N),
+          SNa_Rygg = rygg(taxon = Flokkun, count = N, adjusted = TRUE),
+          H = shannon(taxon = Flokkun, count = N),
+          AMBI=ambi(taxon = Flokkun, count = N)) 
+
+p <- tafla %>% 
+    ggplot(aes(x = Artal, y = H)) +
+    geom_bar(aes(fill = stod), stat = "identity", color="black",position="dodge")  +
+    xlab("") + 
+    labs(title = "Shannon H", caption = "(Botndýr í Kolgrafafirði 2013-2017)")
+
+p <- tafla %>% 
+    ggplot(aes(x = Artal, y = S)) +
+    geom_bar(aes(fill = stod), stat = "identity", color="black",position="dodge")  +
+    xlab("") + 
+    labs(title = "S species richness", caption = "(Botndýr í Kolgrafafirði 2013-2017)")
+
+p <- tafla %>% 
+    ggplot(aes(x = Artal, y = AMBI)) +
+    geom_bar(aes(fill = stod), stat = "identity", color="black",position="dodge")  +
+    xlab("") + 
+    labs(title = "AMBI", caption = "(Botndýr í Kolgrafafirði 2013-2017)") +
+    theme_pubclean()
+
+
+```
+
+
+
+```{r breytur}
+load("./skjol/kolbreytur.Rda", verbose = T) #sa
+
+
+```
+
+
+```{r skrifaut}
+  
+DF <- ekkiungvidi %>% 
+     filter(!Flokkun %in% c("Copepoda","Collembola", "Cyclopterus lumpus")) %>% 
+     mutate(
+       Flokkun = case_when(
+         Artal == 1999 & Flokkun == "Ampharete acutifrons" ~ "Ampharetinae",
+         Artal == 1999 & Flokkun == "Bivalvia" ~ NA,
+         Artal == 2013 & Flokkun == "Harmothoe" ~ "Harmothoe extenuata",
+         Artal == 2013 & Flokkun == "Polynoidae" ~ "Harmothoe extenuata",
+         Artal == 2014 & Flokkun == "Praxillella" ~ "Praxillella praetermissa",
+         Artal == 2014 & Flokkun == "Syllidae" ~ "Syllis cornuta",
+         Artal == 2015 & Flokkun == "Syllidae" ~ "Syllis cornuta",
+         Artal == 2015 & Flokkun == "Mya" ~ "Mya arenaria",
+         Artal == 2015 & Flokkun == "Mytilidae" ~ "Mytilus edulis",
+         Artal == 2015 & Flokkun == "Bivalvia" ~ NA,
+         Artal == 2016 & Flokkun == "Ampharetidae" ~ "Amphitrite cirrata",
+         Artal == 2016 & Flokkun == "Aricidea" ~ "Aricidea suecica",
+         Artal == 2016 & Flokkun == "Capitellidae" ~ "Capitella capitata",
+         Artal == 2016 & Flokkun == "Cirratulidae" ~ "Cirratulus cirratus",
+         Artal == 2016 & Flokkun == "Cossuridae" ~ "Cossura longocirrata",
+         Artal == 2016 & Flokkun == "Nephtyidae" ~ "Nephtys",
+         Artal == 2016 & Flokkun == "Pectinariidae" ~ "Pectinaria koreni",
+         Artal == 2016 & Flokkun == "Phyllodocida" ~ "Phyllodoce maculata",
+         Artal == 2016 & Flokkun == "Spio" ~ "Spio filicornis",
+         Artal == 2016 & Flokkun == "Spionidae" ~ "Spio filicornis",
+         Artal == 2016 & Flokkun == "Syllidae" ~ "Syllis",
+         Artal == 2016 & Flokkun == "Cardiidae" ~ "Cardium",
+         Artal == 2016 & Flokkun == "Cardiidae" ~ "Cardium",
+         Artal == 2017 & Flokkun == "Mya" ~ "Mya arenaria",
+         Artal == 2017 & Flokkun == "Maldanidae" ~ "Praxillella praetermissa",
+       TRUE ~ Flokkun)) %>% 
+     drop_na()
+
+  df <- DF %>% mutate(Artal = factor(Artal)) %>% 
+  filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3") & Artal==1999) %>% 
+  ddply(.(Phylum, Class, Flokkun, stod),summarise, Nfm=sum(Nfm)) %>% 
+  pivot_wider(names_from = c(stod), values_from = Nfm) %>% 
+  arrange(Phylum,Class)
+df <- df[, c('Phylum', 'Class', 'Flokkun', 'A7','B5','B8','C4','E3','E4')]  
+
+   write.xlsx(df, file = "Fjoldi_a_fermetra_nytt.xlsx",
+             sheetName = "1999", showNA = FALSE, append = FALSE)
+
+for (i in 2013:2017) {
+  df <- DF %>% 
+    mutate(Artal = factor(Artal)) %>% 
+    filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3") & Artal==i) %>% 
+    ddply(.(Phylum, Class, Flokkun, stod),summarise, Nfm=sum(Nfm)) %>% 
+    pivot_wider(names_from = c(stod), values_from = Nfm) %>% 
+    arrange(Phylum,Class)
+  df <- df[, c('Phylum','Class', 'Flokkun', 'A7','B5','B8','C4','E3','E4')]  
+  write.xlsx(df, file = "Fjoldi_a_fermetra_nytt.xlsx",
+             sheetName=as.character(i), showNA = F, append=TRUE)
+}
+```
+
+```{r vegan}
+  
+    # 1999 á móti rest
+   agnarallt <- jorundur %>% 
+     filter(Artal == 1999) %>% 
+     ddply(.(Flokkun),summarise,N=sum(N)) %>% 
+     add_column(stod="1999")
+   stodvar <- jorundur %>% 
+     filter(Artal != 1999) %>% 
+     ddply(.(stod,Flokkun),summarise,N=sum(N)) %>% 
+     arrange(Flokkun, N, stod)
+   stodvar <- rbind(stodvar,agnarallt) 
+   
+   rass <- stodvar %>% 
+     pivot_wider(names_from = c(Flokkun), values_from = N) %>% 
+     replace(is.na(.), 0) %>%
+     column_to_rownames(var="stod")
+   
+   ## Euclidean distance
+   dist <- dist(rass , diag=TRUE)
+   #
+   ## Hierarchical Clustering with hclust
+   hc <- hclust(dist)
+   #
+   ## Plot the result
+   plot(hc,main = "1999 á móti 2013-2017")
+   
+   
+   
+   #lúppa fyrir öll ár
+   for (i in 2013:2017) {
+   stodvar <- jorundur %>% 
+     filter(Artal != 1999 & Artal == i) %>% 
+     ddply(.(stod,Flokkun),summarise,N=sum(N)) %>% 
+     arrange(Flokkun, N, stod)
+   stodvar <- rbind(stodvar,agnarallt) 
+   
+   rass <- stodvar %>% 
+     pivot_wider(names_from = c(Flokkun), values_from = N) %>% 
+     replace(is.na(.), 0) %>%
+     column_to_rownames(var="stod")
+   
+   ## Euclidean distance
+   dist <- dist(rass , diag=TRUE)
+   hc <- hclust(dist)
+   png(filename=paste("myndir/hclust-1999-og-",i,".png", sep = ""),12,10,"cm",pointsize=6,res=900)
+plot(hc,main = paste("1999 á móti",i))
+dev.off()
+   
+   }
+   
+```
+
+
+
+```{r fjferm}
+
+ df <- ekkiungvidi %>% 
+     mutate(Artal = factor(Artal)) %>% 
+     filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+     ddply(.(Artal, stod,Flokkun),summarise, N=sum(Nu), Nfm=sum(Nfm)) %>% 
+     filter(!Flokkun %in% c("Copepoda","Collembola", "Cyclopterus lumpus")) %>% 
+     mutate(
+       Flokkun = case_when(
+         Artal == 1999 & Flokkun == "Ampharete acutifrons" ~ "Ampharetinae",
+         Artal == 1999 & Flokkun == "Bivalvia" ~ NA,
+         Artal == 2013 & Flokkun == "Harmothoe" ~ "Harmothoe extenuata",
+         Artal == 2013 & Flokkun == "Polynoidae" ~ "Harmothoe extenuata",
+         Artal == 2014 & Flokkun == "Praxillella" ~ "Praxillella praetermissa",
+         Artal == 2014 & Flokkun == "Syllidae" ~ "Syllis cornuta",
+         Artal == 2015 & Flokkun == "Syllidae" ~ "Syllis cornuta",
+         Artal == 2015 & Flokkun == "Mya" ~ "Mya arenaria",
+         Artal == 2015 & Flokkun == "Mytilidae" ~ "Mytilus edulis",
+         Artal == 2015 & Flokkun == "Bivalvia" ~ NA,
+         Artal == 2016 & Flokkun == "Ampharetidae" ~ "Amphitrite cirrata",
+         Artal == 2016 & Flokkun == "Aricidea" ~ "Aricidea suecica",
+         Artal == 2016 & Flokkun == "Capitellidae" ~ "Capitella capitata",
+         Artal == 2016 & Flokkun == "Cirratulidae" ~ "Cirratulus cirratus",
+         Artal == 2016 & Flokkun == "Cossuridae" ~ "Cossura longocirrata",
+         Artal == 2016 & Flokkun == "Nephtyidae" ~ "Nephtys",
+         Artal == 2016 & Flokkun == "Pectinariidae" ~ "Pectinaria koreni",
+         Artal == 2016 & Flokkun == "Phyllodocida" ~ "Phyllodoce maculata",
+         Artal == 2016 & Flokkun == "Spio" ~ "Spio filicornis",
+         Artal == 2016 & Flokkun == "Spionidae" ~ "Spio filicornis",
+         Artal == 2016 & Flokkun == "Syllidae" ~ "Syllis",
+         Artal == 2016 & Flokkun == "Cardiidae" ~ "Cardium",
+         Artal == 2016 & Flokkun == "Cardiidae" ~ "Cardium",
+         Artal == 2017 & Flokkun == "Mya" ~ "Mya arenaria",
+         Artal == 2017 & Flokkun == "Maldanidae" ~ "Praxillella praetermissa",
+       TRUE ~ Flokkun)) %>% 
+     drop_na() 
+   
+  #Fjöldi tegunda eftir árum:
+  Ns <- sapply(split(df,df$Artal), function(x) length(unique(x$Flokkun)))
+  #Fjöldi tegunda eftir árum deild með flatarmáli er rugl
+  #Flötur Shipek
+   A=0.04
+  #Flötur Ekman
+   B=0.0225
+  #Fjöldi stöðva
+   C=6
+  #Fjöldi skóflna 1999 var 1 á stöð en 3 á stöð hin árin.
+  #NsFm <- sapply(split(df,df$Artal), function(x) length(unique(x$Flokkun)))/c(1*C*B,(3*C*A),(3*C*A),(3*C*A),(3*C*A),(3*C*A))
+   
+   #Fjöldi einstaklinga
+  N <- sapply(split(df,df$Artal), function(x) sum(x$N))
+    
+  #Fjöldi einstaklinga á fermetra
+  Nfm <- sapply(split(df,df$Artal), function(x) sum(x$Nfm))
+
+  
+  p <- pivot_longer(tibble(Artal=unique(df$Artal),Ns), !Artal,names_to = c("value"), values_to = "N")  %>% 
+    ggplot(aes(x = Artal, y = N)) +
+    geom_bar(aes(fill = value), stat = "identity", color="black",position="dodge")  +
+    geom_text(aes(label = round(N))) +
+    xlab("") + 
+    scale_fill_discrete(name="Fjöldi tegunda",labels = c("N", "N/fm")) +
+    labs(caption = "(Botndýr í Kolgrafafirði 1999 og 2013-2017)")
+  
+   p <- pivot_longer(tibble(Artal=unique(df$Artal),N,Nfm), !Artal,names_to = c("value"), values_to = "N")  %>% 
+    ggplot(aes(x = Artal, y = N)) +
+    geom_bar(aes(fill = value), stat = "identity", color="black",position="dodge")  +
+    geom_text(aes(label = round(N))) +
+    xlab("") + 
+    scale_fill_discrete(name="Fjöldi einstaklinga",labels = c("N", "N/fm")) +
+    labs(title = "Fjöldi einstaklinga", caption = "(Botndýr í Kolgrafafirði 1999 og 2013-2017)")
+   
+    
+   
+   #Fj á fm Class
+   p <- ekkiungvidi %>% 
+     mutate(Artal = factor(Artal)) %>% 
+     filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+     ddply(.(Artal, Class),summarise, N=sum(N), Nfm=sum(Nfm)) %>% 
+     ggplot(aes(x="", y=Nfm, fill=Artal)) +
+     geom_bar(stat="identity", width=1,position="dodge") +
+     facet_wrap(~ Class) +
+    labs(title = "Fjöldi einstaklinga á fermetra (Class)", caption = "(Botndýr í Kolgrafafirði 1999 og 2013-2017)") +
+    xlab("")
+   
+```
+
+
+
+```{r gleditap}
+#Gleðitap
+
+gledi <- structure(list(ar = c(2013L, 2013L, 2013L, 2013L, 2013L, 2013L, 
+2014L, 2014L, 2014L, 2014L, 2014L, 2014L, 2015L, 2015L, 2015L, 
+2015L, 2015L, 2015L, 2016L, 2016L, 2016L, 2016L, 2016L, 2016L, 
+2017L, 2017L, 2017L, 2017L, 2017L, 2017L), 
+stod = structure(c(1L, 
+2L, 3L, 4L, 5L, 6L, 1L, 2L, 3L, 4L, 5L, 6L, 1L, 2L, 3L, 4L, 5L, 
+6L, 1L, 2L, 3L, 4L, 5L, 6L, 1L, 2L, 3L, 4L, 5L, 6L), levels = c("A7", 
+"B5", "B8", "C4", "E3", "E4"), class = "factor"), 
+tap = c(0.1815154141, 
+0.174146595, 0.1785031086, 0.1427878082, 0.2154126214, 0.1351968124, 
+0.117573295, 0.1191274479, 0.1294084997, 0.1130069238, 0.1010060354, 
+0.1262329745, 0.1188653545, 0.1244070209, 0.1171794534, 0.1322903875, 
+0.09040251879, 0.1039239106, 0.108551758, 0.1051986583, 0.1112451918, 
+0.09691066013, 0.08857151425, 0.09206586826, 0.1442154807, 0.115848718, 
+0.1163703415, 0.1022058277, 0.0796504565, 0.1015258137), 
+sd = c(0.00544534379, 
+0.002450552005, 0.01099042104, 0.01990496666, 0.1278627553, 0.01183349431, 
+0.0009760592088, 0.0003483618316, 0.0006002430173, 0.0003497066178, 
+0.0001190101187, 0.0004495699774, 0.001056751767, 0.0008385991238, 
+0.002776269384, 0.003141179178, 0.002264629356, 0.0002854253291, 
+0.001290991906, 0.001823914493, 0.0004200217485, 0.00021574591, 
+0.001326007864, 0.002469933866, 0.01028086287, 0.0004952558501, 
+0.001474450338, 0.0004351899832, 0.002435406591, 0.0008149949169
+)
+), 
+row.names = c(NA, -30L), class = "data.frame")
+
+gledi <- gledi[!gledi$sd == max(gledi$sd),]
+sapply(split(gledi,gledi$stod), function(x) mean(x$tap))
+
+
+botngerd <- structure(list(
+  Stod = structure(c(1L, 2L, 3L, 4L, 5L, 6L), levels = c("A7", "B5", "B8", "C4", "E3", "E4"), class = "factor"),
+  Dypi = c(16.6, 24.5, 16.6, 34, 11.2, 11), 
+  Sild = c(0L, 1L, 0L, 0L, 1L, 1L),
+  Organic = c(0.13414426, 0.12774569, 0.13054132, 0.11744032, 0.1150086, 0.11178908)),
+  row.names = c(NA, -6L), class = "data.frame")
+botngerd <- botngerd[,-1]
+
+
+   
+```
+
+```{r Capitata}
+
+gagn <- sort(sapply(split(DF,DF$Flokkun), function(x) sd(x$N)), decreasing = T)
+
+DF[DF$Flokkun %in% names(gagn)[1:10],] %>% ddply(.(Artal, stod,Flokkun),summarise, N=sum(N), .drop=F)%>% 
+    filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+    mutate(Artal = factor(Artal)) %>% 
+    ggplot(aes(x = Artal, y = N)) +
+    facet_wrap(~Flokkun, scales = "free") +
+    geom_bar(aes(fill = stod), stat = "identity", color="black",position="dodge")  +
+    xlab("") + 
+    labs(caption = "(Botndýr í Kolgrafafirði 1999 og 2013-2017)")
+
+
+
+# Sjá E. longa 2014 (predator) 
+
+gagn <- sort(sapply(split(DF,DF$Flokkun), function(x) sum(x$N)), decreasing = T)
+
+DF[DF$Flokkun %in% names(gagn)[1:10],] %>% ddply(.(Artal, stod,Flokkun),summarise, N=sum(N), .drop=F)%>% 
+    filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+    mutate(Artal = factor(Artal)) %>% 
+    ggplot(aes(x = Artal, y = N)) +
+    facet_wrap(~Flokkun, scales = "free") +
+    geom_bar(aes(fill = stod), stat = "identity", color="black",position="dodge")  +
+    xlab("") + 
+    labs(caption = "(Botndýr í Kolgrafafirði 1999 og 2013-2017)")
+```
+
+

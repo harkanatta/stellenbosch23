@@ -10,7 +10,7 @@ institute: "BioPol"
 strip-comments: true
 format: 
   revealjs:
-    slide-number: true
+    slide-number: false
     multiplex: true
     theme: assets/monash.scss
     show-slide-number: all
@@ -89,6 +89,30 @@ fa_list <- function(x, incremental = FALSE) {
 
 ------------------------------------------------------------------------
 
+## {background-image="images/4.png"}
+<br>
+<br>
+[<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>]{.story}
+
+## {background-image="images/sildhne.png"}
+<br>
+<br>
+[<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13]{.strokeme}</span>]{.story}
+<br>
+<br>
+[<span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>]{.story}
+
+## {background-image="images/robert2013B.png"}
+<br>
+<br>
+[<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>]{.story}
+<br>
+<br>
+[<span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>]{.story}
+<br>
+<br>
+[<span style="font-size:30pt;">[In the aftermath, there was a wash-up of dead benthic organisms, such as crabs, starfish, and bivalves, on the shores.]{.strokeme}</span>]{.story}
+
 
 
 ##  [Kolgrafafjörður]{.strokeme} {background-image="images/2.png" .slide-number:first-child}
@@ -99,25 +123,27 @@ This is the peaceful fjord Kolgrafafjörður in Snæfellsnes peninsula. I will j
 
 ##  {background-image="images/3.png"}
 
-
-## {background-image="images/4.png"}
-<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>
-
-## {background-image="images/sildhne.png"}
-<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>
-- <span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>
-
-## {background-image="images/robert2013B.png"}
-<span style="font-size:30pt;">[Approximately 50,000 tonnes of herring succumbed to oxygen depletion in winter 2012/13.]{.strokeme}</span>
-<span style="font-size:30pt;">[These events led to an accumulation of dead herring at the bottom of the fjord, subsequently creating anoxic conditions.]{.strokeme}</span>
-- <span style="font-size:30pt;">[Following this, we noticed a wash-up of dead benthic organisms, such as crabs, starfish and bivalves, on the shores.]{.strokeme}</span>
+::: {.notes}
+Iceland,
+The fjord on this peninsula,
+where the herring swam under the bridge that connects the landfill to the eastern side of the fjord,
+the red area is where it covered the bottom,
+yellow dots are the sampling stations,
+there is limited water exchange in the fjord, so the herring finished up all the oxygen just by being there.
+:::
 
 ##  {background-image="images/6b.png"}
 ...we went sampling
 
+![](images/VogJOR.jpg){.fragment .r-stretch}
+
+
 ::: {.notes}
-This is the first sampling trip in june, 4 months after.Stations were from a former reserch in 1999
+This is the first sampling trip in june, 4 months after.Stations were from a former reserch in 1999.
+Some of you already know where this is heading...
 :::
+
+
 
 ##  {background-image="images/7.png"}
 
@@ -125,39 +151,143 @@ This is the first sampling trip in june, 4 months after.Stations were from a for
 I spent the winter sorting species and the project sparked further interest.
 :::
 
-##  Reset the main goals
+##  The Impact of the Herring Crisis: 
 
-<br>
-<div class="control-diet" data-id="trt1">examine **species composition** and **succession** of macrofauna from 2013 to 2017</div>
-<div class="sugar-diet" data-id="trt2"> document the eventual return to equilibrium in the fjord</div>
-<br>
-Drawing from the work of others 
+Fjord Closure Debates and Research Opportunities
 
-- <span style="font-size:20pt;">[(Eivind Oug, Tor Eiliv Lein, Regina Küfner & Inger-Britt Falk-Petersen]{.monash-blue2} (1991). Environmental effects of a herring mass mortality in northern Norway. Impact on and recovery of rockyshore and soft-bottom biotas)</span>
+::: {.notes}
+the project sparked further interest,
+People were were furious over lost revenue, they wanted to close the fjord so the herring might never escape there again.
+Money was allocated to clean-up and also research so the project continued.
+:::
 
+::: {.r-stack}
+![](images/mynd-vilhelm.jpg){.fragment .r-stretch}
+
+![](images/mynd-stjornarradid.jpg){.fragment .r-stretch}
+
+![](images/mynd-vilhelm-b.jpg){.fragment .r-stretch}
+:::
+
+
+##  Main goals reevaluated
 
 ::: {.notes}
 At first our aim was to investigate the immediate impacts of a catastrophe in 2013.
 But as the project sparked more interest we sought out the funding to examine it decently.
+There had been a mass mortality of herring in Norway in the nineties the succession was documented there by Eivind Oug and colleagues.
+Guðmundur Víðir guided me in the masters project
 :::
 
-- ...and Guðmundur Víðir
+<br>
+<div class="control-diet" data-id="trt1">Examine **species composition** and **succession** of macrofauna from 2013 to 2017</div>
+<div class="sugar-diet" data-id="trt2"> Document the **eventual return to equilibrium** in the fjord</div>
 
-## {background-image="images/DominantGroups.png"}
 
-::: {.notes}
-We sorted the species for 5 years. After Guðmundur Víðir got sick of cancer he decided to finish the 2017 samples rather than taking on the next year in line.
-I got the 2016 sample handed to me and sorted through the rest
+
+::: {.fragment}
+- Drawing from the work of others:
 :::
 
+::: {.fragment}
+<span style="font-size:20pt;">[(Eivind Oug, Tor Eiliv Lein, Regina Küfner & Inger-Britt Falk-Petersen]{.monash-blue2} (1991). Environmental effects of a herring mass mortality in northern Norway. Impact on and recovery of rockyshore and soft-bottom biotas)</span>
+:::
 
-##  {background-image="images/8.png"}
+::: {.fragment}
+- ...and Guðmundur Víðir, took over the species sorting.
+:::
 
-
-##  {background-image="images/9.png"}
-
-##  {background-image="images/11.png"}
-##  {background-iframe="https://valtyrio.shinyapps.io/docs/" background-interactive="true"}
 
 ##  {background-image="images/13.png"}
+
+##
+![](images/alltnema2016.png)
+
+::: {.notes}
+GV left one year because he thought it would be more sensible to see the final year.
+So I was asked to do the 2016 sorting....
+:::
+
+##
+![](images/alltlika2016.png)
+
+::: {.notes}
+I was lucky that my boss was on a leave for an indefinate amount of time when I took on this project. Because I didn't realize how much time Guðmundur Víðir had saved me. I could bring all the difficult worms to him and he would either show me what it was and how to identify them or he would say don't bother with this one one, it is jus a syllid ;)
+Anyway the sorting took me more than two years on and off.
+:::
+
+##
+![](images/sp-ind-organic.png)
+
+
+
+##  {background-image="images/DominantPoly.png"}
+
+## {background-image="images/stationdendo.png"}
+
+::: {.notes}
+As a reminder, we had these regular stations that we sampled every year. This dendrogram is designed to illustrate the hierarchical relationship among the various species detected at these stations, allowing us to identify clusters and patterns of similarity based on the ecological data collected.
+:::
+
+##  {background-image="images/11.png"}
+
+::: {.notes}
+This dendogram show how all the 2013 stations and most of the 2014 stations stand out in the bottom 
+:::
+
+<br>
+<br>
+
+::: {.fragment}
+<span style="display: inline-block; width: 30%;">
+<b>Normalized Quality indexes.</b>
+</span>
+:::
+
+::: {.fragment}
+<span style="display: inline-block; width: 30%;">
+The 2013 samples are all at the bottom.
+</span>
+:::
+
+::: {.fragment}
+<span style="display: inline-block; width: 30%;">
+The samples from 1999 are not at the top!
+</span>
+:::
+
+
+## {background-image="images/stationdendo2.png"}
+
+## {background-image="images/stationdendo3.png"}
+
+##  {background-iframe="https://valtyrio.shinyapps.io/docs/" background-interactive="true"}
+
+
+## The Data disaster ;)
+
+::: columns
+::: {.column width="50%"}
+    Before
+
+![](images/disaster.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+    After
+
+![](images/recovery.png)
+:::
+:::
+
+
+##
+![](images/worrms.png)
+
+- I used the R package 'worms' to aid in the verification of species names.
+- Outdated or misspelled names were plentyful.
+- 'worms' can also provide the taxonomic hierarchy for each species.
+
+
+
 ##  {background-image="images/12.png"}

@@ -1,0 +1,2191 @@
+Flokkun,id,N,Artal,skipting,stod,Nu
+Acarina sp,E3D,2,2013,1,E3,2
+Acarina sp,U1B,2,2013,8,U1,16
+Acarina sp,B0B,1,2013,1,B0,1
+Acarina sp,B5A,1,2013,8,B5,8
+Ampharete acutifrons,U1A,1,2013,1,U1,1
+Ampharete sp,U1C,1,2013,1,U1,1
+Amphipoda sp,U1C,1,2013,1,U1,1
+amphipoda ungv.,U1C,1,2013,4,U1,4
+amphipoda ungv.,U1C,1,2013,1,U1,1
+amphipoda ungv.,U1B,1,2013,8,U1,8
+amphipoda ungv.,B5A,1,2013,8,B5,8
+Amphitrite affinis,U1A,1,2013,1,U1,1
+Amphitrite cirrata,U1A,1,2013,1,U1,1
+Arctica islandica,C4C,1,2013,8,C4,8
+Arctica islandica,U2C,1,2013,1,U2,1
+Arctica islandica,U2B,3,2013,1,U2,3
+Arenicola marina,U1C,1,2013,1,U1,1
+Aricidea suecica,C4C,2,2013,8,C4,16
+Aricidea suecica,C4C,1,2013,1,C4,1
+Aricidea suecica,U2C,1,2013,8,U2,8
+Aricidea suecica,U2B,1,2013,8,U2,8
+Aricidea suecica,U1A,1,2013,1,U1,1
+Aricidea suecica,E3A,8,2013,1,E3,8
+Ascidiacea sp,U1A,2,2013,1,U1,2
+Ascidiacea sp,U1B,3,2013,8,U1,24
+Astartidae borealis,U1C,1,2013,8,U1,8
+Asteroidea,U1C,2,2013,1,U1,2
+Axionice maculata,U1B,1,2013,1,U1,1
+Bivalvia sp.,E4B,1,2013,1,E4,1
+Bivalvia ungv.,U2B,1,2013,8,U2,8
+Bivalvia ungv.,U1A,14,2013,8,U1,112
+Bivalvia ungv.,E3A,2,2013,8,E3,16
+Bivalvia ungv.,U1B,5,2013,8,U1,40
+Bivalvia ungv.,A7A,2,2013,8,A7,16
+Bivalvia ungv.,C4A,8,2013,8,C4,64
+Brada inhabilis,U1C,1,2013,8,U1,8
+Brada inhabilis,U1A,1,2013,1,U1,1
+Brada villosa,U2A,1,2013,1,U2,1
+Campanulariidae sp,U1B,1,2013,8,U1,8
+Capitella capitata,B8A,27,2013,1,B8,27
+Capitella capitata,B8B,5,2013,8,B8,40
+Capitella capitata,B0A,4,2013,1,B0,4
+Capitella capitata,A7B,15,2013,1,A7,15
+Capitella capitata,C4C,30,2013,8,C4,240
+Capitella capitata,C4C,133,2013,1,C4,133
+Capitella capitata,E4A,84,2013,8,E4,672
+Capitella capitata,E4A,505,2013,1,E4,505
+Capitella capitata,B5C,41,2013,8,B5,328
+Capitella capitata,B5C,76,2013,1,B5,76
+Capitella capitata,U1C,1,2013,4,U1,4
+Capitella capitata,U1C,1,2013,8,U1,8
+Capitella capitata,U1C,4,2013,1,U1,4
+Capitella capitata,U2C,20,2013,8,U2,160
+Capitella capitata,U2C,356,2013,1,U2,356
+Capitella capitata,U2B,25,2013,8,U2,200
+Capitella capitata,U2B,389,2013,1,U2,389
+Capitella capitata,U1A,3,2013,1,U1,3
+Capitella capitata,E4C,30,2013,8,E4,240
+Capitella capitata,E4C,219,2013,1,E4,219
+Capitella capitata,B8C,19,2013,8,B8,152
+Capitella capitata,B8C,105,2013,1,B8,105
+Capitella capitata,B0C,139,2013,1,B0,139
+Capitella capitata,E3B,230,2013,2,E3,460
+Capitella capitata,C4B,12,2013,8,C4,96
+Capitella capitata,C4B,238,2013,1,C4,238
+Capitella capitata,E3B,820,2013,1,E3,820
+Capitella capitata,B5B,20,2013,8,B5,160
+Capitella capitata,B5B,244,2013,1,B5,244
+Capitella capitata,E4B,80,2013,8,E4,640
+Capitella capitata,E4B,254,2013,1,E4,254
+Capitella capitata,U2A,81,2013,1,U2,81
+Capitella capitata,U2A,6,2013,8,U2,48
+Capitella capitata,E3D,1389,2013,1,E3,1389
+Capitella capitata,E3A,192,2013,1,E3,192
+Capitella capitata,E3A,2,2013,8,E3,16
+Capitella capitata,U1B,1,2013,8,U1,8
+Capitella capitata,B8A,11,2013,1,B8,11
+Capitella capitata,B8A,2,2013,4,B8,8
+Capitella capitata,B0B,1,2013,1,B0,1
+Capitella capitata,A7A,1,2013,1,A7,1
+Capitella capitata,A7A,1,2013,8,A7,8
+Capitella capitata,C4A,151,2013,1,C4,151
+Capitella capitata,C4A,7,2013,8,C4,56
+Capitella capitata,B5A,311,2013,1,B5,311
+Capitella capitata,B5A,8,2013,4,B5,32
+Capitella capitata,B5A,12,2013,8,B5,96
+Chaetozone setosa,C4C,2,2013,8,C4,16
+Chaetozone setosa,C4C,17,2013,1,C4,17
+Chaetozone setosa,U1C,1,2013,4,U1,4
+Chaetozone setosa,U1C,3,2013,1,U1,3
+Chaetozone setosa,U2C,2,2013,8,U2,16
+Chaetozone setosa,U2C,26,2013,1,U2,26
+Chaetozone setosa,U2B,1,2013,8,U2,8
+Chaetozone setosa,U2B,50,2013,1,U2,50
+Chaetozone setosa,U1A,3,2013,1,U1,3
+Chaetozone setosa,E3B,1,2013,1,E3,1
+Chaetozone setosa,U2A,39,2013,1,U2,39
+Chaetozone setosa,U2A,1,2013,8,U2,8
+Chaetozone setosa,E3A,119,2013,1,E3,119
+Chaetozone setosa,U1B,4,2013,8,U1,32
+Chaetozone setosa,U1B,1,2013,1,U1,1
+Chaetozone setosa,B0B,1,2013,1,B0,1
+Chaetozone setosa,C4A,2,2013,1,C4,2
+Cirratulus cirratus,U1C,1,2013,1,U1,1
+Cirratulus cirratus,U1B,3,2013,8,U1,24
+Copepoda sp,C4C,6,2013,8,C4,48
+Copepoda sp,E4A,18,2013,8,E4,144
+Copepoda sp,B5C,7,2013,8,B5,56
+Copepoda sp,U1C,12,2013,4,U1,48
+Copepoda sp,U1C,1,2013,8,U1,8
+Copepoda sp,U1C,1,2013,1,U1,1
+Copepoda sp,U2C,3,2013,8,U2,24
+Copepoda sp,U2B,3,2013,8,U2,24
+Copepoda sp,U1A,2,2013,1,U1,2
+Copepoda sp,E4C,1,2013,8,E4,8
+Copepoda sp,B0C,1,2013,8,B0,8
+Copepoda sp,B0C,4,2013,1,B0,4
+Copepoda sp,E3B,27,2013,2,E3,54
+Copepoda sp,B5B,1,2013,8,B5,8
+Copepoda sp,E4B,1,2013,8,E4,8
+Copepoda sp,U2A,8,2013,8,U2,64
+Copepoda sp,E3D,1,2013,1,E3,1
+Copepoda sp,E3A,5,2013,8,E3,40
+Copepoda sp,U1B,22,2013,8,U1,176
+Copepoda sp,C4A,4,2013,8,C4,32
+Copepoda sp,B5A,3,2013,1,B5,3
+Copepoda sp,B5A,10,2013,8,B5,80
+Corophium bonnellii,U1C,1,2013,4,U1,4
+Corophium bonnellii,U1C,1,2013,8,U1,8
+Corophium bonnellii,U1C,5,2013,1,U1,5
+Corophium bonnellii,U1A,7,2013,1,U1,7
+Corophium bonnellii,B0C,1,2013,1,B0,1
+Corophium bonnellii,E3A,1,2013,1,E3,1
+Corophium bonnellii,U1B,16,2013,8,U1,128
+Cossura longocirrata,U2C,2,2013,8,U2,16
+Cossura longocirrata,U2B,9,2013,8,U2,72
+Cossura longocirrata,U2B,5,2013,1,U2,5
+Cossura longocirrata,U2A,2,2013,1,U2,2
+Cossura longocirrata,U2A,3,2013,8,U2,24
+Cossura longocirrata,E3A,1,2013,1,E3,1
+Crenella sp,U1B,3,2013,8,U1,24
+Cumacea sp,U1C,1,2013,4,U1,4
+Cumacea sp,U1A,2,2013,1,U1,2
+Cumacea sp,U1B,1,2013,8,U1,8
+Dodecaceria concharum,U1B,3,2013,8,U1,24
+egg/lirfur,C4C,1,2013,8,C4,8
+egg/lirfur,B5C,1,2013,8,B5,8
+egg/lirfur,C4B,1,2013,1,C4,1
+egg/lirfur,U2A,1,2013,8,U2,8
+egg/lirfur,E3D,18,2013,1,E3,18
+egg/lirfur,B8A,4,2013,4,B8,16
+egg/lirfur,A7A,1,2013,8,A7,8
+egg/lirfur,C4A,3,2013,8,C4,24
+Eteone longa ath,B8B,1,2013,8,B8,8
+Eteone longa ath,C4C,1,2013,8,C4,8
+Eteone longa ath,C4C,5,2013,1,C4,5
+Eteone longa ath,U2C,2,2013,1,U2,2
+Eteone longa ath,U2B,6,2013,1,U2,6
+Eteone longa ath,U1A,2,2013,1,U1,2
+Eteone longa ath,B0C,5,2013,1,B0,5
+Eteone longa ath,C4B,2,2013,1,C4,2
+Eteone longa ath,E3B,3,2013,1,E3,3
+Eteone longa ath,U2A,1,2013,1,U2,1
+Eteone longa ath,U2A,1,2013,8,U2,8
+Eteone longa ath,E3A,2,2013,1,E3,2
+Eteone longa ath,E3A,1,2013,8,E3,8
+Eteone longa ath,B0B,7,2013,1,B0,7
+Eteone longa ath,C4A,2,2013,1,C4,2
+Eunoe nodosa,E3A,6,2013,1,E3,6
+Eunoe nodosa,B0B,2,2013,1,B0,2
+Eunoe nodosa,C4A,10,2013,1,C4,10
+Eupolymnia nesidensis,U1C,4,2013,1,U1,4
+Eupolymnia nesidensis,U1A,10,2013,1,U1,10
+Eupolymnia nesidensis,U1B,2,2013,1,U1,2
+Exogone hebes,U2B,2,2013,8,U2,16
+Exogone hebes,U2A,1,2013,8,U2,8
+Exogone verrugera,U2C,1,2013,8,U2,8
+Exogone verrugera,U1A,3,2013,1,U1,3
+Exogone verrugera,U2A,6,2013,1,U2,6
+Exogone verrugera,U2A,1,2013,8,U2,8
+Flabelligera affinis???,U1C,1,2013,1,U1,1
+Foraminifera,C4A,311,2013,8,C4,2488
+Galathowenia oculata,U2A,2,2013,1,U2,2
+Gastropoda ungv,U1A,2,2013,8,U1,16
+Gattyana cirrosa,U1A,3,2013,1,U1,3
+Gattyana cirrosa,U1B,1,2013,1,U1,1
+Harmothoe extenuata,U1C,2,2013,1,U1,2
+Harmothoe extenuata,U1A,1,2013,1,U1,1
+Harmothoe extenuata,C4B,2,2013,1,C4,2
+Harmothoe extenuata,E3B,1,2013,1,E3,1
+Harmothoe extenuata,E3A,5,2013,1,E3,5
+Harmothoe extenuata,U1B,4,2013,8,U1,32
+Harmothoe imbricata,U1A,6,2013,1,U1,6
+Harmothoe imbricata,B0C,2,2013,1,B0,2
+Harmothoe imbricata,C4B,1,2013,1,C4,1
+Harmothoe imbricata,U2A,2,2013,1,U2,2
+Harmothoe imbricata,U1B,6,2013,8,U1,48
+Harmothoe imbricata,U1B,3,2013,1,U1,3
+Harmothoe imbricata,B0B,1,2013,1,B0,1
+Harmothoe sp,B0A,7,2013,8,B0,56
+Harmothoe sp,B0A,5,2013,1,B0,5
+Harmothoe sp,C4C,1,2013,8,C4,8
+Harmothoe sp,C4C,6,2013,1,C4,6
+Harmothoe sp,U1C,15,2013,4,U1,60
+Harmothoe sp,U1C,8,2013,1,U1,8
+Harmothoe sp,U2C,5,2013,8,U2,40
+Harmothoe sp,U2C,3,2013,1,U2,3
+Harmothoe sp,U2B,1,2013,8,U2,8
+Harmothoe sp,U2B,2,2013,1,U2,2
+Harmothoe sp,B0C,1,2013,1,B0,1
+Harmothoe sp,E3B,5,2013,2,E3,10
+Harmothoe sp,C4B,1,2013,8,C4,8
+Harmothoe sp,E3B,9,2013,1,E3,9
+Henricia sanguinolenta,U1B,4,2013,8,U1,32
+Heteromastus filiformis,U2B,1,2013,1,U2,1
+Hiatella arctica,U1C,1,2013,8,U1,8
+Hyas araneus,U1B,1,2013,1,U1,1
+Lanassa venusta,U2B,1,2013,1,U2,1
+Lanassa venusta,U2A,5,2013,1,U2,5
+Lepeta caeca,U1B,1,2013,8,U1,8
+Lepidonotus squamatus,U1C,1,2013,1,U1,1
+Lepidonotus squamatus,U1A,2,2013,1,U1,2
+Lepidonotus squamatus,U1B,1,2013,8,U1,8
+Levinsenia gracilis,U2C,1,2013,8,U2,8
+Levinsenia gracilis,U2B,1,2013,8,U2,8
+Levinsenia gracilis,U2B,2,2013,1,U2,2
+Levinsenia gracilis,E3B,1,2013,1,E3,1
+Levinsenia gracilis,U2A,1,2013,1,U2,1
+Macoma calcaria,U1C,1,2013,8,U1,8
+Macoma calcaria,U2C,18,2013,1,U2,18
+Macoma calcaria,U2B,7,2013,1,U2,7
+Macoma calcaria,B0C,2,2013,8,B0,16
+Macoma calcaria,B0C,1,2013,1,B0,1
+Macoma calcaria,U2A,1,2013,1,U2,1
+Macoma calcaria,U2A,1,2013,8,U2,8
+Maldanidae sp,U2C,1,2013,1,U2,1
+Mediomastus filiformis,U2A,2,2013,1,U2,2
+Mediomastus fragilis,C4C,1,2013,8,C4,8
+Mediomastus fragilis,U2C,2,2013,1,U2,2
+Mediomastus fragilis,U2B,2,2013,8,U2,16
+Mediomastus fragilis,U2B,2,2013,1,U2,2
+Mediomastus fragilis,E4C,1,2013,1,E4,1
+Mediomastus fragilis,B0B,6,2013,1,B0,6
+Mediomastus fragilis,B0B,2,2013,8,B0,16
+Microphthalmus aberrans,C4C,4,2013,8,C4,32
+Microphthalmus aberrans,C4C,1,2013,1,C4,1
+Microphthalmus aberrans,U2C,1,2013,1,U2,1
+Microphthalmus aberrans,U2B,1,2013,8,U2,8
+Microphthalmus aberrans,U1A,1,2013,1,U1,1
+Microphthalmus aberrans,B8C,1,2013,8,B8,8
+Microphthalmus aberrans,E3B,7,2013,2,E3,14
+Microphthalmus aberrans,C4B,2,2013,8,C4,16
+Microphthalmus aberrans,U2A,2,2013,1,U2,2
+Microphthalmus aberrans,E3A,1,2013,1,E3,1
+Microphthalmus aberrans,E3A,1,2013,8,E3,8
+Microphthalmus aberrans,C4A,2,2013,8,C4,16
+Microphthalmus aberrans,B5A,3,2013,1,B5,3
+Moelleria costulata,U1B,2,2013,8,U1,16
+Musculus,U1C,5,2013,8,U1,40
+Myriochele oculata,U2C,1,2013,1,U2,1
+Nematoda sp,U2B,3,2013,1,U2,3
+Nematoda sp,B0C,1,2013,8,B0,8
+Nematoda sp,B0C,13,2013,1,B0,13
+Nematoda sp,E3B,25,2013,2,E3,50
+Nematoda sp,C4B,3,2013,8,C4,24
+Nematoda sp,C4B,4,2013,1,C4,4
+Nematoda sp,B5B,8,2013,8,B5,64
+Nematoda sp,B5B,1,2013,1,B5,1
+Nematoda sp,E4B,4,2013,8,E4,32
+Nematoda sp,U2A,16,2013,1,U2,16
+Nematoda sp,U2A,98,2013,8,U2,784
+Nematoda sp,E3D,12,2013,1,E3,12
+Nematoda sp,E3A,8,2013,1,E3,8
+Nematoda sp,E3A,33,2013,8,E3,264
+Nematoda sp,U1B,120,2013,8,U1,960
+Nematoda sp,B0B,11,2013,1,B0,11
+Nematoda sp,B0B,23,2013,8,B0,184
+Nematoda sp,C4A,11,2013,8,C4,88
+Nematoda sp,B5A,4,2013,1,B5,4
+Nematoda sp,B5A,7,2013,4,B5,28
+Nematoda sp,B5A,21,2013,8,B5,168
+Nematoda sp,A7C,3,2013,8,A7,24
+Nemertea?,U1C,5,2013,4,U1,20
+Nemertea?,U1C,1,2013,8,U1,8
+Nemertea?,U1A,12,2013,1,U1,12
+Nemertea?,B0C,7,2013,8,B0,56
+Nemertea?,B0C,44,2013,1,B0,44
+Nephtiydae sp,U2B,3,2013,1,U2,3
+Nephtiydae sp,U1A,1,2013,1,U1,1
+Nephtiydae sp,U2A,2,2013,1,U2,2
+Nereimyra punctata,U1C,1,2013,1,U1,1
+Nereimyra punctata,U1A,2,2013,1,U1,2
+Nereimyra punctata,U1B,1,2013,8,U1,8
+Oligochaeta sp.,E4A,5,2013,8,E4,40
+Oligochaeta sp.,E4A,1,2013,1,E4,1
+Oligochaeta sp.,U1C,2,2013,4,U1,8
+Oligochaeta sp.,U2C,22,2013,8,U2,176
+Oligochaeta sp.,U2C,6,2013,1,U2,6
+Oligochaeta sp.,U2B,7,2013,8,U2,56
+Oligochaeta sp.,U2B,2,2013,1,U2,2
+Oligochaeta sp.,E4C,1,2013,8,E4,8
+Oligochaeta sp.,B0C,9,2013,1,B0,9
+Oligochaeta sp.,E3B,19,2013,2,E3,38
+Oligochaeta sp.,C4B,2,2013,8,C4,16
+Oligochaeta sp.,E3B,3,2013,1,E3,3
+Oligochaeta sp.,E4B,7,2013,8,E4,56
+Oligochaeta sp.,E4B,2,2013,1,E4,2
+Oligochaeta sp.,U2A,18,2013,1,U2,18
+Oligochaeta sp.,U2A,13,2013,8,U2,104
+Oligochaeta sp.,E3A,5,2013,1,E3,5
+Oligochaeta sp.,C4A,2,2013,1,C4,2
+Ophiuroidea sp,U1C,2,2013,1,U1,2
+Ophiuroidea sp,U1A,21,2013,1,U1,21
+Ophiuroidea sp,E3A,1,2013,1,E3,1
+Ophiuroidea sp,U1B,2,2013,8,U1,16
+Ophiuroidea sp,U1B,3,2013,1,U1,3
+Ophryotrocha cf Cosmetandra,U2A,1,2013,1,U2,1
+Orbiniidae sp,U2B,1,2013,1,U2,1
+Ostracoda sp,U2B,1,2013,1,U2,1
+Ostracoda sp,U2A,122,2013,8,U2,976
+Ostracoda sp,E3D,120,2013,1,E3,120
+Ostracoda sp,E3A,18,2013,8,E3,144
+Ostracoda sp,U1B,5,2013,8,U1,40
+Ostracoda sp,B8A,213,2013,1,B8,213
+Ostracoda sp,B8A,238,2013,4,B8,952
+Ostracoda sp,A7A,228,2013,8,A7,1824
+Ostracoda sp,C4A,43,2013,8,C4,344
+Ostracoda sp,B5A,1,2013,1,B5,1
+Ostracoda sp,B5A,23,2013,8,B5,184
+Ostracoda sp,A7C,55,2013,8,A7,440
+Ostracoda sp,A7C,174,2013,2,A7,348
+Pectinaria granulata,U1C,4,2013,1,U1,4
+Pectinaria granulata,U1A,2,2013,1,U1,2
+Pectinaria granulata,B0C,4,2013,1,B0,4
+Philomedes globosus,U1A,5,2013,1,U1,5
+Philomedes globosus,U1B,1,2013,8,U1,8
+Pholoe sp,U1A,1,2013,1,U1,1
+Phyllodoce maculata,U1C,1,2013,1,U1,1
+Phyllodoce maculata,U1A,1,2013,1,U1,1
+Phyllodoce maculata,U1B,1,2013,1,U1,1
+Phyllodocidae sp,U1C,1,2013,1,U1,1
+Phyllodocidae sp,U2B,1,2013,8,U2,8
+Polycirrinae sp.,U1B,2,2013,8,U1,16
+Polynoida ungv.,U1A,32,2013,1,U1,32
+Polynoida ungv.,E4C,1,2013,1,E4,1
+Polynoida ungv.,B0C,5,2013,1,B0,5
+Polynoida ungv.,U2A,5,2013,1,U2,5
+Polynoida ungv.,E3A,8,2013,1,E3,8
+Polynoida ungv.,U1B,37,2013,8,U1,296
+Polyplacophora sp,U1C,5,2013,1,U1,5
+Polyplacophora sp,U1A,13,2013,1,U1,13
+Polyplacophora sp,E3A,1,2013,8,E3,8
+Polyplacophora sp,U1B,1,2013,8,U1,8
+Porifera sp,U1B,1,2013,8,U1,8
+Praxillella praetermissa,U2C,7,2013,1,U2,7
+Praxillella praetermissa,U2B,1,2013,8,U2,8
+Praxillella praetermissa,U2B,8,2013,1,U2,8
+Praxillella praetermissa,U1A,5,2013,1,U1,5
+Praxillella praetermissa,U2A,12,2013,1,U2,12
+Praxillella praetermissa,U2A,2,2013,8,U2,16
+Praxillella praetermissa,E3A,6,2013,1,E3,6
+Protomedeia fasciata,U1B,1,2013,8,U1,8
+Pycnogonida sp,U1C,1,2013,8,U1,8
+Pycnogonida sp,U1C,5,2013,1,U1,5
+Pycnogonida sp,U1A,3,2013,1,U1,3
+Pycnogonida sp,U1B,4,2013,8,U1,32
+Pycnogonida sp,U1B,2,2013,1,U1,2
+Rhodine gracilior,U2C,1,2013,1,U2,1
+Sabellida sp,U1B,3,2013,8,U1,24
+Scoloplos armiger,C4C,2,2013,1,C4,2
+Scoloplos armiger,U2C,5,2013,1,U2,5
+Scoloplos armiger,U2B,3,2013,8,U2,24
+Scoloplos armiger,U2B,17,2013,1,U2,17
+Scoloplos armiger,U1A,4,2013,1,U1,4
+Scoloplos armiger,U2A,8,2013,1,U2,8
+Scoloplos armiger,C4A,1,2013,1,C4,1
+Sphaerosyllis erinaceus,U1C,1,2013,1,U1,1
+Sphaerosyllis erinaceus,U2C,1,2013,8,U2,8
+Sphaerosyllis erinaceus,U1A,3,2013,1,U1,3
+Sphaerosyllis ungv.,E3A,1,2013,8,E3,8
+Sphaerosyllis ungv.,U1B,13,2013,8,U1,104
+Spionidae sp.,C4C,6,2013,8,C4,48
+Spionidae sp.,C4C,45,2013,1,C4,45
+Spionidae sp.,U1C,6,2013,4,U1,24
+Spionidae sp.,U1C,2,2013,8,U1,16
+Spionidae sp.,U1C,26,2013,1,U1,26
+Spionidae sp.,U2C,1,2013,8,U2,8
+Spionidae sp.,U2C,14,2013,1,U2,14
+Spionidae sp.,U2B,4,2013,8,U2,32
+Spionidae sp.,U2B,18,2013,1,U2,18
+Spionidae sp.,U1A,21,2013,1,U1,21
+Spionidae sp.,B0C,2,2013,1,B0,2
+Spionidae sp.,E3B,7,2013,2,E3,14
+Spionidae sp.,C4B,3,2013,8,C4,24
+Spionidae sp.,C4B,42,2013,1,C4,42
+Spionidae sp.,E3B,16,2013,1,E3,16
+Spionidae sp.,E4B,1,2013,1,E4,1
+Spionidae sp.,U2A,18,2013,1,U2,18
+Spionidae sp.,U2A,2,2013,8,U2,16
+Spionidae sp.,E3A,55,2013,1,E3,55
+Spionidae sp.,E3A,2,2013,8,E3,16
+Spionidae sp.,U1B,33,2013,8,U1,264
+Spionidae sp.,B0B,3,2013,1,B0,3
+Spionidae sp.,B0B,1,2013,8,B0,8
+Spionidae sp.,C4A,92,2013,1,C4,92
+Spionidae sp.,C4A,1,2013,8,C4,8
+Spionidae sp.,B5A,3,2013,1,B5,3
+Sternapsis scutata,U2C,1,2013,1,U2,1
+Sternapsis scutata,U2B,11,2013,1,U2,11
+Sternapsis scutata,U2A,3,2013,1,U2,3
+Syllidae sp,U1C,3,2013,4,U1,12
+Syllidae sp,U1C,3,2013,8,U1,24
+Syllidae sp,U1A,1,2013,1,U1,1
+Syllis cornuta,U2C,1,2013,1,U2,1
+Syllis cornuta,U2A,1,2013,1,U2,1
+Terebellidae sp,U1B,1,2013,8,U1,8
+Tubicoides benedi,C4C,1,2013,8,C4,8
+Tubicoides benedi,U1C,1,2013,1,U1,1
+Tubicoides kozloffi,C4C,1,2013,8,C4,8
+Tubicoides kozloffi,C4C,1,2013,1,C4,1
+Tubicoides kozloffi,B5C,1,2013,8,B5,8
+Tubicoides kozloffi,U1C,2,2013,4,U1,8
+Tubicoides kozloffi,U1C,1,2013,8,U1,8
+Tubicoides kozloffi,U1C,3,2013,1,U1,3
+Tubicoides kozloffi,U2C,5,2013,8,U2,40
+Tubicoides kozloffi,U2C,2,2013,1,U2,2
+Tubicoides kozloffi,U2B,9,2013,8,U2,72
+Tubicoides kozloffi,U2B,9,2013,1,U2,9
+Tubicoides kozloffi,B0C,1,2013,8,B0,8
+Tubicoides kozloffi,B0C,7,2013,1,B0,7
+Tubicoides kozloffi,U2A,22,2013,1,U2,22
+Tubicoides kozloffi,U2A,9,2013,8,U2,72
+Tubicoides kozloffi,E3A,16,2013,1,E3,16
+Tubicoides kozloffi,U1B,2,2013,8,U1,16
+Tubicoides kozloffi,B0B,2,2013,1,B0,2
+Tubicoides kozloffi,B5A,1,2013,1,B5,1
+Typosyllis armillaris,U1B,1,2013,8,U1,8
+Acmaea testudinalis,B0A,1,2014,1,B0,1
+Ampharete acutifrons,E3B,1,2014,1,E3,1
+Amphipoda sp,B5A,7,2014,1,B5,7
+Amphipoda sp,E3C,1,2014,4,E3,4
+Amphipoda ungv.,E3B,1,2014,4,E3,4
+Amphitrite cirrata,E3A,3,2014,1,E3,3
+Amphitrite cirrata,E3B,3,2014,1,E3,3
+Amphitrite cirrata,E3C,1,2014,1,E3,1
+Amphitrite cirrata,E3C,1,2014,4,E3,4
+Anthozoa,E3A,1,2014,1,E3,1
+Arctica islandica,C4C,1,2014,1,C4,1
+Arctica islandica,E3C,1,2014,1,E3,1
+Arenicola marina,C4A,1,2014,1,C4,1
+Arenicola marina,C4B,1,2014,1,C4,1
+Arenicola marina,E4C,1,2014,4,E4,4
+Aricidea suecica,E3A,1,2014,4,E3,4
+Aricidea suecica,E3B,1,2014,4,E3,4
+Asteroidea,E3A,1,2014,4,E3,4
+Balanus,E3A,172,2014,1,E3,172
+Balanus,E3B,96,2014,1,E3,96
+Balanus,E3C,96,2014,1,E3,96
+Bryozoa,E3A,2,2014,1,E3,2
+Bryozoa,E3B,1,2014,1,E3,1
+Capitella capitata,A7A,104,2014,4,A7,416
+Capitella capitata,A7B,36,2014,4,A7,144
+Capitella capitata,A7C,61,2014,4,A7,244
+Capitella capitata,B0C,1,2014,1,B0,1
+Capitella capitata,B5A,83,2014,1,B5,83
+Capitella capitata,B5B,16,2014,1,B5,16
+Capitella capitata,B5C,57,2014,1,B5,57
+Capitella capitata,B8B,2,2014,1,B8,2
+Capitella capitata,B8B,31,2014,4,B8,124
+Capitella capitata,B8C,62,2014,4,B8,248
+Capitella capitata,C4B,1,2014,1,C4,1
+Capitella capitata,C4C,2,2014,4,C4,8
+Capitella capitata,E3A,1,2014,4,E3,4
+Capitella capitata,E3B,3,2014,4,E3,12
+Capitella capitata,E3C,3,2014,4,E3,12
+Capitella capitata,E4A,30,2014,1,E4,30
+Capitella capitata,E4B,4,2014,1,E4,4
+Capitella capitata,E4C,34,2014,4,E4,136
+Caprellidae,B0B,4,2014,4,B0,16
+Caprellidae,B0C,1,2014,1,B0,1
+Caprellidae,E3A,1,2014,4,E3,4
+Chaetozone setosa,B5B,1,2014,1,B5,1
+Chaetozone setosa,C4A,1,2014,1,C4,1
+Chaetozone setosa,C4B,2,2014,1,C4,2
+Chaetozone setosa,C4C,1,2014,4,C4,4
+Chaetozone setosa,E3A,3,2014,1,E3,3
+Chaetozone setosa,E3A,11,2014,4,E3,44
+Chaetozone setosa,E3B,21,2014,4,E3,84
+Chaetozone setosa,E3C,13,2014,4,E3,52
+Chaetozone setosa,E4A,4,2014,1,E4,4
+Chaetozone setosa,E4B,10,2014,1,E4,10
+Chaetozone setosa,E4C,2,2014,4,E4,8
+Cirratulus cirratus,B5B,1,2014,1,B5,1
+Cirratulus cirratus,C4C,1,2014,4,C4,4
+Cirratulus cirratus,E3A,1,2014,4,E3,4
+Cirratulus cirratus,E3C,1,2014,4,E3,4
+Cirratulus cirratus,E4A,4,2014,1,E4,4
+Clinocardium cillaturn,E3A,2,2014,1,E3,2
+Collembola,B5A,1,2014,1,B5,1
+Dodecaceria concharum,E4C,1,2014,4,E4,4
+Eteone longa ,A7A,28,2014,4,A7,112
+Eteone longa ,A7B,1,2014,4,A7,4
+Eteone longa ,A7C,4,2014,4,A7,16
+Eteone longa ,B0A,3,2014,1,B0,3
+Eteone longa ,B0B,19,2014,4,B0,76
+Eteone longa ,B0C,3,2014,1,B0,3
+Eteone longa ,B5A,42,2014,1,B5,42
+Eteone longa ,B5B,13,2014,1,B5,13
+Eteone longa ,B5C,13,2014,1,B5,13
+Eteone longa ,B8A,1,2014,4,B8,4
+Eteone longa ,B8B,1,2014,4,B8,4
+Eteone longa ,B8C,5,2014,4,B8,20
+Eteone longa ,C4A,45,2014,1,C4,45
+Eteone longa ,C4B,4,2014,1,C4,4
+Eteone longa ,C4C,1,2014,1,C4,1
+Eteone longa ,C4C,13,2014,4,C4,52
+Eteone longa ,E3A,1,2014,4,E3,4
+Eteone longa ,E3B,2,2014,4,E3,8
+Eteone longa ,E3C,6,2014,4,E3,24
+Eteone longa ,E4A,5,2014,1,E4,5
+Eteone longa ,E4B,3,2014,1,E4,3
+Eteone longa ,E4C,9,2014,4,E4,36
+Euchone sp.,B5B,1,2014,1,B5,1
+Gammarus sp.,B0C,3,2014,1,B0,3
+Harmothoe sp,B0A,2,2014,1,B0,2
+Harmothoe sp,B0B,1,2014,1,B0,1
+Harmothoe sp,B0B,7,2014,4,B0,28
+Harmothoe sp,B0C,16,2014,1,B0,16
+Harmothoe sp,B5B,5,2014,1,B5,5
+Harmothoe sp,C4B,2,2014,1,C4,2
+Harmothoe sp,C4C,3,2014,4,C4,12
+Harmothoe sp,E3A,1,2014,1,E3,1
+Harmothoe sp,E3A,21,2014,4,E3,84
+Harmothoe sp,E3B,2,2014,4,E3,8
+Harmothoe sp,E3C,6,2014,4,E3,24
+Harmothoe sp,E4B,3,2014,1,E4,3
+Harmothoe sp,E4C,2,2014,4,E4,8
+Harpacticoida sp.,A7A,2,2014,4,A7,8
+Harpacticoida sp.,A7B,4,2014,4,A7,16
+Harpacticoida sp.,A7C,1,2014,4,A7,4
+Harpacticoida sp.,B0B,3,2014,4,B0,12
+Harpacticoida sp.,B0C,3,2014,1,B0,3
+Harpacticoida sp.,B5A,6,2014,1,B5,6
+Harpacticoida sp.,B5B,4,2014,1,B5,4
+Harpacticoida sp.,B8A,2,2014,4,B8,8
+Harpacticoida sp.,C4A,2,2014,1,C4,2
+Harpacticoida sp.,C4C,2,2014,4,C4,8
+Harpacticoida sp.,E3A,1,2014,4,E3,4
+Harpacticoida sp.,E3C,4,2014,4,E3,16
+Harpacticoida sp.,E4C,7,2014,4,E4,28
+Hiatella arctica,E3A,1,2014,1,E3,1
+Hiatella arctica,E3A,2,2014,4,E3,8
+Hiatella arctica,E3C,2,2014,4,E3,8
+Hydrozoa,C4A,1,2014,1,C4,1
+Lacuna vincta,B0C,2,2014,1,B0,2
+Lanassa venusta,B5A,1,2014,1,B5,1
+Lanassa venusta,E3C,3,2014,4,E3,12
+Macoma calcarea,B0A,1,2014,1,B0,1
+Macoma calcarea,B0B,1,2014,1,B0,1
+Macoma calcarea,B0B,1,2014,4,B0,4
+Macoma calcarea,B5C,1,2014,1,B5,1
+Macoma calcarea,C4B,2,2014,1,C4,2
+Macoma calcarea,C4C,6,2014,4,C4,24
+Macoma calcarea,E3A,3,2014,4,E3,12
+Macoma calcarea,E3B,1,2014,4,E3,4
+Macoma calcarea,E3C,2,2014,4,E3,8
+Malacoceros fuliginosus,A7C,1,2014,4,A7,4
+Malacoceros fuliginosus,B0C,1,2014,1,B0,1
+Malacoceros fuliginosus,B5A,47,2014,1,B5,47
+Malacoceros fuliginosus,B5B,9,2014,1,B5,9
+Malacoceros fuliginosus,B5C,2,2014,1,B5,2
+Malacoceros fuliginosus,E4A,2,2014,1,E4,2
+Malacoceros fuliginosus,E4C,3,2014,4,E4,12
+Mediomastus fragilis,B0A,1,2014,1,B0,1
+Mediomastus fragilis,C4A,2,2014,1,C4,2
+Mediomastus fragilis,E3A,2,2014,4,E3,8
+Mediomastus fragilis,E3B,4,2014,4,E3,16
+Mediomastus fragilis,E3C,6,2014,4,E3,24
+Mediomastus fragilis,E4A,2,2014,1,E4,2
+Mediomastus fragilis,E4B,4,2014,1,E4,4
+Microphthalmus aberrans,A7C,1,2014,4,A7,4
+Microphthalmus aberrans,B5A,2,2014,1,B5,2
+Microphthalmus aberrans,B5C,1,2014,1,B5,1
+Microphthalmus aberrans,B8B,2,2014,4,B8,8
+Microphthalmus aberrans,B8C,1,2014,4,B8,4
+Microphthalmus aberrans,C4A,2,2014,1,C4,2
+Microphthalmus aberrans,C4C,6,2014,4,C4,24
+Microphthalmus aberrans,E3A,7,2014,4,E3,28
+Microphthalmus aberrans,E3B,3,2014,4,E3,12
+Microphthalmus aberrans,E3C,17,2014,4,E3,68
+Microphthalmus aberrans,E4A,2,2014,1,E4,2
+Microphthalmus aberrans,E4B,3,2014,1,E4,3
+Microphthalmus aberrans,E4C,14,2014,4,E4,56
+Mya sp.,E3A,1,2014,1,E3,1
+Mya sp.,E3C,7,2014,4,E3,28
+Mya juv,B0C,4,2014,1,B0,4
+Mya juv,B5A,1,2014,1,B5,1
+Mya juv,C4A,1,2014,1,C4,1
+Mya juv,C4B,2,2014,1,C4,2
+Mya juv,E3B,4,2014,4,E3,16
+Mya arenaria,B0A,1,2014,1,B0,1
+Mya arenaria,E3A,5,2014,4,E3,20
+Mya arenaria,E4A,1,2014,1,E4,1
+Mya arenaria,E4B,2,2014,1,E4,2
+Mya truncata,B8C,1,2014,4,B8,4
+Mytilidae,B0C,6,2014,1,B0,6
+Mytilidae,C4C,4,2014,4,C4,16
+Mytilidae,E3A,2,2014,1,E3,2
+Mytilidae,E3C,16,2014,4,E3,64
+Mytilidae juv,B0A,2,2014,1,B0,2
+Mytilidae juv,B5A,7,2014,1,B5,7
+Mytilidae juv,B5B,2,2014,1,B5,2
+Mytilidae juv,B8C,1,2014,4,B8,4
+Mytilidae juv,C4A,5,2014,1,C4,5
+Mytilidae juv,C4B,8,2014,1,C4,8
+Mytilidae juv,E3A,8,2014,4,E3,32
+Mytilidae juv,E3B,8,2014,4,E3,32
+Mytilidae juv,E4B,2,2014,1,E4,2
+Mytilus edulis,B8B,1,2014,1,B8,1
+Mytilus edulis,E3B,3,2014,1,E3,3
+Möttuldýr,E3A,1,2014,1,E3,1
+Möttuldýr,E3B,1,2014,1,E3,1
+Möttuldýr,E3C,1,2014,1,E3,1
+Möttuldýr,E3C,1,2014,4,E3,4
+Naineris quadricuspida,B0C,28,2014,1,B0,28
+Naineris quadricuspida,E3A,1,2014,4,E3,4
+Naineris quadricuspida,E3B,2,2014,4,E3,8
+Naineris quadricuspida,E4A,2,2014,1,E4,2
+Naineris quadricuspida,E4B,1,2014,1,E4,1
+Nemertea,B0A,1,2014,1,B0,1
+Nemertea,B0B,4,2014,4,B0,16
+Nemertea,B0C,1,2014,1,B0,1
+Nemertea,C4C,2,2014,4,C4,8
+Nemertea,E3A,1,2014,4,E3,4
+Nematoda,A7A,32,2014,4,A7,128
+Nematoda,A7B,16,2014,4,A7,64
+Nematoda,A7C,19,2014,4,A7,76
+Nematoda,B0A,13,2014,1,B0,13
+Nematoda,B0B,52,2014,4,B0,208
+Nematoda,B0C,157,2014,1,B0,157
+Nematoda,B5A,28,2014,1,B5,28
+Nematoda,B5B,16,2014,1,B5,16
+Nematoda,B5C,33,2014,1,B5,33
+Nematoda,B8A,8,2014,4,B8,32
+Nematoda,B8B,4,2014,4,B8,16
+Nematoda,B8C,6,2014,4,B8,24
+Nematoda,C4A,35,2014,1,C4,35
+Nematoda,C4B,18,2014,1,C4,18
+Nematoda,C4C,54,2014,4,C4,216
+Nematoda,E3A,36,2014,4,E3,144
+Nematoda,E3B,27,2014,4,E3,108
+Nematoda,E3C,24,2014,4,E3,96
+Nematoda,E4A,25,2014,1,E4,25
+Nematoda,E4B,30,2014,1,E4,30
+Nematoda,E4C,39,2014,4,E4,156
+Nephtyidae sp,E3A,2,2014,1,E3,2
+Nephtyidae sp,E3C,1,2014,1,E3,1
+Nereis pelagica,E3C,1,2014,4,E3,4
+Nuculana tenuis,B5B,1,2014,1,B5,1
+Nuculana tenuis,C4B,2,2014,1,C4,2
+Nudibranch,B0C,1,2014,1,B0,1
+Onoba aculeus,B0B,1,2014,4,B0,4
+Onoba aculeus,B0C,5,2014,1,B0,5
+Onoba aculeus,E3A,2,2014,4,E3,8
+Ophelina acuminata,C4A,1,2014,1,C4,1
+Ophelina acuminata,E3B,1,2014,1,E3,1
+Ostracoda,B0C,1,2014,1,B0,1
+Pectinaria granulata,B0A,3,2014,1,B0,3
+Pectinaria granulata,E3A,1,2014,1,E3,1
+Pectinaria koreni,C4C,1,2014,4,C4,4
+Pectinaria koreni,E3C,2,2014,4,E3,8
+Phyllodoce maculata,B0A,1,2014,1,B0,1
+Phyllodoce maculata,B0B,1,2014,4,B0,4
+Phyllodoce maculata,B0C,4,2014,1,B0,4
+Phyllodoce maculata,B5A,3,2014,1,B5,3
+Phyllodoce maculata,B5C,1,2014,1,B5,1
+Phyllodoce maculata,C4B,4,2014,1,C4,4
+Phyllodoce maculata,C4C,1,2014,4,C4,4
+Phyllodoce maculata,E3A,2,2014,4,E3,8
+Phyllodoce maculata,E3B,1,2014,1,E3,1
+Phyllodoce maculata,E3B,1,2014,4,E3,4
+Phyllodoce maculata,E4C,1,2014,4,E4,4
+Plergonium spinosum,B0B,1,2014,4,B0,4
+Polydora sp.,B0B,1,2014,4,B0,4
+Polydora sp.,B0C,1,2014,1,B0,1
+Polydora sp.,B5A,1,2014,1,B5,1
+Polydora sp.,B5B,1,2014,1,B5,1
+Polydora sp.,E3B,1,2014,4,E3,4
+Polydora sp.,E3C,4,2014,4,E3,16
+Polydora sp.,E4B,5,2014,1,E4,5
+Praxillella m.,E3A,1,2014,4,E3,4
+Praxillella praetermissa,E3A,3,2014,1,E3,3
+Priapulus camelus,B5A,1,2014,1,B5,1
+Priapulus camelus,B5C,1,2014,1,B5,1
+Priapulus camelus,E4A,1,2014,1,E4,1
+Priapulus candatus,E3A,1,2014,1,E3,1
+Protomedeia fasciata,B0B,1,2014,4,B0,4
+Protomedeia fasciata,B0C,1,2014,1,B0,1
+Protomedeia fasciata,E3A,2,2014,4,E3,8
+Protomedeia fasciata,E3B,1,2014,4,E3,4
+Protomedeia fasciata,E3C,1,2014,4,E3,4
+Protomedeia fasciata,E4A,1,2014,1,E4,1
+Protomedeia fasciata,E4C,2,2014,4,E4,8
+Sabellida sp,E4A,1,2014,1,E4,1
+Scoloplos armiger,B5B,1,2014,1,B5,1
+Scoloplos armiger,C4A,2,2014,1,C4,2
+Scoloplos armiger,C4C,2,2014,4,C4,8
+Scoloplos armiger,E3B,1,2014,4,E3,4
+Scoloplos armiger,E3C,1,2014,4,E3,4
+Scoloplos armiger,E4A,2,2014,1,E4,2
+Scoloplos armiger,E4B,2,2014,1,E4,2
+Scoloplos armiger,E4C,1,2014,4,E4,4
+Sipunculidea,C4A,1,2014,1,C4,1
+Sphaerosyllis erinaceus,B0C,2,2014,1,B0,2
+Sphaerosyllis erinaceus,B5B,1,2014,1,B5,1
+Sphaerosyllis erinaceus,E3A,1,2014,4,E3,4
+Sphaerosyllis erinaceus,E3B,1,2014,4,E3,4
+Spionidae sp.,A7A,2,2014,4,A7,8
+Spionidae sp.,B0A,4,2014,1,B0,4
+Spionidae sp.,B0B,6,2014,4,B0,24
+Spionidae sp.,B0C,3,2014,1,B0,3
+Spionidae sp.,B5A,24,2014,1,B5,24
+Spionidae sp.,B5B,10,2014,1,B5,10
+Spionidae sp.,B5C,3,2014,1,B5,3
+Spionidae sp.,B8C,1,2014,4,B8,4
+Spionidae sp.,C4A,3,2014,1,C4,3
+Spionidae sp.,C4B,4,2014,1,C4,4
+Spionidae sp.,C4C,12,2014,4,C4,48
+Spionidae sp.,E3A,12,2014,4,E3,48
+Spionidae sp.,E3B,16,2014,4,E3,64
+Spionidae sp.,E3C,19,2014,4,E3,76
+Spionidae sp.,E4A,12,2014,1,E4,12
+Spionidae sp.,E4B,17,2014,1,E4,17
+Spionidae sp.,E4C,2,2014,4,E4,8
+Syllidae sp,E3A,1,2014,1,E3,1
+Syllis cornuta,C4A,2,2014,1,C4,2
+Syllis cornuta,C4C,1,2014,4,C4,4
+Syllis cornuta,E4B,1,2014,1,E4,1
+Terebellidae sp,E4B,1,2014,1,E4,1
+Tubificoides benedi,B0A,4,2014,1,B0,4
+Tubificoides benedi,B0C,15,2014,1,B0,15
+Tubificoides benedi,C4A,1,2014,1,C4,1
+Tubificoides kozloffi,B0B,4,2014,4,B0,16
+Tubificoides kozloffi,B0C,1,2014,1,B0,1
+Tubificoides kozloffi,B5B,1,2014,1,B5,1
+Tubificoides kozloffi,C4B,1,2014,1,C4,1
+Tubificoides kozloffi,C4C,3,2014,4,C4,12
+Tubificoides kozloffi,E3A,12,2014,4,E3,48
+Tubificoides kozloffi,E3B,28,2014,4,E3,112
+Tubificoides kozloffi,E3C,3,2014,4,E3,12
+Tubificoides kozloffi,E4A,1,2014,1,E4,1
+Tubificoides kozloffi,E4B,2,2014,1,E4,2
+Tubificoides kozloffi,E4C,1,2014,4,E4,4
+Tubificidae,E3A,13,2014,4,E3,52
+Tubificidae,E3C,25,2014,4,E3,100
+Tubificidae,E4A,44,2014,1,E4,44
+Tubificidae,E4B,56,2014,1,E4,56
+Tubificidae,E4C,29,2014,4,E4,116
+Turbellaria,B0A,1,2014,1,B0,1
+Turbellaria,E3A,1,2014,1,E3,1
+Turbellaria,E3A,1,2014,4,E3,4
+Turbellaria,E3C,1,2014,4,E3,4
+Verruca stroemia,B8B,1,2014,4,B8,4
+Amphipoda sp,E3B,1,2015,4,E3,4
+Amphitrite cirrata,E3A,1,2015,1,E3,1
+Apistobranchus tullbergi,E3A,1,2015,4,E3,4
+Apistobranchus tullbergi,E4C,1,2015,4,E4,4
+Arctica islandica,E4B,1,2015,4,E4,4
+Arenicola marina,C4C,1,2015,1,C4,1
+Aricidea suecica,A7B,1,2015,4,A7,4
+Aricidea suecica,E4B,1,2015,4,E4,4
+Balanus,C4B,100,2015,1,C4,100
+Bivalvia sp.,B8C,1,2015,4,B8,4
+Cardidae juv,B5A,1,2015,4,B5,4
+Cardidae juv,C4B,1,2015,4,C4,4
+Capitella capitata,B5B,1,2015,4,B5,4
+Chaetozone setosa,B5A,3,2015,4,B5,12
+Chaetozone setosa,B5C,1,2015,4,B5,4
+Chaetozone setosa,B8A,1,2015,4,B8,4
+Chaetozone setosa,C4A,1,2015,1,C4,1
+Chaetozone setosa,C4A,8,2015,4,C4,32
+Chaetozone setosa,C4C,5,2015,4,C4,20
+Chaetozone setosa,E3A,3,2015,1,E3,3
+Chaetozone setosa,E3A,2,2015,4,E3,8
+Chaetozone setosa,E3B,2,2015,1,E3,2
+Chaetozone setosa,E3B,5,2015,4,E3,20
+Chaetozone setosa,E3C,2,2015,1,E3,2
+Chaetozone setosa,E3C,3,2015,4,E3,12
+Chaetozone setosa,E4A,5,2015,1,E4,5
+Chaetozone setosa,E4B,4,2015,1,E4,4
+Chaetozone setosa,E4B,3,2015,4,E4,12
+Chaetozone setosa,E4C,1,2015,1,E4,1
+Chaetozone setosa,E4C,7,2015,4,E4,28
+Cirratulus cirratus,B5C,1,2015,4,B5,4
+Cirratulus cirratus,C4B,1,2015,4,C4,4
+Cirratulus cirratus,E3A,3,2015,4,E3,12
+Cirratulus cirratus,E3C,1,2015,1,E3,1
+Cirratulus cirratus,E3C,2,2015,4,E3,8
+Cossura longocirrata,E4B,2,2015,4,E4,8
+Crenella sp,A7B,1,2015,4,A7,4
+Crenella sp,C4B,1,2015,4,C4,4
+Ennucula tenuis,B5B,3,2015,4,B5,12
+Ennucula tenuis,E3C,1,2015,4,E3,4
+Eteone longa ,A7A,1,2015,4,A7,4
+Eteone longa ,A7B,2,2015,1,A7,2
+Eteone longa ,B5B,1,2015,1,B5,1
+Eteone longa ,B5B,1,2015,4,B5,4
+Eteone longa ,B5C,1,2015,1,B5,1
+Eteone longa ,B5C,1,2015,4,B5,4
+Eteone longa ,B8B,2,2015,1,B8,2
+Eteone longa ,B8C,1,2015,4,B8,4
+Eteone longa ,C4A,5,2015,1,C4,5
+Eteone longa ,C4B,1,2015,1,C4,1
+Eteone longa ,C4B,11,2015,4,C4,44
+Eteone longa ,E3A,1,2015,1,E3,1
+Eteone longa ,E3B,2,2015,4,E3,8
+Eteone longa ,E3C,1,2015,1,E3,1
+Eteone longa ,E3C,2,2015,4,E3,8
+Eteone longa ,E4B,1,2015,4,E4,4
+Eteone longa ,E4C,4,2015,4,E4,16
+Euchone sp.,E4C,2,2015,4,E4,8
+Flabelligera affinis,E3C,1,2015,1,E3,1
+Galathowenia oculata,C4B,1,2015,1,C4,1
+Galathowenia oculata,E4B,1,2015,1,E4,1
+Gastropoda ungv,A7A,1,2015,4,A7,4
+Gastropoda ungv,B8B,1,2015,4,B8,4
+Gastropoda ungv,B8C,1,2015,4,B8,4
+Gastropoda ungv,E3C,2,2015,4,E3,8
+Glycera capitata,E3A,1,2015,1,E3,1
+Harmothoe sp,C4A,1,2015,4,C4,4
+Harmothoe sp,E3A,3,2015,4,E3,12
+Harmothoe sp,E3B,1,2015,1,E3,1
+Harmothoe sp,E3B,3,2015,4,E3,12
+Harmothoe sp,E3C,6,2015,4,E3,24
+Harmothoe sp,E4A,1,2015,1,E4,1
+Harmothoe sp,E4B,1,2015,4,E4,4
+Harmothoe sp,E4C,1,2015,4,E4,4
+Harpacticoida sp.,A7A,3,2015,4,A7,12
+Harpacticoida sp.,A7B,1,2015,4,A7,4
+Harpacticoida sp.,B5C,6,2015,4,B5,24
+Harpacticoida sp.,B8A,8,2015,4,B8,32
+Harpacticoida sp.,B8B,1,2015,4,B8,4
+Harpacticoida sp.,B8C,2,2015,4,B8,8
+Harpacticoida sp.,C4A,6,2015,4,C4,24
+Harpacticoida sp.,E3A,1,2015,4,E3,4
+Harpacticoida sp.,E4A,1,2015,1,E4,1
+Hiatella arctica,E3A,1,2015,4,E3,4
+Hiatella arctica,E3C,2,2015,1,E3,2
+Hiatella arctica,E3C,3,2015,4,E3,12
+Hydrozoa,A7B,2,2015,4,A7,8
+Hydrozoa,A7C,6,2015,4,A7,24
+Hydrozoa,B5B,1,2015,4,B5,4
+Hydrozoa,B5C,1,2015,4,B5,4
+Hydrozoa,B8A,1,2015,4,B8,4
+Hydrozoa,B8B,5,2015,4,B8,20
+Hydrozoa,B8C,6,2015,4,B8,24
+Lanassa venusta,B5A,5,2015,4,B5,20
+Lanassa venusta,E3B,2,2015,1,E3,2
+Macoma calcarea,A7A,5,2015,4,A7,20
+Macoma calcarea,A7B,5,2015,4,A7,20
+Macoma calcarea,A7C,1,2015,4,A7,4
+Macoma calcarea,B5A,10,2015,4,B5,40
+Macoma calcarea,B5B,12,2015,4,B5,48
+Macoma calcarea,B5C,11,2015,4,B5,44
+Macoma calcarea,B8A,2,2015,4,B8,8
+Macoma calcarea,B8B,5,2015,4,B8,20
+Macoma calcarea,B8C,8,2015,4,B8,32
+Macoma calcarea,C4A,15,2015,4,C4,60
+Macoma calcarea,C4B,13,2015,4,C4,52
+Macoma calcarea,C4C,2,2015,1,C4,2
+Macoma calcarea,C4C,8,2015,4,C4,32
+Macoma calcarea,E3A,9,2015,4,E3,36
+Macoma calcarea,E3B,3,2015,4,E3,12
+Macoma calcarea,E3C,10,2015,4,E3,40
+Macoma calcarea,E4A,1,2015,1,E4,1
+Macoma calcarea,E4B,6,2015,4,E4,24
+Macoma calcarea,E4C,10,2015,4,E4,40
+Maldanidae sp,E4B,2,2015,1,E4,2
+Mediomastus fragilis,A7A,1,2015,4,A7,4
+Mediomastus fragilis,A7B,6,2015,4,A7,24
+Mediomastus fragilis,A7C,2,2015,4,A7,8
+Mediomastus fragilis,B5A,8,2015,4,B5,32
+Mediomastus fragilis,B5B,4,2015,4,B5,16
+Mediomastus fragilis,B5C,7,2015,4,B5,28
+Mediomastus fragilis,B8A,1,2015,1,B8,1
+Mediomastus fragilis,B8A,4,2015,4,B8,16
+Mediomastus fragilis,B8B,5,2015,4,B8,20
+Mediomastus fragilis,B8C,6,2015,4,B8,24
+Mediomastus fragilis,C4A,1,2015,1,C4,1
+Mediomastus fragilis,C4A,3,2015,4,C4,12
+Mediomastus fragilis,C4B,5,2015,4,C4,20
+Mediomastus fragilis,C4C,8,2015,4,C4,32
+Mediomastus fragilis,E3A,3,2015,4,E3,12
+Mediomastus fragilis,E3C,1,2015,4,E3,4
+Mediomastus fragilis,E4A,6,2015,1,E4,6
+Mediomastus fragilis,E4B,6,2015,4,E4,24
+Mediomastus fragilis,E4C,1,2015,1,E4,1
+Mediomastus fragilis,E4C,10,2015,4,E4,40
+Microphthalmus aberrans,A7A,2,2015,4,A7,8
+Microphthalmus aberrans,A7C,1,2015,4,A7,4
+Microphthalmus aberrans,B5C,5,2015,4,B5,20
+Microphthalmus aberrans,C4A,1,2015,1,C4,1
+Microphthalmus aberrans,C4A,5,2015,4,C4,20
+Microphthalmus aberrans,C4B,1,2015,4,C4,4
+Microphthalmus aberrans,E3B,2,2015,4,E3,8
+Microphthalmus aberrans,E3C,3,2015,4,E3,12
+Microphthalmus aberrans,E4A,1,2015,1,E4,1
+Microphthalmus aberrans,E4C,2,2015,4,E4,8
+Musculus,E3C,1,2015,1,E3,1
+Mya sp.,B8C,2,2015,4,B8,8
+Mya juv,B5C,1,2015,4,B5,4
+Mya juv,C4A,1,2015,4,C4,4
+Mya arenaria,A7A,1,2015,4,A7,4
+Mya arenaria,A7B,3,2015,4,A7,12
+Mya arenaria,B5A,1,2015,4,B5,4
+Mya arenaria,B5B,1,2015,4,B5,4
+Mya arenaria,B8A,1,2015,4,B8,4
+Mya arenaria,B8B,1,2015,4,B8,4
+Mya arenaria,C4B,3,2015,4,C4,12
+Mya arenaria,C4C,1,2015,4,C4,4
+Mya arenaria,E3A,3,2015,4,E3,12
+Mya arenaria,E3B,1,2015,4,E3,4
+Mya arenaria,E4B,3,2015,4,E4,12
+Mytilidae,B5C,7,2015,4,B5,28
+Mytilidae,C4B,4,2015,4,C4,16
+Mytilidae juv,A7A,2,2015,4,A7,8
+Mytilidae juv,A7B,2,2015,4,A7,8
+Mytilidae juv,B5A,3,2015,4,B5,12
+Mytilidae juv,B5B,3,2015,4,B5,12
+Mytilidae juv,B8A,3,2015,4,B8,12
+Mytilidae juv,B8B,4,2015,4,B8,16
+Mytilidae juv,B8C,1,2015,4,B8,4
+Mytilidae juv,C4A,5,2015,4,C4,20
+Mytilidae juv,C4C,3,2015,4,C4,12
+Mytilidae juv,E3A,3,2015,4,E3,12
+Mytilus edulis,E3C,4,2015,1,E3,4
+Möttuldýr TUNICATA EÐA FLEIRI?,E3A,3,2015,1,E3,3
+Möttuldýr TUNICATA EÐA FLEIRI?,E3C,9,2015,1,E3,9
+Möttuldýr TUNICATA EÐA FLEIRI?,E3C,1,2015,4,E3,4
+Nemertea=nemertina,A7A,3,2015,4,A7,12
+Nemertea=nemertina,A7B,5,2015,4,A7,20
+Nemertea=nemertina,A7C,9,2015,4,A7,36
+Nemertea=nemertina,B5A,2,2015,4,B5,8
+Nemertea=nemertina,B5B,11,2015,4,B5,44
+Nemertea=nemertina,B8A,1,2015,1,B8,1
+Nemertea=nemertina,B8A,3,2015,4,B8,12
+Nemertea=nemertina,B8B,3,2015,4,B8,12
+Nemertea=nemertina,B8C,17,2015,4,B8,68
+Nemertea=nemertina,C4C,1,2015,4,C4,4
+Nemertea=nemertina,E3C,4,2015,4,E3,16
+Nemertea=nemertina,E4A,1,2015,1,E4,1
+Nematoda,A7B,1,2015,4,A7,4
+Nematoda,A7C,2,2015,4,A7,8
+Nematoda,B5C,4,2015,4,B5,16
+Nematoda,B8B,1,2015,4,B8,4
+Nematoda,C4A,12,2015,4,C4,48
+Nematoda,C4C,8,2015,4,C4,32
+Nematoda,E3A,2,2015,4,E3,8
+Nematoda,E4A,3,2015,1,E4,3
+Nepthys,A7B,1,2015,1,A7,1
+Nepthys,C4A,1,2015,1,C4,1
+Nepthys,E3A,3,2015,1,E3,3
+Nepthys,E3B,1,2015,1,E3,1
+Nepthys,E3C,1,2015,1,E3,1
+Nepthys,E4B,1,2015,1,E4,1
+Nepthys,E4C,1,2015,1,E4,1
+Nereimyra punctata,E3C,1,2015,4,E3,4
+Oligochaeta sp.,C4A,3,2015,4,C4,12
+Oligochaeta sp.,C4B,2,2015,4,C4,8
+Oligochaeta sp.,C4C,1,2015,4,C4,4
+Oligochaeta sp.,E3A,5,2015,4,E3,20
+Oligochaeta sp.,E3B,1,2015,4,E3,4
+Oligochaeta sp.,E3C,6,2015,4,E3,24
+Oligochaeta sp.,E4B,12,2015,4,E4,48
+Ophelina acuminata,A7A,2,2015,4,A7,8
+Ophelina acuminata,B5A,1,2015,1,B5,1
+Ophelina acuminata,B5A,17,2015,4,B5,68
+Ophelina acuminata,B5B,1,2015,1,B5,1
+Ophelina acuminata,B5B,1,2015,4,B5,4
+Ophelina acuminata,B5C,4,2015,1,B5,4
+Ophelina acuminata,B5C,10,2015,4,B5,40
+Ophelina acuminata,B8A,2,2015,4,B8,8
+Ophelina acuminata,B8B,2,2015,4,B8,8
+Ophelina acuminata,B8C,1,2015,1,B8,1
+Ophelina acuminata,C4A,8,2015,1,C4,8
+Ophelina acuminata,C4A,10,2015,4,C4,40
+Ophelina acuminata,C4B,1,2015,1,C4,1
+Ophelina acuminata,C4B,7,2015,4,C4,28
+Ophelina acuminata,C4C,2,2015,1,C4,2
+Ophelina acuminata,C4C,11,2015,4,C4,44
+Ophelina acuminata,E3A,10,2015,1,E3,10
+Ophelina acuminata,E3A,4,2015,4,E3,16
+Ophelina acuminata,E3B,15,2015,1,E3,15
+Ophelina acuminata,E3B,6,2015,4,E3,24
+Ophelina acuminata,E3C,7,2015,1,E3,7
+Ophelina acuminata,E3C,9,2015,4,E3,36
+Ophelina acuminata,E4A,2,2015,1,E4,2
+Ophelina acuminata,E4B,2,2015,4,E4,8
+Ophelina acuminata,E4C,4,2015,1,E4,4
+Ophelina acuminata,E4C,9,2015,4,E4,36
+Parougia nigridentata,E4B,1,2015,4,E4,4
+Pectinaria granulata,E3A,2,2015,1,E3,2
+Pectinaria granulata,E3C,2,2015,1,E3,2
+Pectinaria koreni,A7B,1,2015,4,A7,4
+Pectinaria koreni,B5A,1,2015,1,B5,1
+Pectinaria koreni,B5C,1,2015,1,B5,1
+Pectinaria koreni,B8B,2,2015,1,B8,2
+Pectinaria koreni,C4A,1,2015,1,C4,1
+Pectinaria koreni,C4B,1,2015,1,C4,1
+Pectinaria koreni,C4C,2,2015,1,C4,2
+Pectinaria koreni,E3B,1,2015,4,E3,4
+Pholoe sp,C4A,1,2015,4,C4,4
+Pholoe sp,E4C,2,2015,4,E4,8
+Phyllodoce maculata,E3A,2,2015,4,E3,8
+Phyllodoce maculata,E3C,2,2015,4,E3,8
+Polydora sp.,A7A,3,2015,1,A7,3
+Polydora sp.,A7A,2,2015,4,A7,8
+Polydora sp.,A7B,3,2015,1,A7,3
+Polydora sp.,A7C,4,2015,1,A7,4
+Polydora sp.,A7C,1,2015,4,A7,4
+Polydora sp.,B5B,2,2015,1,B5,2
+Polydora sp.,B5B,2,2015,4,B5,8
+Polydora sp.,B5C,1,2015,1,B5,1
+Polydora sp.,B5C,3,2015,4,B5,12
+Polydora sp.,B8A,1,2015,1,B8,1
+Polydora sp.,B8B,5,2015,1,B8,5
+Polydora sp.,B8B,2,2015,4,B8,8
+Polydora sp.,B8C,3,2015,1,B8,3
+Polydora sp.,C4C,2,2015,4,C4,8
+Polydora sp.,E3A,2,2015,4,E3,8
+Polydora sp.,E3B,1,2015,1,E3,1
+Polydora sp.,E3B,4,2015,4,E3,16
+Polydora sp.,E3C,4,2015,1,E3,4
+Polydora sp.,E3C,1,2015,4,E3,4
+Polydora sp.,E4A,2,2015,1,E4,2
+Polydora sp.,E4A,4,2015,1,E4,4
+Polydora sp.,E4B,2,2015,1,E4,2
+Polydora sp.,E4B,7,2015,4,E4,28
+Polydora sp.,E4C,16,2015,4,E4,64
+Praxillella praetermissa,B5A,1,2015,1,B5,1
+Praxillella praetermissa,E4B,5,2015,1,E4,5
+Priapulus candatus,B5C,1,2015,4,B5,4
+Protomedeia fasciata,E3A,1,2015,4,E3,4
+Protomedeia fasciata,E3B,2,2015,4,E3,8
+Protomedeia fasciata,E3C,4,2015,4,E3,16
+Protomedeia fasciata,E4C,1,2015,4,E4,4
+Scalibregma inflatum,A7A,1,2015,4,A7,4
+Scalibregma inflatum,A7B,1,2015,1,A7,1
+Scalibregma inflatum,B5B,1,2015,1,B5,1
+Scalibregma inflatum,B5C,1,2015,1,B5,1
+Scalibregma inflatum,C4A,1,2015,1,C4,1
+Scalibregma inflatum,E4A,1,2015,1,E4,1
+Scoloplos armiger,A7C,1,2015,4,A7,4
+Scoloplos armiger,B5A,1,2015,1,B5,1
+Scoloplos armiger,B5A,3,2015,4,B5,12
+Scoloplos armiger,B5B,2,2015,4,B5,8
+Scoloplos armiger,B5C,1,2015,1,B5,1
+Scoloplos armiger,B5C,2,2015,4,B5,8
+Scoloplos armiger,B8A,1,2015,1,B8,1
+Scoloplos armiger,B8A,1,2015,4,B8,4
+Scoloplos armiger,B8B,4,2015,4,B8,16
+Scoloplos armiger,C4A,1,2015,1,C4,1
+Scoloplos armiger,C4A,5,2015,4,C4,20
+Scoloplos armiger,C4B,3,2015,4,C4,12
+Scoloplos armiger,C4C,3,2015,1,C4,3
+Scoloplos armiger,C4C,16,2015,4,C4,64
+Scoloplos armiger,E3A,1,2015,4,E3,4
+Scoloplos armiger,E3B,1,2015,1,E3,1
+Scoloplos armiger,E3C,3,2015,1,E3,3
+Scoloplos armiger,E3C,4,2015,4,E3,16
+Serripes groenlandica,E3C,1,2015,4,E3,4
+Sipunculida,C4C,1,2015,4,C4,4
+Sipunculida,E4B,1,2015,1,E4,1
+Sphaerosyllis erinaceus,A7A,1,2015,4,A7,4
+Sphaerosyllis erinaceus,E3A,2,2015,4,E3,8
+Sphaerosyllis erinaceus,E3B,1,2015,4,E3,4
+Sphaerosyllis erinaceus,E3C,1,2015,4,E3,4
+Spionidae sp.,A7A,1,2015,4,A7,4
+Spionidae sp.,A7B,1,2015,1,A7,1
+Spionidae sp.,B5A,2,2015,4,B5,8
+Spionidae sp.,B5B,3,2015,4,B5,12
+Spionidae sp.,B5C,4,2015,4,B5,16
+Spionidae sp.,B8A,1,2015,4,B8,4
+Spionidae sp.,B8B,3,2015,4,B8,12
+Spionidae sp.,C4A,7,2015,4,C4,28
+Spionidae sp.,C4B,8,2015,4,C4,32
+Spionidae sp.,C4C,1,2015,1,C4,1
+Spionidae sp.,C4C,7,2015,4,C4,28
+Spionidae sp.,E3A,8,2015,4,E3,32
+Spionidae sp.,E3B,5,2015,4,E3,20
+Spionidae sp.,E3C,3,2015,1,E3,3
+Spionidae sp.,E3C,8,2015,4,E3,32
+Spionidae sp.,E4B,1,2015,1,E4,1
+Spionidae sp.,E4B,2,2015,4,E4,8
+Spionidae sp.,E4C,11,2015,4,E4,44
+Syllidae sp,E3C,1,2015,4,E3,4
+Syllis cornuta,C4A,1,2015,4,C4,4
+Terebellidae sp,B8B,1,2015,4,B8,4
+Terebellidae sp,E3B,1,2015,4,E3,4
+Terebellidae sp,E4B,1,2015,4,E4,4
+Terebellidae sp,E4C,1,2015,4,E4,4
+Terebellidae juv,B5B,2,2015,4,B5,8
+Tubificoides benedict,C4A,2,2015,4,C4,8
+Tubificoides benedict,C4B,1,2015,4,C4,4
+Tubificoides kozloffi,C4A,2,2015,4,C4,8
+Tubificoides kozloffi,C4C,1,2015,4,C4,4
+Tubificoides kozloffi,E4B,1,2015,4,E4,4
+Abra nitida,A7B,3,2017,4,A7,12
+Abra nitida,A7C,5,2017,4,A7,20
+Abra nitida,B5A,3,2017,4,B5,12
+Abra nitida,B5B,10,2017,4,B5,40
+Abra nitida,B5C,5,2017,4,B5,20
+Abra nitida,B8A,9,2017,4,B8,36
+Abra nitida,B8B,3,2017,4,B8,12
+Abra nitida,B8C,5,2017,4,B8,20
+Abra nitida,C4A,3,2017,4,C4,12
+Abra nitida,C4B,2,2017,4,C4,8
+Abra nitida,C4C,3,2017,4,C4,12
+Abra nitida,E4A,1,2017,4,E4,4
+Abra nitida,E4B,5,2017,4,E4,20
+Abra nitida,E4C,4,2017,4,E4,16
+Acanthocardia echinata,B5C,1,2017,1,B5,1
+Ampharete sp,B8B,1,2017,4,B8,4
+Amphipoda sp,B8A,3,2017,4,B8,12
+Amphipoda sp,C4A,1,2017,4,C4,4
+Amphipoda sp,E3A,1,2017,4,E3,4
+Amphipoda sp,E3B,1,2017,4,E3,4
+Amphipoda sp,E4A,1,2017,1,E4,1
+Amphipoda sp,E4A,1,2017,4,E4,4
+Amphipoda sp,E4B,1,2017,4,E4,4
+Ampharetidae,E3C,1,2017,4,E3,4
+Ampharetidae,E4C,1,2017,4,E4,4
+Ampharete acutifrons,E4A,1,2017,4,E4,4
+Amphitrite cirrata,E3C,1,2017,1,E3,1
+Apistobranchus tullbergi,B8A,1,2017,4,B8,4
+Apistobranchus tullbergi,E3A,1,2017,4,E3,4
+Apistobranchus tullbergi,E3C,1,2017,4,E3,4
+Arctica islandica,A7C,1,2017,4,A7,4
+Arctica islandica,B5B,1,2017,4,B5,4
+Arctica islandica,B8A,2,2017,4,B8,8
+Arctica islandica,B8B,2,2017,4,B8,8
+Arctica islandica,B8C,1,2017,4,B8,4
+Arctica islandica,E3C,1,2017,4,E3,4
+Arctica islandica,E4A,1,2017,4,E4,4
+Arctica islandica,E4B,2,2017,4,E4,8
+Arctica islandica,E4C,3,2017,4,E4,12
+Arenicola marina ungviði,C4C,1,2017,4,C4,4
+Aricidea suecica,A7B,1,2017,4,A7,4
+Aricidea suecica,A7C,2,2017,4,A7,8
+Aricidea suecica,B5A,1,2017,4,B5,4
+Aricidea suecica,B5B,2,2017,4,B5,8
+Aricidea suecica,B5C,2,2017,4,B5,8
+Aricidea suecica,C4A,1,2017,4,C4,4
+Aricidea suecica,E3C,1,2017,4,E3,4
+Aricidea suecica,E4A,1,2017,4,E4,4
+Aricidea suecica,E4B,1,2017,4,E4,4
+Aricidea suecica,E4C,1,2017,4,E4,4
+Asteroidea,E4A,1,2017,4,E4,4
+Balanus,E4A,4,2017,1,E4,4
+Balanus nýsestir,E4A,180,2017,1,E4,180
+Buccinum undatum,E3A,1,2017,1,E3,1
+Buccinum undatum,E4A,1,2017,1,E4,1
+Cardidae juv,A7C,2,2017,4,A7,8
+Cardidae juv,B5A,1,2017,4,B5,4
+Cardidae juv,B5B,1,2017,4,B5,4
+Cardidae juv,B5C,1,2017,4,B5,4
+Cardidae juv,B8B,3,2017,4,B8,12
+Cardidae juv,E4C,1,2017,4,E4,4
+Caprellidae,E3A,1,2017,4,E3,4
+Cerastoderma ovale,E4A,4,2017,4,E4,16
+Chaetozone setosa,A7C,7,2017,4,A7,28
+Chaetozone setosa,B5A,3,2017,4,B5,12
+Chaetozone setosa,B5B,1,2017,4,B5,4
+Chaetozone setosa,B5C,2,2017,4,B5,8
+Chaetozone setosa,B8A,2,2017,4,B8,8
+Chaetozone setosa,B8B,1,2017,4,B8,4
+Chaetozone setosa,B8C,2,2017,4,B8,8
+Chaetozone setosa,C4A,7,2017,4,C4,28
+Chaetozone setosa,C4B,3,2017,4,C4,12
+Chaetozone setosa,C4C,14,2017,4,C4,56
+Chaetozone setosa,E3A,1,2017,4,E3,4
+Chaetozone setosa,E3B,4,2017,4,E3,16
+Chaetozone setosa,E3C,1,2017,4,E3,4
+Chaetozone setosa,E4A,1,2017,4,E4,4
+Chaetozone setosa,E4B,1,2017,4,E4,4
+Cirratulus cirratus,E3C,1,2017,4,E3,4
+Corophium bonnellii,A7B,1,2017,4,A7,4
+Corophium bonnellii,A7C,1,2017,4,A7,4
+Corophium bonnellii,B8C,1,2017,4,B8,4
+Corophium bonnellii,E3B,7,2017,4,E3,28
+Corophium bonnellii,E3C,1,2017,4,E3,4
+Corophium bonnellii,E4A,14,2017,4,E4,56
+Corophium bonnellii,E4B,6,2017,4,E4,24
+Corophium bonnellii,E4C,5,2017,4,E4,20
+Cossura longocirrata,A7C,1,2017,4,A7,4
+Cossura longocirrata,B5A,2,2017,4,B5,8
+Cossura longocirrata,B5C,2,2017,4,B5,8
+Cossura longocirrata,B8A,2,2017,4,B8,8
+Cossura longocirrata,B8C,1,2017,4,B8,4
+Cossura longocirrata,E3B,1,2017,4,E3,4
+Cossura pygodactylata,B5B,2,2017,4,B5,8
+Cossura pygodactylata,E4A,6,2017,4,E4,24
+Cumacea sp,E4C,1,2017,4,E4,4
+Cycloterus lumpus,E3A,1,2017,4,E3,4
+Dexamine thea,E3C,1,2017,4,E3,4
+Ennucula tenuis,B5B,1,2017,4,B5,4
+Ennucula tenuis,C4C,1,2017,4,C4,4
+Eteone longa ,A7C,2,2017,4,A7,8
+Eteone longa ,B5A,2,2017,4,B5,8
+Eteone longa ,B5B,1,2017,4,B5,4
+Eteone longa ,C4A,3,2017,4,C4,12
+Eteone longa ,C4B,3,2017,4,C4,12
+Eteone longa ,E3B,1,2017,1,E3,1
+Eteone longa ,E3B,1,2017,4,E3,4
+Eteone longa ,E3C,1,2017,4,E3,4
+Eteone longa ,E4A,3,2017,4,E4,12
+Eteone longa ,E4B,1,2017,1,E4,1
+Eteone longa ,E4B,3,2017,4,E4,12
+Eteone longa ,E4C,2,2017,4,E4,8
+Euchone sp.,E3C,1,2017,4,E3,4
+Flabelligera affinis,E3B,1,2017,4,E3,4
+Galathowenia oculata,E4A,1,2017,4,E4,4
+Gastropoda ungv,B8B,1,2017,4,B8,4
+Gastropoda ungv,E4B,1,2017,4,E4,4
+Gibbula tumida,E3A,1,2017,1,E3,1
+Harmothoe sp,A7B,1,2017,4,A7,4
+Harmothoe sp,A7C,1,2017,4,A7,4
+Harmothoe sp,C4A,1,2017,4,C4,4
+Harmothoe sp,E3A,2,2017,1,E3,2
+Harmothoe sp,E3A,2,2017,4,E3,8
+Harmothoe sp,E3B,2,2017,4,E3,8
+Harmothoe sp,E3C,2,2017,4,E3,8
+Harmothoe sp,E4A,1,2017,4,E4,4
+Harmothoe sp,E4B,3,2017,4,E4,12
+Harpacticoida sp.,B5C,1,2017,4,B5,4
+Harpacticoida sp.,E4C,4,2017,4,E4,16
+Heteromastus filiformis,E3B,1,2017,4,E3,4
+Hiatella arctica,E3A,1,2017,1,E3,1
+Hiatella arctica,E3A,1,2017,4,E3,4
+Hiatella arctica,E4A,1,2017,4,E4,4
+Hiatella arctica,E4B,1,2017,4,E4,4
+Hiatella arctica,E4C,2,2017,4,E4,8
+Hydrozoa,A7B,4,2017,4,A7,16
+Hydrozoa,A7C,1,2017,4,A7,4
+Hydrozoa,B5A,1,2017,4,B5,4
+Hydrozoa,B8A,1,2017,4,B8,4
+Hydrozoa,B8B,3,2017,4,B8,12
+Hydrozoa,B8C,5,2017,4,B8,20
+Hydrozoa,E4C,1,2017,4,E4,4
+Lanassa venusta,B5B,2,2017,4,B5,8
+Lanassa venusta,E3B,1,2017,4,E3,4
+Lanassa venusta,E3C,4,2017,4,E3,16
+Lanassa venusta,E4A,1,2017,4,E4,4
+Macoma calcarea,A7B,1,2017,1,A7,1
+Macoma calcarea,A7B,4,2017,4,A7,16
+Macoma calcarea,A7C,2,2017,1,A7,2
+Macoma calcarea,A7C,1,2017,4,A7,4
+Macoma calcarea,B5A,11,2017,1,B5,11
+Macoma calcarea,B5A,4,2017,4,B5,16
+Macoma calcarea,B5B,6,2017,1,B5,6
+Macoma calcarea,B5B,14,2017,4,B5,56
+Macoma calcarea,B5C,24,2017,1,B5,24
+Macoma calcarea,B5C,2,2017,4,B5,8
+Macoma calcarea,B8A,14,2017,4,B8,56
+Macoma calcarea,B8B,5,2017,4,B8,20
+Macoma calcarea,B8C,12,2017,4,B8,48
+Macoma calcarea,C4A,2,2017,1,C4,2
+Macoma calcarea,C4A,10,2017,4,C4,40
+Macoma calcarea,C4B,12,2017,4,C4,48
+Macoma calcarea,C4C,11,2017,4,C4,44
+Macoma calcarea,E3A,1,2017,1,E3,1
+Macoma calcarea,E3A,5,2017,4,E3,20
+Macoma calcarea,E3B,2,2017,4,E3,8
+Macoma calcarea,E3C,1,2017,4,E3,4
+Macoma calcarea,E4A,2,2017,1,E4,2
+Macoma calcarea,E4A,7,2017,4,E4,28
+Macoma calcarea,E4B,1,2017,1,E4,1
+Macoma calcarea,E4B,5,2017,4,E4,20
+Macoma calcarea,E4C,5,2017,4,E4,20
+Maldanidae sp,E4A,1,2017,1,E4,1
+Margarites groenlandicus,E3B,1,2017,4,E3,4
+Mediomastus filiformis kemur líka Heteromastus filiformis,E3A,1,2017,4,E3,4
+Mediomastus fragilis,A7B,4,2017,4,A7,16
+Mediomastus fragilis,A7C,4,2017,4,A7,16
+Mediomastus fragilis,B5A,3,2017,4,B5,12
+Mediomastus fragilis,B5B,4,2017,4,B5,16
+Mediomastus fragilis,B5C,9,2017,4,B5,36
+Mediomastus fragilis,B8A,5,2017,4,B8,20
+Mediomastus fragilis,B8B,6,2017,4,B8,24
+Mediomastus fragilis,B8C,5,2017,4,B8,20
+Mediomastus fragilis,C4A,5,2017,4,C4,20
+Mediomastus fragilis,C4B,5,2017,4,C4,20
+Mediomastus fragilis,C4C,3,2017,4,C4,12
+Mediomastus fragilis,E3A,3,2017,4,E3,12
+Mediomastus fragilis,E3B,2,2017,4,E3,8
+Mediomastus fragilis,E3C,4,2017,4,E3,16
+Mediomastus fragilis,E4A,10,2017,4,E4,40
+Mediomastus fragilis,E4B,6,2017,4,E4,24
+Mediomastus fragilis,E4C,4,2017,4,E4,16
+Microphthalmus aberrans,A7C,4,2017,4,A7,16
+Microphthalmus aberrans,B5A,1,2017,4,B5,4
+Microphthalmus aberrans,B8A,1,2017,4,B8,4
+Microphthalmus aberrans,C4A,1,2017,4,C4,4
+Microphthalmus aberrans,C4B,3,2017,4,C4,12
+Microphthalmus aberrans,C4C,1,2017,4,C4,4
+Microphthalmus aberrans,E4A,2,2017,4,E4,8
+Microphthalmus aberrans,E4B,3,2017,4,E4,12
+Musculus,E3B,1,2017,4,E3,4
+Mya sp.,B8C,4,2017,4,B8,16
+Mya juv,B8B,3,2017,4,B8,12
+Mya juv,C4B,1,2017,4,C4,4
+Mya juv,E3C,1,2017,4,E3,4
+Mya arenaria,B8A,1,2017,4,B8,4
+Mya arenaria,C4A,1,2017,4,C4,4
+Mya arenaria,E3A,2,2017,4,E3,8
+Mya arenaria,E4A,2,2017,4,E4,8
+Mya arenaria,E4B,1,2017,1,E4,1
+Mya arenaria,E4B,7,2017,4,E4,28
+Mya arenaria,E4C,5,2017,4,E4,20
+Mytilidae,B8B,2,2017,4,B8,8
+Mytilidae juv,C4C,1,2017,4,C4,4
+Mytilidae juv,E4B,2,2017,4,E4,8
+Mytilidae juv,E4C,1,2017,4,E4,4
+Naticidae,E4C,1,2017,4,E4,4
+Nemertea=nemertina,A7B,1,2017,4,A7,4
+Nemertea=nemertina,A7C,1,2017,4,A7,4
+Nemertea=nemertina,B8B,1,2017,4,B8,4
+Nemertea=nemertina,C4A,2,2017,4,C4,8
+Nemertea=nemertina,E3B,2,2017,4,E3,8
+Nemertea=nemertina,E3C,1,2017,4,E3,4
+Nemertea=nemertina,E4A,1,2017,4,E4,4
+Nemertea=nemertina,E4C,2,2017,4,E4,8
+Nematoda,B5A,2,2017,4,B5,8
+Nematoda,B5C,3,2017,4,B5,12
+Nematoda,C4A,8,2017,4,C4,32
+Nematoda,C4B,14,2017,4,C4,56
+Nematoda,C4C,12,2017,4,C4,48
+Nematoda,E4C,2,2017,4,E4,8
+Nepthys,B5C,1,2017,1,B5,1
+Nepthys,C4A,1,2017,1,C4,1
+Nepthys,C4C,1,2017,1,C4,1
+Nepthys,E3A,2,2017,1,E3,2
+Nepthys,E3B,1,2017,1,E3,1
+Nepthys,E3C,1,2017,1,E3,1
+Nepthys,E4A,1,2017,1,E4,1
+Nepthys,E4B,1,2017,1,E4,1
+Notomastus latericeus ,B5A,1,2017,4,B5,4
+Nicolea zostericola,E3B,1,2017,4,E3,4
+Nuculana tenuis,E3C,1,2017,4,E3,4
+Nudibranch,E3B,2,2017,4,E3,8
+Oligochaeta sp.,C4A,6,2017,4,C4,24
+Oligochaeta sp.,C4C,1,2017,4,C4,4
+Oligochaeta sp.,E3B,3,2017,4,E3,12
+Oligochaeta sp.,E3C,4,2017,4,E3,16
+Oligochaeta sp.,E4A,26,2017,4,E4,104
+Onoba aculeus,A7B,1,2017,4,A7,4
+Onoba striata,E3A,1,2017,4,E3,4
+Ophelina acuminata,A7B,1,2017,1,A7,1
+Ophelina acuminata,A7B,1,2017,4,A7,4
+Ophelina acuminata,A7C,2,2017,4,A7,8
+Ophelina acuminata,B5A,1,2017,1,B5,1
+Ophelina acuminata,B5A,4,2017,4,B5,16
+Ophelina acuminata,B5B,3,2017,4,B5,12
+Ophelina acuminata,B5C,5,2017,4,B5,20
+Ophelina acuminata,B8A,2,2017,4,B8,8
+Ophelina acuminata,B8B,2,2017,1,B8,2
+Ophelina acuminata,B8C,3,2017,1,B8,3
+Ophelina acuminata,B8C,5,2017,4,B8,20
+Ophelina acuminata,C4A,21,2017,4,C4,84
+Ophelina acuminata,C4B,20,2017,4,C4,80
+Ophelina acuminata,C4C,7,2017,4,C4,28
+Ophelina acuminata,E3B,1,2017,4,E3,4
+Ophelina acuminata,E4A,7,2017,4,E4,28
+Ophelina acuminata,E4B,9,2017,4,E4,36
+Ophelina acuminata,E4C,6,2017,4,E4,24
+Opistobranchia sp.,B8C,1,2017,4,B8,4
+Pectinaria granulata,E3C,1,2017,1,E3,1
+Pectinaria granulata,E3C,1,2017,4,E3,4
+Pectinaria koreni,B5A,1,2017,4,B5,4
+Pectinaria koreni,B5C,1,2017,4,B5,4
+Pectinaria koreni,C4A,1,2017,1,C4,1
+Pectinaria koreni,C4B,1,2017,1,C4,1
+Pectinaria koreni,C4B,1,2017,4,C4,4
+Pectinaria koreni,C4C,1,2017,4,C4,4
+Pherusa plumosa,E3C,1,2017,4,E3,4
+Pholoe sp,E4A,1,2017,4,E4,4
+Phyllodoce maculata,E4A,6,2017,4,E4,24
+Phyllodoce maculata,E4B,1,2017,1,E4,1
+Phyllodoce maculata,E4B,2,2017,4,E4,8
+Phyllodoce maculata,E4C,1,2017,1,E4,1
+Phyllodoce maculata,E4C,4,2017,4,E4,16
+Plerugonium spinosissum,E4C,1,2017,4,E4,4
+Polydora sp.,A7B,1,2017,4,A7,4
+Polydora sp.,B5B,2,2017,4,B5,8
+Polydora sp.,B8A,4,2017,4,B8,16
+Polydora sp.,B8C,1,2017,4,B8,4
+Polydora sp.,C4A,2,2017,4,C4,8
+Polydora sp.,C4B,1,2017,1,C4,1
+Polydora sp.,C4B,1,2017,4,C4,4
+Polydora sp.,E3A,2,2017,1,E3,2
+Polydora sp.,E3B,1,2017,1,E3,1
+Polydora sp.,E3B,9,2017,4,E3,36
+Polydora sp.,E3C,1,2017,1,E3,1
+Polydora sp.,E3C,7,2017,4,E3,28
+Polydora sp.,E4A,6,2017,1,E4,6
+Polydora sp.,E4A,53,2017,4,E4,212
+Polydora sp.,E4B,2,2017,1,E4,2
+Polydora sp.,E4B,250,2017,4,E4,1000
+Polydora sp.,E4C,6,2017,1,E4,6
+Polydora sp.,E4C,22,2017,4,E4,88
+Praxillella praetermissa,A7B,3,2017,1,A7,3
+Praxillella praetermissa,A7B,5,2017,4,A7,20
+Praxillella praetermissa,A7C,2,2017,4,A7,8
+Praxillella praetermissa,B5A,4,2017,1,B5,4
+Praxillella praetermissa,B5A,1,2017,4,B5,4
+Praxillella praetermissa,B5B,2,2017,1,B5,2
+Praxillella praetermissa,B5B,3,2017,4,B5,12
+Praxillella praetermissa,B5C,3,2017,4,B5,12
+Praxillella praetermissa,B8A,1,2017,1,B8,1
+Praxillella praetermissa,B8A,2,2017,4,B8,8
+Praxillella praetermissa,B8B,4,2017,1,B8,4
+Praxillella praetermissa,B8B,2,2017,4,B8,8
+Praxillella praetermissa,B8C,2,2017,1,B8,2
+Praxillella praetermissa,B8C,1,2017,4,B8,4
+Praxillella praetermissa,E3A,2,2017,4,E3,8
+Praxillella praetermissa,E3C,9,2017,4,E3,36
+Praxillella praetermissa,E4A,1,2017,1,E4,1
+Praxillella praetermissa,E4A,7,2017,4,E4,28
+Praxillella praetermissa,E4B,3,2017,4,E4,12
+Praxillella praetermissa,E4C,1,2017,4,E4,4
+Priapulus candatus,A7C,1,2017,4,A7,4
+Priapulus candatus,B5A,1,2017,4,B5,4
+Priapulus candatus,B8A,1,2017,4,B8,4
+Priapulus candatus,C4B,2,2017,4,C4,8
+Priapulus candatus,C4C,1,2017,4,C4,4
+Priapulus candatus,E4B,1,2017,4,E4,4
+Protomedeia fasciata,C4C,1,2017,4,C4,4
+Protomedeia fasciata,E3B,1,2017,4,E3,4
+Protomedeia fasciata,E4A,10,2017,4,E4,40
+Protomedeia fasciata,E4B,6,2017,4,E4,24
+Protomedeia fasciata,E4C,12,2017,4,E4,48
+Pycnogonida sp,B5B,1,2017,4,B5,4
+Pygospio elegans,E4C,3,2017,4,E4,12
+Sabellida sp,E3B,1,2017,4,E3,4
+Scalibregma inflatum,A7B,3,2017,1,A7,3
+Scalibregma inflatum,A7B,26,2017,4,A7,104
+Scalibregma inflatum,A7C,5,2017,1,A7,5
+Scalibregma inflatum,A7C,16,2017,4,A7,64
+Scalibregma inflatum,B5A,3,2017,4,B5,12
+Scalibregma inflatum,B5B,3,2017,1,B5,3
+Scalibregma inflatum,B8A,1,2017,1,B8,1
+Scalibregma inflatum,B8A,31,2017,4,B8,124
+Scalibregma inflatum,B8B,6,2017,1,B8,6
+Scalibregma inflatum,B8B,15,2017,4,B8,60
+Scalibregma inflatum,B8C,6,2017,1,B8,6
+Scalibregma inflatum,B8C,16,2017,4,B8,64
+Scalibregma inflatum,C4A,3,2017,4,C4,12
+Scalibregma inflatum,C4B,4,2017,1,C4,4
+Scalibregma inflatum,C4B,3,2017,4,C4,12
+Scalibregma inflatum,C4C,2,2017,4,C4,8
+Scalibregma inflatum,E3B,3,2017,4,E3,12
+Scalibregma inflatum,E3C,4,2017,4,E3,16
+Scalibregma inflatum,E4A,1,2017,1,E4,1
+Scalibregma inflatum,E4B,3,2017,1,E4,3
+Scalibregma inflatum,E4C,2,2017,4,E4,8
+Scoloplos armiger,A7B,6,2017,4,A7,24
+Scoloplos armiger,A7C,6,2017,4,A7,24
+Scoloplos armiger,B5A,5,2017,4,B5,20
+Scoloplos armiger,B5B,2,2017,1,B5,2
+Scoloplos armiger,B5B,2,2017,4,B5,8
+Scoloplos armiger,B5C,12,2017,4,B5,48
+Scoloplos armiger,B8A,4,2017,4,B8,16
+Scoloplos armiger,B8B,3,2017,4,B8,12
+Scoloplos armiger,B8C,3,2017,4,B8,12
+Scoloplos armiger,C4A,9,2017,4,C4,36
+Scoloplos armiger,C4B,1,2017,1,C4,1
+Scoloplos armiger,C4B,7,2017,4,C4,28
+Scoloplos armiger,C4C,5,2017,4,C4,20
+Scoloplos armiger,E3A,1,2017,1,E3,1
+Scoloplos armiger,E3A,3,2017,4,E3,12
+Scoloplos armiger,E3B,7,2017,4,E3,28
+Scoloplos armiger,E3C,7,2017,4,E3,28
+Scoloplos armiger,E4A,15,2017,4,E4,60
+Scoloplos armiger,E4B,6,2017,4,E4,24
+Scoloplos armiger,E4C,4,2017,4,E4,16
+Serripes groenlandica,B5B,1,2017,4,B5,4
+Sipunculidea/Sipunculidae,B5C,2,2017,4,B5,8
+Sphaerosyllis erinaceus,E3C,2,2017,4,E3,8
+Sphaerosyllis erinaceus,E4A,2,2017,4,E4,8
+Spionidae sp.,A7B,1,2017,4,A7,4
+Spionidae sp.,A7C,1,2017,4,A7,4
+Spionidae sp.,B5B,1,2017,1,B5,1
+Spionidae sp.,B5C,1,2017,4,B5,4
+Spionidae sp.,C4A,2,2017,4,C4,8
+Spionidae sp.,C4C,1,2017,4,C4,4
+Spionidae sp.,E3B,3,2017,4,E3,12
+Spionidae sp.,E3C,1,2017,4,E3,4
+Spionidae sp.,E4A,10,2017,4,E4,40
+Spionidae sp.,E4B,1,2017,1,E4,1
+Spionidae sp.,E4B,7,2017,4,E4,28
+Spionidae sp.,E4C,3,2017,4,E4,12
+Syllis cornuta,C4C,1,2017,4,C4,4
+Thyasira flexuosa,A7B,1,2017,4,A7,4
+Thyasira flexuosa,B5A,4,2017,4,B5,16
+Thyasira flexuosa,B5B,1,2017,4,B5,4
+Thyasira flexuosa,E3B,2,2017,4,E3,8
+Thyasira flexuosa,E4B,2,2017,4,E4,8
+Terebellidae sp,E3B,1,2017,1,E3,1
+Terebellidae juv,B5C,1,2017,4,B5,4
+Terebellides benedi,B5A,2,2017,4,B5,8
+Terebellides benedi,B5B,1,2017,4,B5,4
+Terebellides benedi,C4C,2,2017,4,C4,8
+Terribellides kozloffi,B5B,1,2017,4,B5,4
+Terribellides kozloffi,C4C,1,2017,4,C4,4
+Terribellides stroemi,A7B,1,2017,1,A7,1
+Terribellides stroemi,E3A,1,2017,4,E3,4
+Tubificidae,E3B,1,2017,4,E3,4
+Turbellaria,E4A,1,2017,4,E4,4
+—ßekkt,C4A,8,2016,4,C4,32
+—ßekkt,C4B,8,2016,4,C4,32
+—ßekkt,E4C,1,2016,1,E4,1
+—ßekkt,E4C,6,2016,4,E4,24
+Abra nitida,B8C,10,2016,4,B8,40
+Abra nitida,E3C,1,2016,4,E3,4
+Abra nitida,E4A,1,2016,1,E4,1
+Abra nitida,E4C,1,2016,4,E4,4
+Abra prismatica,C4B,1,2016,4,C4,4
+Acanthocardia tuberculata,E4C,1,2016,4,E4,4
+Ampharetidae sp,A7C,1,2016,4,A7,4
+Amphipoda,B8B,3,2016,4,B8,12
+Amphipoda,C4B,1,2016,4,C4,4
+Amphipoda,C4C,1,2016,4,C4,4
+Amphipoda,E3C,1,2016,4,E3,4
+Amphipoda,E4A,6,2016,4,E4,24
+Amphipoda,E4B,1,2016,1,E4,1
+Amphipoda,E4B,11,2016,4,E4,44
+Amphipoda,E4C,3,2016,4,E4,12
+Amphipoda sp,A7B,1,2016,4,A7,4
+Amphitrite cirrata,E3C,1,2016,1,E3,1
+Arctica islandica,A7C,3,2016,4,A7,12
+Arctica islandica,B5C,1,2016,4,B5,4
+Arctica islandica,B8A,2,2016,4,B8,8
+Arctica islandica,B8B,5,2016,4,B8,20
+Arctica islandica,B8C,5,2016,4,B8,20
+Arctica islandica,C4B,1,2016,1,C4,1
+Arctica islandica,E3C,1,2016,4,E3,4
+Arctica islandica,E4B,2,2016,4,E4,8
+Aricidea,B8A,2,2016,4,B8,8
+Aricidea suecica,A7B,1,2016,4,A7,4
+Aricidea suecica,A7C,3,2016,4,A7,12
+Aricidea suecica,B5A,3,2016,4,B5,12
+Aricidea suecica,B8B,1,2016,4,B8,4
+Aricidea suecica,C4B,4,2016,4,C4,16
+Aricidea suecica,E3A,2,2016,4,E3,8
+Aricidea suecica,E3B,1,2016,4,E3,4
+Aricidea suecica,E3C,3,2016,4,E3,12
+Aricidea suecica,E4A,1,2016,4,E4,4
+Balanus balanus,E4B,1,2016,1,E4,1
+Bandormur,A7C,1,2016,1,A7,1
+Bandormur,A7C,6,2016,4,A7,24
+Bivalvia,B8A,2,2016,4,B8,8
+Bivalvia,B8B,2,2016,4,B8,8
+Bivalvia,B8C,4,2016,1,B8,4
+Bivalvia,E3B,2,2016,4,E3,8
+Bivalvia,E4A,3,2016,1,E4,3
+Bivalvia,E4B,1,2016,1,E4,1
+Campanulariidae,E4B,1,2016,4,E4,4
+Capitella capitata,A7A,1,2016,4,A7,4
+Capitella capitata,A7B,1,2016,4,A7,4
+Capitella capitata,A7B,3,2016,1,A7,3
+Capitella capitata,E3A,1,2016,4,E3,4
+Capitella capitata,E4C,1,2016,4,E4,4
+Capitellidae,B5B,1,2016,4,B5,4
+Capitellidae,B8B,1,2016,4,B8,4
+Capitellidae,E4B,1,2016,1,E4,1
+Capitellidae sp,A7C,3,2016,4,A7,12
+Cardiidae,A7C,1,2016,1,A7,1
+Cardium,B5C,1,2016,4,B5,4
+Chaetozone setosa,A7C,1,2016,1,A7,1
+Chaetozone setosa,B5A,7,2016,4,B5,28
+Chaetozone setosa,B5B,3,2016,4,B5,12
+Chaetozone setosa,C4A,5,2016,4,C4,20
+Chaetozone setosa,C4B,4,2016,4,C4,16
+Chaetozone setosa,C4C,3,2016,4,C4,12
+Chaetozone setosa,E3A,1,2016,4,E3,4
+Chaetozone setosa,E3B,8,2016,4,E3,32
+Chaetozone setosa,E3C,1,2016,1,E3,1
+Chaetozone setosa,E4A,3,2016,4,E4,12
+Chaetozone setosa,E4B,3,2016,4,E4,12
+Chaetozone setosa,E4C,2,2016,1,E4,2
+Chaetozone setosa,E4C,3,2016,4,E4,12
+Cirratulidae,B5B,1,2016,4,B5,4
+Cirratulidae,C4B,3,2016,4,C4,12
+Cirratulidae,C4C,1,2016,4,C4,4
+Cirratulidae,E3C,1,2016,1,E3,1
+Cirratulus cirratus,E4B,2,2016,1,E4,2
+Cirratulus cirratus,E4C,1,2016,4,E4,4
+Cistenides granulata,C4A,2,2016,4,C4,8
+Cistenides hyperborea,E3A,1,2016,4,E3,4
+Cossura longocirrata,A7A,1,2016,4,A7,4
+Cossura longocirrata,A7B,4,2016,4,A7,16
+Cossura longocirrata,A7C,1,2016,4,A7,4
+Cossura longocirrata,B5A,2,2016,4,B5,8
+Cossura longocirrata,B5B,3,2016,4,B5,12
+Cossura longocirrata,B8A,1,2016,4,B8,4
+Cossura longocirrata,E3A,2,2016,4,E3,8
+Cossuridae,E3B,2,2016,4,E3,8
+Crassicorophium bonellii,A7B,1,2016,4,A7,4
+Crassicorophium bonellii,A7C,1,2016,4,A7,4
+Crassicorophium bonellii,E3A,2,2016,4,E3,8
+Crassicorophium bonellii,E3C,3,2016,4,E3,12
+Crassicorophium bonellii,E4C,2,2016,4,E4,8
+Cumacea,E4A,1,2016,4,E4,4
+Cumacea,E4B,1,2016,4,E4,4
+Dorvilleidae,B8A,1,2016,4,B8,4
+Ennucula tenuis,B5B,1,2016,4,B5,4
+Ennucula tenuis,B5C,7,2016,4,B5,28
+Ennucula tenuis,B8B,3,2016,4,B8,12
+Ennucula tenuis,B8C,3,2016,4,B8,12
+Eteone longa,A7C,1,2016,1,A7,1
+Eteone longa,B8B,2,2016,4,B8,8
+Eteone longa,C4A,4,2016,4,C4,16
+Eteone longa,C4B,1,2016,4,C4,4
+Eteone longa,E3B,1,2016,4,E3,4
+Eteone longa,E3C,1,2016,1,E3,1
+Eteone longa,E4A,4,2016,4,E4,16
+Eteone longa,E4B,2,2016,1,E4,2
+Eteone longa,E4B,7,2016,4,E4,28
+Eteone longa,E4C,1,2016,1,E4,1
+Eteone longa,E4C,2,2016,4,E4,8
+Eunoe nodosa,E4B,2,2016,4,E4,8
+Eunoe nodosa,E4C,1,2016,4,E4,4
+Foraminifera,B5A,3,2016,1,B5,3
+Foraminifera,B5A,4,2016,1,B5,4
+Foraminifera,B5A,8,2016,4,B5,32
+Foraminifera,B5C,13,2016,1,B5,13
+Foraminifera,B8A,2,2016,4,B8,8
+Foraminifera,B8A,11,2016,1,B8,11
+Foraminifera,E3C,3,2016,1,E3,3
+Foraminifera,E4A,1,2016,4,E4,4
+Gattyana cirrhosa,E3A,1,2016,4,E3,4
+Götungar,A7A,2,2016,1,A7,2
+Götungar,A7A,6,2016,4,A7,24
+Götungar,A7B,25,2016,4,A7,100
+Götungar,A7C,2,2016,1,A7,2
+Götungar,A7C,2,2016,4,A7,8
+Harmothoe imbricata,E4B,1,2016,1,E4,1
+Harmothoe imbricata,E4B,1,2016,4,E4,4
+harpacticoida,B8A,3,2016,4,B8,12
+Harpacticoida,A7C,2,2016,4,A7,8
+Harpacticoida,B5B,26,2016,4,B5,104
+Harpacticoida,B5C,1,2016,1,B5,1
+Harpacticoida,E4B,1,2016,1,E4,1
+Harpacticoida,E4B,13,2016,4,E4,52
+Harpacticoida sp,B8B,4,2016,4,B8,16
+Harpacticoida sp,B8C,2,2016,4,B8,8
+Harpacticoida sp,C4B,3,2016,4,C4,12
+Harpacticoida sp,C4C,13,2016,4,C4,52
+Harpacticoida sp,E3B,1,2016,4,E3,4
+Harpacticoida sp,E3C,13,2016,4,E3,52
+Harpacticoida sp,E4A,5,2016,4,E4,20
+Harpacticoida sp,E4C,2,2016,4,E4,8
+Heteromastus filiformis,A7A,2,2016,1,A7,2
+Heteromastus filiformis,A7A,5,2016,4,A7,20
+Heteromastus filiformis,A7B,1,2016,1,A7,1
+Heteromastus filiformis,A7B,9,2016,4,A7,36
+Heteromastus filiformis,A7C,13,2016,4,A7,52
+Heteromastus filiformis,B5A,6,2016,4,B5,24
+Heteromastus filiformis,B5B,5,2016,4,B5,20
+Heteromastus filiformis,B8A,7,2016,4,B8,28
+Heteromastus filiformis,B8B,3,2016,1,B8,3
+Heteromastus filiformis,B8B,4,2016,4,B8,16
+Heteromastus filiformis,B8C,6,2016,1,B8,6
+Heteromastus filiformis,B8C,6,2016,4,B8,24
+Heteromastus filiformis,C4A,2,2016,4,C4,8
+Heteromastus filiformis,C4B,2,2016,4,C4,8
+Heteromastus filiformis,E3B,5,2016,4,E3,20
+Heteromastus filiformis,E3C,3,2016,4,E3,12
+Heteromastus filiformis,E4A,3,2016,4,E4,12
+Heteromastus filiformis,E4B,1,2016,4,E4,4
+Heteromastus filiformis,E4C,7,2016,4,E4,28
+Hiatella arctica,E3A,1,2016,4,E3,4
+Hiatella arctica,E4B,1,2016,4,E4,4
+Hydrozoa,A7B,2,2016,4,A7,8
+Kurtiella bidentata,C4A,1,2016,4,C4,4
+Kurtiella bidentata,C4C,2,2016,4,C4,8
+Lanassa venusta,B8A,1,2016,4,B8,4
+Leaena ebranchiata,B8A,1,2016,1,B8,1
+Levinsenia gracilis,B5C,1,2016,4,B5,4
+Levinsenia gracilis,E4A,1,2016,4,E4,4
+lirfa,A7C,1,2016,1,A7,1
+lirfur,B8A,9,2016,4,B8,36
+lirfurOgDrasl,B8B,7,2016,4,B8,28
+lirfurOgDrasl,B8B,9,2016,1,B8,9
+lirfurOgDrasl,B8C,7,2016,4,B8,28
+lirfurOgDrasl,E4A,1,2016,4,E4,4
+Lumbrineridae sp,B8B,1,2016,4,B8,4
+Macoma calcarea,A7A,1,2016,4,A7,4
+Macoma calcarea,A7C,1,2016,1,A7,1
+Macoma calcarea,A7C,9,2016,4,A7,36
+Macoma calcarea,B5A,1,2016,4,B5,4
+Macoma calcarea,B5A,2,2016,1,B5,2
+Macoma calcarea,B5B,8,2016,4,B5,32
+Macoma calcarea,B5C,8,2016,4,B5,32
+Macoma calcarea,B8A,7,2016,4,B8,28
+Macoma calcarea,B8B,6,2016,4,B8,24
+Macoma calcarea,B8C,21,2016,4,B8,84
+Macoma calcarea,C4A,8,2016,4,C4,32
+Macoma calcarea,C4B,18,2016,4,C4,72
+Macoma calcarea,C4C,15,2016,4,C4,60
+Macoma calcarea,E3A,1,2016,4,E3,4
+Macoma calcarea,E3B,7,2016,4,E3,28
+Macoma calcarea,E3C,8,2016,4,E3,32
+Macoma calcarea,E4A,14,2016,1,E4,14
+Macoma calcarea,E4B,11,2016,4,E4,44
+Macoma calcarea,E4C,5,2016,4,E4,20
+Maldanidae,A7A,7,2016,4,A7,28
+Maldanidae,A7C,1,2016,4,A7,4
+Maldanidae,A7C,8,2016,1,A7,8
+Maldanidae,B5A,1,2016,1,B5,1
+Maldanidae,B5A,4,2016,4,B5,16
+Maldanidae,B5C,1,2016,4,B5,4
+Maldanidae,B8A,2,2016,1,B8,2
+Maldanidae,B8A,2,2016,4,B8,8
+Maldanidae,B8B,1,2016,4,B8,4
+Maldanidae,B8B,2,2016,4,B8,8
+Maldanidae,B8B,3,2016,1,B8,3
+Maldanidae,B8C,1,2016,4,B8,4
+Maldanidae,B8C,2,2016,1,B8,2
+Maldanidae,E4B,1,2016,4,E4,4
+Maldanidae,E4C,1,2016,4,E4,4
+Maldanidae sp,A7A,1,2016,1,A7,1
+Maldanidae sp,A7C,2,2016,4,A7,8
+Maldanidae sp,B5B,2,2016,4,B5,8
+Mediomastus fragilis,C4C,7,2016,4,C4,28
+Mediomastus fragilis,E3A,1,2016,4,E3,4
+Mediomastus fragilis,E4B,2,2016,4,E4,8
+Microphthalmus aberrans,A7B,1,2016,4,A7,4
+Microphthalmus aberrans,B5B,1,2016,4,B5,4
+Microphthalmus aberrans,B5C,1,2016,4,B5,4
+Microphthalmus aberrans,C4A,1,2016,4,C4,4
+Microphthalmus aberrans,C4B,1,2016,4,C4,4
+Microphthalmus aberrans,E4A,7,2016,4,E4,28
+Microphthalmus aberrans,E4C,2,2016,4,E4,8
+Mya arenaria,A7C,7,2016,1,A7,7
+Mya arenaria,A7C,7,2016,4,A7,28
+Mya arenaria,B5A,1,2016,4,B5,4
+Mya arenaria,B8A,8,2016,4,B8,32
+Mya arenaria,B8B,12,2016,4,B8,48
+Mytilidae,C4B,2,2016,4,C4,8
+Nematoda,B5A,4,2016,1,B5,4
+Nematoda,B5A,14,2016,4,B5,56
+Nematoda,B5B,14,2016,4,B5,56
+Nematoda,B8A,2,2016,4,B8,8
+Nematoda,B8B,4,2016,4,B8,16
+Nematoda,B8B,5,2016,1,B8,5
+Nematoda,B8C,2,2016,4,B8,8
+Nematoda,B8C,4,2016,1,B8,4
+Nematoda,C4A,7,2016,1,C4,7
+Nematoda,C4A,17,2016,4,C4,68
+Nematoda,C4B,41,2016,4,C4,164
+Nematoda,C4C,13,2016,4,C4,52
+Nematoda,E3A,3,2016,4,E3,12
+Nematoda,E3B,2,2016,4,E3,8
+Nematoda,E3C,4,2016,1,E3,4
+Nematoda,E3C,11,2016,4,E3,44
+Nematoda,E4A,14,2016,4,E4,56
+Nematoda,E4B,10,2016,4,E4,40
+Nematoda,E4B,11,2016,1,E4,11
+Nematoda,E4C,3,2016,4,E4,12
+Nemertea,A7B,1,2016,4,A7,4
+Nemertea,A7C,2,2016,1,A7,2
+Nemertea,A7C,7,2016,4,A7,28
+Nemertea,B5C,1,2016,4,B5,4
+Nemertea,B8A,4,2016,4,B8,16
+Nemertea,E4B,2,2016,1,E4,2
+Nemertea,E4B,24,2016,4,E4,96
+Nemertea sp,B8B,6,2016,1,B8,6
+Nemertea sp,B8C,1,2016,1,B8,1
+Nemertea sp,B8C,1,2016,4,B8,4
+Nemertea sp,C4A,6,2016,4,C4,24
+Nemertea sp,C4C,3,2016,4,C4,12
+Nemertea sp,E3C,3,2016,4,E3,12
+Nemertea sp,E4A,3,2016,4,E4,12
+Nemertea sp,E4C,4,2016,4,E4,16
+Nephtyidae,C4C,1,2016,1,C4,1
+Nephtys,C4B,1,2016,1,C4,1
+Nephtys,E4C,2,2016,1,E4,2
+Nuculana minuta,B8C,1,2016,4,B8,4
+Nuculana minuta,C4A,2,2016,4,C4,8
+Nuculana minuta,C4B,1,2016,4,C4,4
+Nuculana minuta,E3A,1,2016,4,E3,4
+Nuculana minuta,E3B,1,2016,4,E3,4
+Nuculana pernula,B5A,1,2016,4,B5,4
+Nuculana pernula,B5C,2,2016,4,B5,8
+Nuculana pernula,B8A,1,2016,4,B8,4
+Nuculana pernula,B8B,7,2016,4,B8,28
+Nuculana pernula,B8C,2,2016,4,B8,8
+Nuculana pernula,C4B,1,2016,4,C4,4
+Nuculana pernula,C4C,1,2016,4,C4,4
+Oligochaeta,B5B,1,2016,4,B5,4
+Oligochaeta,B5C,1,2016,4,B5,4
+Oligochaeta,E4B,4,2016,1,E4,4
+Oligochaeta,E4B,5,2016,4,E4,20
+Oligochaeta sp,B8B,1,2016,1,B8,1
+Oligochaeta sp,B8B,1,2016,4,B8,4
+Oligochaeta sp,C4A,12,2016,4,C4,48
+Oligochaeta sp,C4B,2,2016,1,C4,2
+Oligochaeta sp,C4B,9,2016,4,C4,36
+Oligochaeta sp,E3A,2,2016,4,E3,8
+Oligochaeta sp,E3B,1,2016,1,E3,1
+Oligochaeta sp,E3B,1,2016,4,E3,4
+Oligochaeta sp,E3C,6,2016,4,E3,24
+Oligochaeta sp,E4A,13,2016,4,E4,52
+Oligochaeta sp,E4C,3,2016,1,E4,3
+Oligochaeta sp,E4C,9,2016,4,E4,36
+Ophelina acuminata,A7A,8,2016,1,A7,8
+Ophelina acuminata,A7A,8,2016,4,A7,32
+Ophelina acuminata,A7B,5,2016,1,A7,5
+Ophelina acuminata,A7B,6,2016,4,A7,24
+Ophelina acuminata,A7C,12,2016,4,A7,48
+Ophelina acuminata,A7C,29,2016,1,A7,29
+Ophelina acuminata,B5A,1,2016,1,B5,1
+Ophelina acuminata,B5A,33,2016,4,B5,132
+Ophelina acuminata,B5B,39,2016,4,B5,156
+Ophelina acuminata,B8A,1,2016,4,B8,4
+Ophelina acuminata,B8A,23,2016,1,B8,23
+Ophelina acuminata,B8B,4,2016,4,B8,16
+Ophelina acuminata,B8B,23,2016,1,B8,23
+Ophelina acuminata,B8C,1,2016,4,B8,4
+Ophelina acuminata,B8C,37,2016,1,B8,37
+Ophelina acuminata,C4A,31,2016,4,C4,124
+Ophelina acuminata,C4B,21,2016,4,C4,84
+Ophelina acuminata,C4C,1,2016,1,C4,1
+Ophelina acuminata,C4C,52,2016,4,C4,208
+Ophelina acuminata,E3A,1,2016,1,E3,1
+Ophelina acuminata,E3A,9,2016,4,E3,36
+Ophelina acuminata,E3B,1,2016,1,E3,1
+Ophelina acuminata,E3B,22,2016,4,E3,88
+Ophelina acuminata,E3C,1,2016,1,E3,1
+Ophelina acuminata,E3C,12,2016,4,E3,48
+Ophelina acuminata,E4A,25,2016,4,E4,100
+Ophelina acuminata,E4B,11,2016,1,E4,11
+Ophelina acuminata,E4B,11,2016,4,E4,44
+Ophelina acuminata,E4C,1,2016,1,E4,1
+Ophelina acuminata,E4C,12,2016,4,E4,48
+Ophiuroidea,E4C,1,2016,4,E4,4
+Orbiniidae,E3A,1,2016,4,E3,4
+ostracoda,B8A,3,2016,4,B8,12
+ostracoda,B8A,4,2016,1,B8,4
+Ostracoda,B5B,1,2016,4,B5,4
+Ostracoda,B5C,5,2016,1,B5,5
+Ostracoda,B5C,6,2016,4,B5,24
+Ostracoda,B8B,2,2016,1,B8,2
+Ostracoda,B8B,6,2016,4,B8,24
+Ostracoda,B8C,3,2016,1,B8,3
+Ostracoda,E3A,4,2016,4,E3,16
+Ostracoda,E3C,3,2016,1,E3,3
+Ostracoda,E4A,3,2016,4,E4,12
+Óþekkt,B5B,13,2016,4,B5,52
+Óþekkt,C4C,14,2016,4,C4,56
+Paraonidae,A7A,1,2016,4,A7,4
+Paraonidae,E4B,1,2016,1,E4,1
+Parvicardium minimum,B8A,1,2016,4,B8,4
+Parvicardium minimum,B8B,1,2016,4,B8,4
+Parvicardium minimum,B8C,2,2016,4,B8,8
+Pectinaria koreni,B8A,1,2016,1,B8,1
+Pectinariidae sp,B8B,1,2016,4,B8,4
+Pholoe sp,B8B,2,2016,4,B8,8
+Phyllodoce maculata,E3C,2,2016,4,E3,8
+Phyllodoce maculata,E4C,2,2016,4,E4,8
+Phyllodocida,E4A,1,2016,4,E4,4
+Platyhelminthes,C4A,1,2016,4,C4,4
+Polychaeta,A7A,1,2016,1,A7,2
+Polychaeta,B5B,2,2016,4,B5,8
+Polychaeta,B5C,1,2016,4,B5,4
+Polychaeta sp,B8B,2,2016,1,B8,2
+Polychaeta sp,B8C,1,2016,1,B8,1
+Polychaeta sp,B8C,2,2016,4,B8,8
+Polydora,A7B,1,2016,1,A7,1
+Polydora,B5A,1,2016,1,B5,1
+Polydora,B5B,1,2016,4,B5,4
+Polydora,B8A,13,2016,1,B8,13
+Polydora,B8A,14,2016,4,B8,56
+Polydora,B8B,1,2016,4,B8,4
+Polydora,B8B,14,2016,1,B8,14
+Polydora,B8C,6,2016,4,B8,24
+Polydora,B8C,12,2016,1,B8,12
+Polydora,C4A,2,2016,4,C4,8
+Polydora,C4B,1,2016,4,C4,4
+Polydora,E3A,2,2016,4,E3,8
+Polydora,E3B,6,2016,4,E3,24
+Polydora,E3C,1,2016,1,E3,1
+Polydora,E3C,10,2016,4,E3,40
+Polydora,E4A,23,2016,4,E4,92
+Polydora,E4B,9,2016,1,E4,9
+Polydora,E4B,14,2016,4,E4,56
+Polydora,E4C,20,2016,1,E4,20
+Polydora,E4C,38,2016,4,E4,152
+Polydora sp,A7A,2,2016,4,A7,8
+Polydora sp,A7A,3,2016,1,A7,3
+Polydora sp,A7C,9,2016,4,A7,36
+Polydora sp,A7C,12,2016,1,A7,12
+Polydora sp.,A7B,4,2016,4,A7,16
+Polynoidae,E3B,1,2016,4,E3,4
+Polynoidae,E3C,2,2016,4,E3,8
+Polynoidae,E4B,2,2016,4,E4,8
+Praxillella praetermissa,B8A,3,2016,1,B8,3
+Praxillella praetermissa,B8B,1,2016,1,B8,1
+Praxillella praetermissa,B8C,1,2016,1,B8,1
+Praxillella praetermissa,B8C,2,2016,4,B8,8
+Praxillella praetermissa,E3C,4,2016,4,E3,16
+Praxillella praetermissa,E4C,1,2016,1,E4,1
+priapulidae,B8A,1,2016,4,B8,4
+Priapulidae sp,B8B,1,2016,4,B8,4
+Priapulidae sp,B8C,1,2016,1,B8,1
+Priapulidae sp,C4A,2,2016,4,C4,8
+Priapulidae sp,C4B,1,2016,1,C4,1
+Priapulidae sp,C4B,1,2016,4,C4,4
+Protomedeia fasciata,E3A,1,2016,4,E3,4
+Pseudopolydora antennata,A7B,1,2016,4,A7,4
+Pygospio elegans,A7A,1,2016,4,A7,4
+Pygospio elegans,E3B,1,2016,4,E3,4
+Pygospio elegans,E4C,1,2016,4,E4,4
+rækjulirfa,B8A,1,2016,4,B8,4
+Ranaormur,A7B,2,2016,1,A7,2
+Sabellidae,B8A,1,2016,4,B8,4
+Sabellidae sp,B5B,1,2016,4,B5,4
+scalibregma inflatum,B5B,6,2016,4,B5,24
+Scalibregma inflatum,A7A,3,2016,4,A7,12
+Scalibregma inflatum,A7B,3,2016,1,A7,3
+Scalibregma inflatum,A7B,6,2016,4,A7,24
+Scalibregma inflatum,A7C,3,2016,1,A7,3
+Scalibregma inflatum,A7C,4,2016,4,A7,16
+Scalibregma inflatum,B5A,1,2016,1,B5,1
+Scalibregma inflatum,B5A,4,2016,4,B5,16
+Scalibregma inflatum,B8B,1,2016,1,B8,1
+Scalibregma inflatum,B8C,1,2016,4,B8,4
+Scalibregma inflatum,B8C,5,2016,1,B8,5
+Scalibregma inflatum,C4A,4,2016,4,C4,16
+Scalibregma inflatum,C4B,2,2016,4,C4,8
+Scalibregma inflatum,C4C,1,2016,4,C4,4
+Scalibregma inflatum,E3A,1,2016,4,E3,4
+Scalibregma inflatum,E3B,1,2016,1,E3,1
+Scalibregma inflatum,E3B,4,2016,4,E3,16
+Scalibregma inflatum,E4A,4,2016,4,E4,16
+Scalibregma inflatum,E4B,1,2016,4,E4,4
+Scalibregma inflatum,E4C,1,2016,1,E4,1
+Scalibregma inflatum,E4C,3,2016,4,E4,12
+Scoloplos armiger,A7A,5,2016,4,A7,20
+Scoloplos armiger,A7B,3,2016,4,A7,12
+Scoloplos armiger,A7C,4,2016,4,A7,16
+Scoloplos armiger,B8A,1,2016,4,B8,4
+Scoloplos armiger,B8B,1,2016,1,B8,1
+Scoloplos armiger,B8C,3,2016,1,B8,3
+Scoloplos armiger,B8C,3,2016,4,B8,12
+Scoloplos armiger,C4A,8,2016,4,C4,32
+Scoloplos armiger,C4B,1,2016,1,C4,1
+Scoloplos armiger,C4B,11,2016,4,C4,44
+Scoloplos armiger,C4C,16,2016,4,C4,64
+Scoloplos armiger,E3A,1,2016,4,E3,4
+Scoloplos armiger,E3C,1,2016,1,E3,1
+Scoloplos armiger,E3C,7,2016,4,E3,28
+Scoloplos armiger,E4A,3,2016,4,E4,12
+Scoloplos armiger,E4B,2,2016,1,E4,2
+Scoloplos armiger,E4B,7,2016,4,E4,28
+Scoloplos armiger,E4C,3,2016,1,E4,3
+Serripes groenlandicus,A7C,1,2016,1,A7,1
+Serripes groenlandicus,A7C,1,2016,4,A7,4
+Serripes groenlandicus,B8C,1,2016,4,B8,4
+Sipuncula,E4A,1,2016,4,E4,4
+Skeljar,A7C,3,2016,1,A7,3
+Skordýr,A7A,1,2016,4,A7,4
+Sphaerodoropsis minuta,B8B,1,2016,4,B8,4
+Sphaerosyllis,E4B,1,2016,1,E4,1
+spio,E3C,2,2016,1,E3,2
+Spio,B5A,6,2016,4,B5,24
+Spio filicornis,B8A,1,2016,1,B8,1
+Spionida,B8A,4,2016,4,B8,16
+Spionida sp,B8B,1,2016,4,B8,4
+Spionida sp.,A7B,1,2016,4,A7,4
+Spionidae,B5A,1,2016,1,B5,1
+Spionidae,B5B,3,2016,4,B5,12
+Spionidae sp,A7C,2,2016,1,A7,2
+Spionidae sp,B8B,3,2016,1,B8,3
+Spionidae sp,B8C,1,2016,1,B8,1
+Spionidae sp,B8C,1,2016,4,B8,4
+Spionidae sp,C4A,13,2016,4,C4,52
+Spionidae sp,C4B,1,2016,1,C4,1
+Spionidae sp,C4B,2,2016,4,C4,8
+Spionidae sp,C4C,2,2016,4,C4,8
+Spionidae sp,E3A,23,2016,4,E3,92
+Spionidae sp,E3B,1,2016,1,E3,1
+Spionidae sp,E3B,38,2016,4,E3,152
+Spionidae sp,E3C,20,2016,4,E3,80
+Spionidae sp,E4A,1,2016,4,E4,4
+Spionidae sp,E4A,36,2016,4,E4,144
+Spionidae sp,E4B,30,2016,4,E4,120
+Spionidae sp,E4C,10,2016,1,E4,10
+Spionidae sp,E4C,31,2016,4,E4,124
+Syllidae,E3C,1,2016,4,E3,4
+Syllis,A7C,1,2016,4,A7,4
+Terebellidae,C4C,1,2016,4,C4,4
+Terebellidae,E3C,1,2016,4,E3,4
+Terebellidae,E4A,3,2016,4,E4,12
+Terebellidae,E4C,1,2016,4,E4,4
+Terebelliformia,E4A,1,2016,1,E4,1
+Tubificoides kozloffi,E4B,1,2016,1,E4,1
+Abra nitida,A7,1,1999,1,A7,1
+Abra nitida,B5,1,1999,1,B5,1
+Abra nitida,B8,2,1999,1,B8,2
+Abra nitida,C4,1,1999,1,C4,1
+Ampharete acutifrons,E3,14,1999,1,E3,14
+Ampharetinae sp,A7,1,1999,1,A7,1
+Ampharetinae sp,B5,4,1999,1,B5,4
+Ampharetinae sp,B8,1,1999,1,B8,1
+Ampharetinae sp,C4,4,1999,1,C4,4
+Apistobranchus tullbergi,B5,4,1999,1,B5,4
+Apistobranchus tullbergi,B8,1,1999,1,B8,1
+Apistobranchus tullbergi,E3,5,1999,1,E3,5
+Apistobranchus tullbergi,E4,3,1999,1,E4,3
+Arctica islandica,B5,4,1999,1,B5,4
+Arctica islandica,B8,9,1999,1,B8,9
+Arctica islandica,E3,3,1999,1,E3,3
+Aricidea (Acmira) cerrutii,E4,4,1999,1,E4,4
+Astarte,E3,4,1999,1,E3,4
+Bivalvia ungv,B8,2,1999,1,B8,2
+Bivalvia ungv,C4,8,1999,1,C4,8
+Buccinum undatum,B8,1,1999,1,B8,1
+Caprella septentrionalis,C4,2,1999,1,C4,2
+Caprella septentrionalis,E4,16,1999,1,E4,16
+Chaetozone setosa,A7,4,1999,1,A7,4
+Chaetozone setosa,B5,39,1999,1,B5,39
+Chaetozone setosa,B8,7,1999,1,B8,7
+Chaetozone setosa,C4,2,1999,1,C4,2
+Chaetozone setosa,E3,6,1999,1,E3,6
+Chaetozone setosa,E4,5,1999,1,E4,5
+Cirratulus cirratus,E3,1,1999,1,E3,1
+Cossura longocirrata,A7,1,1999,1,A7,1
+Cossura longocirrata,B8,29,1999,1,B8,29
+Cossura longocirrata,E3,14,1999,1,E3,14
+Crassicorophium bonellii,E3,8,1999,1,E3,8
+Crassicorophium bonellii,E4,2,1999,1,E4,2
+Crenella decussata,B8,2,1999,1,B8,2
+Crenella decussata,E3,1,1999,1,E3,1
+Dodecaceria concharum,B5,8,1999,1,B5,8
+Eteone longa,A7,1,1999,1,A7,1
+Eteone longa,B8,2,1999,1,B8,2
+Eteone longa,E3,3,1999,1,E3,3
+Eteone longa,E4,1,1999,1,E4,1
+Eudorella emarginata,E3,1,1999,1,E3,1
+Foraminifera,A7,2,1999,1,A7,2
+Foraminifera,B5,20,1999,1,B5,20
+Foraminifera,B8,1,1999,1,B8,1
+Harpacticoida,B8,1,1999,1,B8,1
+Harpacticoida,E3,4,1999,1,E3,4
+Heteromastus filiformis,E3,10,1999,1,E3,10
+Heteromastus filiformis,E4,1,1999,1,E4,1
+Lanassa venusta,A7,3,1999,1,A7,3
+Lanassa venusta,B5,4,1999,1,B5,4
+Lanassa venusta,B8,2,1999,1,B8,2
+Lanassa venusta,C4,1,1999,1,C4,1
+Lanassa venusta,E3,6,1999,1,E3,6
+Laphania boecki,E3,1,1999,1,E3,1
+Laphania boecki,E4,1,1999,1,E4,1
+Leda pernula,B8,3,1999,1,B8,3
+Leda pernula,E3,1,1999,1,E3,1
+Leda ungv,C4,4,1999,1,C4,4
+Leucon acutirostris,B8,2,1999,1,B8,2
+Leucon acutirostris,C4,12,1999,1,C4,12
+Leucon acutirostris,E3,26,1999,1,E3,26
+Leucon acutirostris,E4,1,1999,1,E4,1
+Levinsenia gracilis,E3,56,1999,1,E3,56
+Levinsenia gracilis,E4,2,1999,1,E4,2
+Lumbrineris sp,B8,1,1999,1,B8,1
+Macoma calcarea,B5,10,1999,1,B5,10
+Macoma calcarea,B8,3,1999,1,B8,3
+Macoma calcarea,C4,7,1999,1,C4,7
+Macoma calcarea,E3,24,1999,1,E3,24
+Macoma calcarea,E4,7,1999,1,E4,7
+Maldane sarsi,E3,1,1999,1,E3,1
+Mediomastus filiformis,E3,10,1999,1,E3,10
+Microphthalmus aberrans,B5,8,1999,1,B5,8
+Munna sp,C4,2,1999,1,C4,2
+Musculus discors,C4,4,1999,1,C4,4
+Myriochele oculata,B5,4,1999,1,B5,4
+Myriochele oculata,C4,2,1999,1,C4,2
+Mytilus edulis,B5,20,1999,1,B5,20
+Mytilus edulis,B8,3,1999,1,B8,3
+Mytilus edulis,C4,28,1999,1,C4,28
+Mytilus edulis,E3,8,1999,1,E3,8
+Nematoda,A7,3,1999,1,A7,3
+Nematoda,B5,96,1999,1,B5,96
+Nematoda,B8,8,1999,1,B8,8
+Nematoda,C4,14,1999,1,C4,14
+Nematoda,E3,72,1999,1,E3,72
+Nemertea,B5,4,1999,1,B5,4
+Nemertea,C4,2,1999,1,C4,2
+Nemertea,E3,1,1999,1,E3,1
+Nuculana tenuis,A7,7,1999,1,A7,7
+Nuculana tenuis,B5,32,1999,1,B5,32
+Nuculana tenuis,B8,25,1999,1,B8,25
+Nuculana tenuis,C4,10,1999,1,C4,10
+Nuculana tenuis,E3,5,1999,1,E3,5
+Nuculana tenuis,E4,1,1999,1,E4,1
+Oligochaeta sp,B8,1,1999,1,B8,1
+Oligochaeta sp,E3,179,1999,1,E3,179
+Oligochaeta sp,E4,27,1999,1,E4,27
+Onoba aculeus,C4,4,1999,1,C4,4
+Ophelina acuminata,A7,2,1999,1,A7,2
+Ophelina acuminata,B8,6,1999,1,B8,6
+Ophelina acuminata,C4,17,1999,1,C4,17
+Ophiuroidea sp,B5,1,1999,1,B5,1
+Ostracoda,A7,101,1999,1,A7,101
+Ostracoda,B5,168,1999,1,B5,168
+Ostracoda,B8,189,1999,1,B8,189
+Ostracoda,C4,8,1999,1,C4,8
+Ostracoda,E3,88,1999,1,E3,88
+Paroediceros lynceus,C4,3,1999,1,C4,3
+Paroediceros lynceus,E3,8,1999,1,E3,8
+Pectinaria granulata,A7,1,1999,1,A7,1
+Pectinaria granulata,B5,12,1999,1,B5,12
+Pectinaria granulata,B8,2,1999,1,B8,2
+Pectinaria granulata,C4,8,1999,1,C4,8
+Pectinaria granulata,E4,1,1999,1,E4,1
+Philomedes globosus,C4,2,1999,1,C4,2
+Philomedes globosus,E3,3,1999,1,E3,3
+Pholoe minuta,B5,4,1999,1,B5,4
+Pholoe minuta,C4,1,1999,1,C4,1
+Pholoe minuta,E4,1,1999,1,E4,1
+Phyllodoce maculata,E3,2,1999,1,E3,2
+Polydora sp,E3,225,1999,1,E3,225
+Polydora sp,E4,37,1999,1,E4,37
+Polynoidae ungv,B8,1,1999,1,B8,1
+Praxillella praetermissa,A7,2,1999,1,A7,2
+Praxillella praetermissa,B5,4,1999,1,B5,4
+Praxillella praetermissa,B8,3,1999,1,B8,3
+Praxillella praetermissa,E3,20,1999,1,E3,20
+Praxillella praetermissa,E4,5,1999,1,E4,5
+Priapulus caudatus,B5,4,1999,1,B5,4
+Priapulus caudatus,E3,1,1999,1,E3,1
+Protomedeia fasciata,A7,7,1999,1,A7,7
+Protomedeia fasciata,B8,21,1999,1,B8,21
+Protomedeia fasciata,C4,5,1999,1,C4,5
+Protomedeia fasciata,E3,1,1999,1,E3,1
+Pseudopotamilla reniformis,E3,1,1999,1,E3,1
+Pygospio elegans,A7,1,1999,1,A7,1
+Pygospio elegans,E4,1,1999,1,E4,1
+Retusa pertenuis,B8,1,1999,1,B8,1
+Retusa pertenuis,C4,2,1999,1,C4,2
+Scalibregma inflatum,A7,2,1999,1,A7,2
+Scalibregma inflatum,B5,50,1999,1,B5,50
+Scalibregma inflatum,B8,19,1999,1,B8,19
+Scalibregma inflatum,C4,7,1999,1,C4,7
+Scalibregma inflatum,E4,1,1999,1,E4,1
+Schistomeringos nigridentata,A7,2,1999,1,A7,2
+Schistomeringos nigridentata,B5,16,1999,1,B5,16
+Schistomeringos nigridentata,E3,4,1999,1,E3,4
+Scoloplos armiger,A7,2,1999,1,A7,2
+Scoloplos armiger,B5,9,1999,1,B5,9
+Scoloplos armiger,B8,4,1999,1,B8,4
+Scoloplos armiger,C4,6,1999,1,C4,6
+Scoloplos armiger,E3,8,1999,1,E3,8
+Scoloplos armiger,E4,3,1999,1,E4,3
+Sphaerodoridae,E3,1,1999,1,E3,1
+Spio sp,B5,1,1999,1,B5,1
+Spio sp,B8,1,1999,1,B8,1
+Spio sp,C4,6,1999,1,C4,6
+Spio sp,E3,84,1999,1,E3,84
+Spio sp,E4,3,1999,1,E4,3
+Sternaspis scutata,A7,1,1999,1,A7,1
+Sternaspis scutata,B5,10,1999,1,B5,10
+Sternaspis scutata,B8,3,1999,1,B8,3
+Sternaspis scutata,E3,26,1999,1,E3,26
+Sternaspis scutata,E4,4,1999,1,E4,4
+Syllis cornuta,E3,7,1999,1,E3,7
+Syllis gracilis,B8,2,1999,1,B8,2
+Syllis gracilis,E4,1,1999,1,E4,1
+Terebellides stroemi,A7,1,1999,1,A7,1
+Terebellides stroemi,B5,25,1999,1,B5,25
+Terebellides stroemi,B8,3,1999,1,B8,3
+Terebellides stroemi,E3,16,1999,1,E3,16
+Terebellides stroemi,E4,3,1999,1,E4,3
+Thracia villosiuscula,B8,2,1999,1,B8,2
+Thyasira flexuosa,B5,4,1999,1,B5,4
+Thyasira flexuosa,E3,4,1999,1,E3,4
+Tubificoides benedii,C4,2,1999,1,C4,2
+Yoldia hyperborea,B5,3,1999,1,B5,3
+Yoldia hyperborea,B8,1,1999,1,B8,1
+Yoldia hyperborea,C4,1,1999,1,C4,1

@@ -1,0 +1,691 @@
+
+
+
+```{r pakkar, message=FALSE, warning=FALSE, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+#Rpakkar <- c("tidyverse","benthos","worrms", "plyr", "data.table", "DT", "dplyr", "here", "BBI", "ggh4x", "gplots","PDE", "magick", "tesseract", "xlsx", "ggpubr", "factoextra")
+Rpakkar <- c("tidyverse", "diagram", "genogram", "xlsx", "vegan", "plyr", "ggrepel", "ggvegan")
+
+#install.packages('pacman')
+pacman::p_load(Rpakkar, character.only = TRUE)
+#remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"))
+#install.packages("PDE", dependencies = TRUE)
+#Sys.setlocale("LC_ALL", "Icelandic") # `Sys.setlocale` er hér fyrir íslenskar dagsetningar.
+```
+
+```{r innlestur}
+KolgrTaxa <- read_csv("data/KolgrTaxa.csv", na = "empty") 
+
+remove_list <- paste(c(
+  "nýsestir",
+  "ungviði",
+  "ungv",
+  "ungv.",
+  "juv",
+  "harpacticoida",
+  "Acarina sp"
+), collapse = '|') 
+
+remove_ind <- lapply(strsplit(remove_list , "\\|")[[1]] , \(x) grep(x , KolgrTaxa$gamalt , fixed = T)) |> 
+  unlist() |> 
+  unique()
+
+ekkiungvidi <- KolgrTaxa[-remove_ind,] 
+
+KolgrTaxa <- ekkiungvidi %>% 
+  mutate(Artal = factor(Artal)) %>% 
+  filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3"))
+
+KolgrTaxa <- KolgrTaxa %>% 
+  filter(!Flokkun %in% c("harpacticoida", "Campanulariidae")) %>% 
+  mutate(
+    Flokkun = case_when(
+      Flokkun == "Spionida" ~ "Spionidae",
+      Flokkun == "Terebellides stroemi" ~ "Terebellides stroemii",
+      Flokkun == "Ampharetinae" ~ "Ampharetidae",
+      Flokkun == "ostracoda" ~ "Ostracoda",
+      Flokkun == "Sabellidae" ~ "Sabellida",
+      Flokkun == "scalibregma inflatum" ~ "Scalibregma inflatum",
+      Flokkun == "sipunculida" ~ "Sipuncula",
+      Flokkun == "sipunculidae" ~ "Sipuncula",
+      Flokkun == "sipunculidea" ~ "Sipuncula",
+      Flokkun == "Nephtys" ~ "Nephthys",
+      Flokkun == "Nepthys" ~ "Nephthys",
+      Artal == "1999" & Flokkun == "Ampharete acutifrons" ~ "Ampharetinae",
+      Artal == "1999" & Flokkun == "Bivalvia" ~ "NA"        ,
+      Artal == "2013" & Flokkun == "Harmothoe" ~ "Harmothoe extenuata"       ,
+      Artal == "2013" & Flokkun == "Polynoidae" ~ "Harmothoe extenuata" ,
+      Artal == "2014" & Flokkun == "Praxillella" ~ "Praxillella praetermissa",
+      Artal == "2014" & Flokkun == "Syllidae" ~ "Syllis cornuta"             ,
+      Artal == "2015" & Flokkun == "Syllidae" ~ "Syllis cornuta",
+      Artal == "2015" & Flokkun == "Mya" ~ "Mya arenaria"        ,     
+      Artal == "2015" & Flokkun == "Mytilidae" ~ "Mytilus edulis",
+      Artal == "2016" & Flokkun == "Aricidea" ~ "Amphitrite cirrata"      ,
+      Artal == "2016" & Flokkun == "Capitellidae" ~ "Capitella capitata"   ,  
+      Artal == "2016" & Flokkun == "Cirratulidae" ~ "Cirratulus cirratus",
+      Artal == "2016" & Flokkun == "Cossuridae" ~ "Cossura longocirrata",
+      Artal == "2016" & Flokkun == "Nephtyidae" ~ "Nephthys"      ,
+      Artal == "2016" & Flokkun == "Pectinariidae" ~ "Pectinaria koreni"     ,
+      Artal == "2016" & Flokkun == "Phyllodocida" ~ "Phyllodoce maculata",
+      Artal == "2016" & Flokkun == "Spio" ~ "Spio filicornis"            ,
+      Artal == "2016" & Flokkun == "Spionidae" ~ "Spio filicornis",
+      Artal == "2016" & Flokkun == "Syllidae" ~ "Syllis"           ,          
+      Artal == "2016" & Flokkun == "Cardiidae" ~ "Cardium"          ,         
+      Artal == "2016" & Flokkun == "Cardiidae" ~ "Cardium"           ,        
+      Artal == "2017" & Flokkun == "Mya" ~ "Mya arenaria"  ,
+      Artal == "2017" & Flokkun == "Maldanidae" ~ "Praxillella praetermissa",
+      Artal == "1999" & Flokkun == "Ampharetinae" ~ "Ampharetidae",
+      Artal == "2017" & Flokkun == "Ampharete" ~ "Ampharetidae"    ,
+      Artal == "2017" & Flokkun == "Ampharete acutifrons" ~ "Ampharetidae",
+      Artal == "2016" & Flokkun == "Lumbrineridae" ~ "Lumbrineris",
+      Artal == "2015" & Flokkun == "Pholoe" ~ "Pholoe minuta"      ,          
+      Artal == "2016" & Flokkun == "Pholoe" ~ "Pholoe minuta"       ,         
+      Artal == "2017" & Flokkun == "Pholoe" ~ "Pholoe minuta"        ,    
+      Artal == "1999" & Flokkun == "Musculus discors" ~ "Musculus",
+      Artal == "2014" & Flokkun == "Mya" ~ "Mya arenaria"          ,   
+      Artal == "2014" & Flokkun == "Mytilus edulis" ~ "Mytilidae",
+      Artal == "2014" & Flokkun == "Nephtyidae" ~ "Nephthys"       ,
+      Artal == "2014" & Flokkun == "Amphipoda" ~ "Protomedeia fasciata"    ,
+      Artal == "2014" & Flokkun == "Tubificidae" ~ "Tubificoides kozloffi",
+      Artal == "2014" & Flokkun == "Harmothoe" ~ "Harmothoe extenuata"     ,  
+      Artal == "2015" & Flokkun == "Harmothoe" ~ "Harmothoe extenuata"      , 
+      Artal == "2015" & Flokkun == "Amphipoda" ~ "Protomedeia fasciata",
+      Artal == "2016" & Flokkun == "Balanus balanus" ~ "Balanus"       ,
+      Artal == "2016" & Flokkun == "priapulidae" ~ "Priapulus caudatus" ,     
+      Artal == "2016" & Flokkun == "Priapulidae" ~ "Priapulus caudatus"  ,    
+      Artal == "2017" & Flokkun == "Harmothoe" ~ "Harmothoe extenuata"    ,   
+      Artal == "1999" & Flokkun == "Leucon acutirostris" ~ "Cumacea"       ,  
+      Artal == "1999" & Flokkun == "Eudorella emarginata" ~ "Cumacea",
+      TRUE ~ Flokkun)) %>% 
+  drop_na() 
+
+# First, create a new column that combines "id" and "Artal" to represent each grab
+KolgrTaxa$grab <- paste(KolgrTaxa$id, KolgrTaxa$Artal, sep = "_")
+
+# Then, count the number of grabs each species is found in
+species_grab_count <- table(KolgrTaxa$Flokkun, KolgrTaxa$grab)
+
+# Create a logical vector to identify species that are found in more than one grab
+species_in_multiple_grabs <- rowSums(species_grab_count > 0) > 1
+
+# Subset the data to include only species found in more than one grab
+KolgrTaxa_filtered <- KolgrTaxa[KolgrTaxa$Flokkun %in% names(species_in_multiple_grabs[species_in_multiple_grabs]), ]
+
+
+# First, create a new column that combines "id" and "Artal" to represent each grab
+KolgrTaxa$arstod <- paste(KolgrTaxa$stod, KolgrTaxa$Artal, sep = "_")
+
+# Then, count the number of grabs each species is found in
+species_stod_count <- table(KolgrTaxa$Flokkun, KolgrTaxa$arstod)
+
+# Create a logical vector to identify species that are found in more than one grab
+species_in_multiple_stods <- rowSums(species_stod_count > 0) > 1
+
+# Subset the data to include only species found in more than one grab
+KolgrTaxa_filteredB <- KolgrTaxa[KolgrTaxa$Flokkun %in% names(species_in_multiple_stods[species_in_multiple_stods]), ]
+
+data <- KolgrTaxa_filteredB
+
+```
+
+
+
+
+```{r environmental}
+kornast_organic_tap_dypi <- structure(list(stod = c("A7", "A7", "A7", "A7", "A7", "B5", "B5", 
+"B5", "B5", "B5", "B8", "B8", "B8", "B8", "B8", "C4", "C4", "C4", 
+"C4", "C4", "E3", "E3", "E3", "E3", "E3", "E4", "E4", "E4", "E4", 
+"E4"), Artal = c("2013", "2014", "2015", "2016", "2017", "2013", 
+"2014", "2015", "2016", "2017", "2013", "2014", "2015", "2016", 
+"2017", "2013", "2014", "2015", "2016", "2017", "2013", "2014", 
+"2015", "2016", "2017", "2013", "2014", "2015", "2016", "2017"
+), `20um` = c(0.628496042216359, 0.343339587242026, 0.453474676089517, 
+0.390734265734266, 0.643465909090909, 0.386002120890774, 0.321766561514196, 
+0.386792452830189, 0.19559585492228, 0.546637744034707, 0.592529025744573, 
+0.515981735159817, 0.369913686806412, 0.424997544719429, 0.221565731166913, 
+0.332928794917986, 0.153116531165312, 0.234791889007471, 0.190773067331671, 
+0.152190051967335, 0.385025817555938, 0.211453744493392, 0.157303370786517, 
+0.0827048768225239, 0.247269116186693, 0.426682936750051, 0.406354515050167, 
+0.214331413947537, 0.0125582337451894, 0.286830357142857), `63um` = c(0.350395778364116, 
+0.24577861163227, 0.215547703180212, 0.215909090909091, 0.151988636363636, 
+0.52661717921527, 0.342271293375394, 0.304245283018868, 0.348445595854922, 
+0.31236442516269, 0.317491166077739, 0.23972602739726, 0.276202219482121, 
+0.278886610994081, 0.282127031019202, 0.306115483075756, 0.276422764227642, 
+0.257203842049093, 0.17643391521197, 0.197475872308834, 0.379173838209983, 
+0.177679882525698, 0.143392188336009, 0.0935143288084465, 0.200595829195631, 
+0.438071995118975, 0.29933110367893, 0.211772232885477, 0.0256734859226251, 
+0.266741071428571), `125um` = c(0.0100263852242744, 0.315196998123827, 
+0.267373380447585, 0.284965034965035, 0.177556818181818, 0.0752916224814422, 
+0.32807570977918, 0.295990566037736, 0.399611398963731, 0.134490238611714, 
+0.0261736496718829, 0.237442922374429, 0.327990135635019, 0.240590007791825, 
+0.370753323485968, 0.319370437091116, 0.485094850948509, 0.44076840981857, 
+0.350997506234414, 0.528582034149963, 0.207194492254733, 0.281938325991189, 
+0.173354735152488, 0.283810960281549, 0.201588877855015, 0.104535285743339, 
+0.249163879598662, 0.19065898912348, 0.0339781243670245, 0.280133928571429
+), `250um` = c(0.0058047493403694, 0.0956848030018762, 0.0459363957597173, 
+0.0734265734265734, 0.00852272727272727, 0.00742311770943797, 
+0.00788643533123028, 0.0129716981132075, 0.0518134715025907, 
+0.00650759219088937, 0.0553003533568905, 0.00684931506849315, 
+0.0135635018495684, 0.0384999321551487, 0.0782865583456425, 0.0337347112923107, 
+0.0569105691056911, 0.0448239060832444, 0.180174563591022, 0.0972531551596139, 
+0.0236660929432013, 0.0558002936857562, 0.0358480470840021, 0.0834590246354952, 
+0.041708043694141, 0.0213544844417328, 0.0133779264214047, 0.0300703774792067, 
+0.00212679765039498, 0.0223214285714286), `1000um` = c(0.00527704485488127, 
+0, 0.0176678445229682, 0.034965034965035, 0.0184659090909091, 
+0.00466595970307529, 0, 0, 0.00453367875647668, 0, 0.00850580514891469, 
+0, 0.0123304562268804, 0.0170259043395175, 0.0472673559822747, 
+0.00785057362283114, 0.0284552845528455, 0.0224119530416222, 
+0.101620947630923, 0.0244988864142539, 0.00493975903614458, 0.273127753303965, 
+0.490101658640984, 0.456510809451986, 0.30883813306852, 0.00935529794590197, 
+0.0317725752508361, 0.353166986564299, 0.925663358314766, 0.143973214285714
+), `%Organic` = c(0.181515414138913, 0.117573294968505, 0.118865354458575, 
+0.10855175801997, 0.144215480661367, 0.174146595044186, 0.119127447894571, 
+0.124407020872865, 0.105198658268468, 0.115848718019756, 0.178503108560497, 
+0.12940849965294, 0.117179453375411, 0.111245191819955, 0.116370341491164, 
+0.142787808192584, 0.113006923837784, 0.132290387475618, 0.0969106601341345, 
+0.10220582768636, 0.215412621359223, 0.101006035443262, 0.090402518790167, 
+0.0885715142546809, 0.0796504565039956, 0.135196812364163, 0.126232974506719, 
+0.103923910552975, 0.092065868263473, 0.101525813669742), depth = c(16.6, 16.6, 
+16.6, 16.6, 16.6, 24.5, 24.5, 24.5, 24.5, 24.5, 16.6, 16.6, 16.6, 
+16.6, 16.6, 34, 34, 34, 34, 34, 11.2, 11.2, 11.2, 11.2, 11.2, 
+11, 11, 11, 11, 11), `DeadHerring` = c(0L, 0L, 0L, 0L, 0L, 1L, 
+1L, 1L, 1L, 1L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 1L, 1L, 
+1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L)), row.names = c(NA, -30L), class = "data.frame")
+
+```
+
+
+```{r MergeSep}
+
+# Aggregate data to sum 'N' values for duplicate rows
+
+data1_agg <- ddply(data ,.(Artal, stod, Flokkun),summarise,N=sum(N))
+# Prepare data for ordination
+data1_wide <- data1_agg %>% spread(key = Flokkun, value = N, fill = 0)
+
+merged_data <- merge(data1_wide, kornast_organic_tap_dypi, by = c("Artal", "stod")) # Hér dettur 1999 út
+rownames(merged_data) <- paste(merged_data$Artal, merged_data$stod, sep = "_")
+merged_data <- merged_data[, -c(1,2)] # Remove the 'Year' and 'Station' columns
+
+# Separate environmental and species data
+env_data <- merged_data[, c("20um","63um","125um","250um","1000um","%Organic","depth", "DeadHerring")]
+species_data <- merged_data[, !(names(merged_data) %in% c("20um","63um","125um","250um","1000um","tap","sd","dypi", "Síld 2013"))]
+
+```
+
+
+
+```{r Decorana, message=FALSE, warning=FALSE}
+dca <- decorana(species_data)
+dca # fyrsti DCA-ásinn eftir decorana() er >4
+# Get sample scores
+sample_scores <- scores(dca, display = "sites")
+species_scores <- scores(dca, display = "species")
+# Combine sample and species scores into a single data frame
+combined_scores <- rbind(data.frame(Scores = sample_scores, Labels = row.names(sample_scores), Type = "Sample"),data.frame(Scores = species_scores, Labels = row.names(species_scores), Type = "Species"))
+
+
+# Create the DCA plot með ggplot
+p <- ggplot(combined_scores, aes(x = Scores.DCA1, y = Scores.DCA2, color = Type, label = Labels)) +
+    geom_point() +
+    geom_text_repel(size = 3, max.overlaps = Inf) + # Increase max.overlaps to allow more overlaps
+    labs(title = "Detrended Correspondence Analysis (DCA)",
+         x = "DCA Axis 1",
+         y = "DCA Axis 2") +
+    theme_minimal() +
+    scale_color_manual(values = c("Sample" = "black", "Species" = "red"))
+
+  plotly::ggplotly(p)
+  #p
+```
+
+
+```{r CCA}
+
+cca_result <- cca(species_data ~ ., data = env_data)
+plot(cca_result)
+
+# Add points with the labels
+plot(cca_result)
+text(cca_result, display = "sites", col = "blue", cex = .7)
+
+# Add points with the labels
+plot(cca_result)
+text(cca_result, display = "species", col = "red", cex = .7)
+
+anova_result <- anova(cca_result, by = "terms", perm = 999)
+print(anova_result)
+
+
+```
+
+```{r}
+# Get sample scores
+sample_scores_cca <- scores(cca_result, display = "sites")
+
+# Get species scores
+species_scores_cca <- scores(cca_result, display = "species")
+
+# Get environmental variable scores
+env_scores_cca <- scores(cca_result, display = "bp")
+
+# Combine sample and species scores into a single data frame
+combined_scores_cca <- rbind(data.frame(Scores = sample_scores_cca, Labels = row.names(sample_scores_cca), Type = "Sample"),
+                             data.frame(Scores = species_scores_cca, Labels = row.names(species_scores_cca), Type = "Species"),
+                             data.frame(Scores = env_scores_cca, Labels = row.names(env_scores_cca), Type = "EnvVar"))
+
+# Create the CCA plot with ggplot
+p_cca <- ggplot(combined_scores_cca, aes(x = Scores.CCA1, y = Scores.CCA2, color = Type, label = Labels)) +
+    geom_point() +
+    geom_text_repel(size = 3, max.overlaps = Inf) + # Increase max.overlaps to allow more overlaps
+    geom_segment(data = combined_scores_cca[combined_scores_cca$Type == "EnvVar", ],
+                 aes(x = 0, y = 0, xend = Scores.CCA1, yend = Scores.CCA2),
+                 arrow = arrow(length = unit(0.3, "cm"))) + # Add arrows for environmental variables
+    labs(title = "Canonical Correspondence Analysis (CCA)",
+         x = "CCA Axis 1",
+         y = "CCA Axis 2") +
+    theme_minimal() +
+    scale_color_manual(values = c("Sample" = "black", "Species" = "red", "EnvVar" = "green"))
+
+# Convert ggplot to plotly interactive plot
+plotly::ggplotly(p_cca)
+
+
+```
+
+
+```{r CCA}
+# Get species scores
+species_scores_cca <- scores(cca_result, display = "species")
+
+# Get environmental variable vectors
+envfit_scores <- scores(envfit_result, display = "vectors")
+
+# Combine species scores and environmental variable vectors into a single data frame
+combined_scores_cca <- rbind(
+    data.frame(Scores = species_scores_cca, Labels = row.names(species_scores_cca), Type = "Species"),
+    data.frame(Scores = envfit_scores, Labels = row.names(envfit_scores), Type = "Environmental Variable")
+)
+
+# Create the CCA plot with ggplot
+p_cca <- ggplot(combined_scores_cca, aes(x = Scores.CCA1, y = Scores.CCA2, color = Type, label = Labels)) +
+    geom_point(data = subset(combined_scores_cca, Type == "Species")) +
+    geom_text_repel(data = subset(combined_scores_cca, Type == "Species"), size = 3, max.overlaps = Inf) +
+    geom_segment(data = subset(combined_scores_cca, Type == "Environmental Variable"), 
+                 aes(xend = Scores.CCA1, yend = Scores.CCA2), 
+                 arrow = arrow(length = unit(0.2, "cm")), color = "black") +
+    labs(title = "Canonical Correspondence Analysis (CCA)",
+         x = "CCA Axis 1",
+         y = "CCA Axis 2") +
+    theme_minimal() +
+    scale_color_manual(values = c("Species" = "blue", "Environmental Variable" = "black"))
+
+# Convert ggplot to plotly interactive plot
+plotly::ggplotly(p_cca)
+
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+data <- data.frame(
+  Year = c(2013, 2014, 2015, 2016, 2017),
+  Species = c(22, 52, 52, 72, 75),
+  Individuals = c(5871, 1909, 1013, 1813, 1734),
+  avg_Organic = c(0.1712604, 0.1177259, 0.1145114, 0.1004239, 0.1099694),
+  sd_Organic = c(0.029074531, 0.010125845, 0.015056057, 0.009258935, 0.021443591)
+)
+
+
+#library(ggplot2)
+#library(scales)
+
+max_species <- max(data$Species)
+max_individuals <- max(data$Individuals)
+max_secondary <- max(data$avg_Organic)
+
+data$norm_individuals <- data$Individuals / max_individuals * max_species
+data$norm_organic <- data$avg_Organic / max_secondary * max_species
+
+max_ind <- max(data$Individuals)
+mid_ind <- max_ind / 2
+
+p <- ggplot(data, aes(x = Year, group = 1)) +
+  geom_line(aes(y = Species, color = "Species"), size = 2, linetype = "dotted") +
+  geom_line(aes(y = norm_individuals, color = "Individuals"), size = 1) +
+  geom_line(aes(y = norm_organic, color = "%Organic"), size = 1) +
+  geom_point(aes(y = norm_organic, color = "%Organic"), size = 2.5) +
+  geom_errorbar(aes(y = norm_organic,
+                    ymin = (avg_Organic - sd_Organic) / max_secondary * max_species,
+                    ymax = (avg_Organic + sd_Organic) / max_secondary * max_species,
+                    color = "%Organic"), 
+                width = 0.2, size = 0.5) +
+  geom_text(aes(y = norm_organic, label = round(avg_Organic, 2)), vjust = -1.5, color="red") +
+  scale_y_continuous(name = "Number of Species",
+                     sec.axis = sec_axis(~ . / max_species * max_individuals, 
+                                         name = "Number of Individuals")) +
+  scale_color_brewer(palette = "Set1") +
+  labs(x = "", color = "") +
+  theme_minimal() +
+  theme(text = element_text(size = 16),
+        legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        axis.title.x = element_blank(),
+        axis.title.y.right = element_text(margin = margin(t = 0, r = 0, b = 0, l = 20)),
+        axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)))
+
+print(p)
+
+
+#ggsave("images/sp-ind-organic.png",width = 1280, height = 720, units = "px", dpi = 200, bg = "white")
+
+
+
+```
+
+
+```{r domFam}
+# Create a new column for the group
+data <- read_csv("merged_data_alltB.csv") %>%
+  filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+  mutate(Group = case_when(
+    Class == "Polychaeta" ~ "Polychaeta",
+    Phylum == "Mollusca" ~ "Mollusca",
+    TRUE ~ "Everything else")) %>% 
+  ddply(.(Artal, Group) ,summarise, N = sum(Nfm))
+
+#Reverse Group
+data$Group <- factor(data$Group, levels = c("Everything else", "Mollusca", "Polychaeta")) 
+# Order the levels of the year factor
+data$Artal <- factor(data$Artal, levels = c(2013:2017, 1999))
+
+# Create a bar plot
+p <- ggplot(data, aes(x = Artal, y = N, fill = Group)) +
+  geom_bar(stat = "identity", position = "stack", color = "black") +
+  scale_x_discrete(labels = function(x) ifelse(x == "1999", "1999", x)) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = NULL, y = "Individuals", fill = "", title = " Benthic Macrofauna in Kolgrafafjörður") +
+  theme_minimal() +
+  theme(  plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
+          axis.title = element_text(size = 12, face = "bold"),
+          axis.text = element_text(size = 10),
+          axis.text.x = element_text(size = ifelse(levels(data$Artal) == "1999", 14, 10), color = ifelse(levels(data$Artal) == "1999", "red", "black")),
+          legend.text = element_text(size = 10),
+          legend.position = "bottom",
+          legend.box = "horizontal",
+          legend.direction = "horizontal",
+          legend.title = element_blank())
+
+# Print the plot
+print(p)
+#ggsave("images/DominantGroups.png",width = 1280, height = 720, units = "px", dpi = 200, bg = "white")
+
+
+```
+
+```{r dompoly}
+# Create a new column for the group
+data <- read_csv("merged_data_alltB.csv") %>%
+  filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+  mutate(Group = case_when(
+    Class == "Polychaeta" ~ "Polychaeta",
+    Phylum == "Mollusca" ~ "Mollusca",
+    TRUE ~ "Everything else"))
+
+data$Artal <- factor(data$Artal, levels = c(2013:2017, 1999))
+
+data <- data <- data[data$Group=="Polychaeta",] %>%
+    ddply(c("Artal", "Flokkun"), summarise, Nfm = sum(Nfm)) %>%
+    arrange(Artal, desc(Nfm)) %>%
+    group_by(Artal) %>%
+    slice_head(n = 3) %>%
+    ungroup()
+  
+  # Replace specific values in the specified column
+value_to_replace <- c("\\bPolydora\\b", "\\bSpionidae\\b", "\\bSpio\\b(?!\\s*\\w)")
+replacement_values <- c("Polydora spp.", "Spionidae spp.", "Spio sp.")
+
+for(i in 1:length(value_to_replace)){
+    data$Flokkun <- gsub(pattern = value_to_replace[i],
+                         replacement = replacement_values[i],
+                         x = data$Flokkun, perl = TRUE)
+}
+
+
+  # Create a bar plot
+  p <- ggplot(data, aes_string(x = "Artal", y = "Nfm", fill = "Flokkun")) +
+    geom_bar(stat = "identity", position = "stack", color = "black") +
+    scale_x_discrete(labels = function(x) ifelse(x == "1999", "1999", x)) +
+    scale_fill_brewer(palette = "Paired", direction = -1) +
+    labs(x = NULL, y = "ind./m²", fill = "", title = "Top 3 Polychaetes each year") +
+    theme_minimal() +
+    theme(plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
+          axis.title = element_text(size = 12, face = "bold"),
+          axis.text = element_text(size = 10),
+          axis.text.x = element_text(size = ifelse(levels(data$Artal) == "1999", 14, 10), color = ifelse(levels(data$Artal) == "1999", "red", "black")),
+          legend.text = element_text(size = 10),
+          legend.position = "bottom",
+          legend.box = "horizontal",
+          legend.direction = "horizontal",
+          legend.title = element_blank())
+  
+
+  
+  print(p)
+#ggsave("images/DominantPoly.png",width = 1280, height = 720, units = "px", dpi = 200, bg = "white")
+
+
+```
+
+```{r domFamDjok}
+# Create a new column for the group
+data <- read_csv("merged_data_alltB.csv") %>%
+  filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+  mutate(Group = case_when(
+    Class == "Polychaeta" ~ "Polychaeta",
+    Phylum == "Mollusca" ~ "Mollusca",
+    TRUE ~ "Everything else")) %>% 
+  ddply(.(Artal, Group) ,summarise, N = sum(N))
+
+#Reverse Group
+data$Group <- factor(data$Group, levels = c("Everything else", "Mollusca", "Polychaeta")) 
+# Order the levels of the year factor
+data$Artal <- factor(data$Artal, levels = c(2013:2017, 1999))
+#data$Artal <- factor(data$Artal, levels = c(2013:2017))
+
+# Create a new data frame with the N value set to 0 for Artal == 1999
+data_adj <- data[data$Artal!=1999,]
+data_adj[data_adj$Artal == "2016", "N"] <- 0
+
+# Update the plot
+p <- ggplot(data_adj, aes(x = Artal, y = N, fill = Group)) +
+    geom_bar(stat = "identity", position = "stack", color = "black") +
+    labs(x = NULL, y = "Individuals", fill = "", title = " Benthic Macrofauna in Kolgrafafjörður") +
+    scale_fill_brewer(palette = "Dark2") +
+    theme_minimal() +
+    theme(plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
+          axis.title = element_text(size = 12, face = "bold"),
+          axis.text = element_text(size = 10),
+          axis.text.x = element_text(size = ifelse(levels(data_adj$Artal) == "1999", 14, 10), color = ifelse(levels(data_adj$Artal) == "2016", "red", "black")),
+          legend.text = element_text(size = 10),
+          legend.position = "bottom",
+          legend.box = "horizontal",
+          legend.direction = "horizontal",
+          legend.title = element_blank())
+
+print(p)
+
+#ggsave("images/alltnema2016.png",width = 1280, height = 720, units = "px", dpi = 200, bg = "white")
+
+
+```
+
+
+```{r domFam}
+# Create a new column for the group
+data <- read_csv("merged_data_alltB.csv") %>%
+  filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3")) %>% 
+  mutate(Group = case_when(
+    Class == "Polychaeta" ~ "Polychaeta",
+    Phylum == "Mollusca" ~ "Mollusca",
+    TRUE ~ "Everything else")) %>% 
+  ddply(.(Artal, Group) ,summarise, N = sum(N))
+
+#Reverse Group
+data$Group <- factor(data$Group, levels = c("Everything else", "Mollusca", "Polychaeta")) 
+# Order the levels of the year factor
+data$Artal <- factor(data$Artal, levels = c(2013:2017, 1999))
+#data$Artal <- factor(data$Artal, levels = c(2013:2017))
+
+# Create a new data frame with the N value set to 0 for Artal == 1999
+data_adj <- data[data$Artal!=1999,]
+#data_adj[data_adj$Artal == "2016", "N"] <- 0
+
+# Update the plot
+p <- ggplot(data_adj, aes(x = Artal, y = N, fill = Group)) +
+    geom_bar(stat = "identity", position = "stack", color = "black") +
+    labs(x = NULL, y = "Individuals", fill = "", title = " Benthic Macrofauna in Kolgrafafjörður") +
+    scale_fill_brewer(palette = "Dark2") +
+    theme_minimal() +
+    theme(plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
+          axis.title = element_text(size = 12, face = "bold"),
+          axis.text = element_text(size = 10),
+          axis.text.x = element_text(size = ifelse(levels(data_adj$Artal) == "1999", 14, 10), color = ifelse(levels(data_adj$Artal) == "2016", "red", "black")),
+          legend.text = element_text(size = 10),
+          legend.position = "bottom",
+          legend.box = "horizontal",
+          legend.direction = "horizontal",
+          legend.title = element_blank())
+
+print(p)
+
+#ggsave("images/alltlika2016.png",width = 1280, height = 720, units = "px", dpi = 200, bg = "white")
+
+
+```
+```{r kaka}
+data <- read_csv("merged_data_alltB.csv") %>% 
+  mutate(Artal = factor(Artal)) %>% 
+     filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3") & Artal %in% 2013) %>% 
+     ddply(.(Class),summarise, N=sum(N)) %>% 
+     arrange(N)
+```
+
+
+```{r doughnut}
+#' x      numeric vector for each slice
+#' group  vector identifying the group for each slice
+#' labels vector of labels for individual slices
+#' col    colors for each group
+#' radius radius for inner and outer pie (usually in [0,1])
+#' 
+data <- read_csv("merged_data_alltB.csv") %>%
+  filter(stod %in% c("C4", "A7", "B5", "B8", "E4", "E3") & Artal==2013) %>% 
+  mutate(Group = case_when(
+    Class == "Polychaeta" ~ "Polychaeta",
+    Phylum == "Mollusca" ~ "Mollusca",
+    TRUE ~ "Everything else")) %>% 
+  ddply(.(Group,Phylum, Flokkun) ,summarise, N = sum(N))%>% 
+  arrange(Group, desc(N)) %>% 
+  slice_head(n=10)
+
+#Reverse Group
+data$Group <- factor(data$Group, levels = c("Everything else", "Mollusca", "Polychaeta")) 
+
+donuts <- function(x, group = 1, labels = NA, col = NULL, radius = c(.7, 1)) {
+  group <- rep_len(group, length(x))
+  ug  <- unique(group)
+  tbl <- table(group)[order(ug)]
+
+  col <- if (is.null(col))
+    seq_along(ug) else rep_len(col, length(ug))
+  col.main <- Map(rep, col[seq_along(tbl)], tbl)
+  col.sub  <- lapply(col.main, function(x) {
+    al <- head(seq(0, 1, length.out = length(x) + 2L)[-1L], -1L)
+    Vectorize(adjustcolor)(x, alpha.f = al)
+  })
+
+  plot.new()
+
+  par(new = TRUE)
+  pie(x, border = NA, radius = radius[2L],
+      col = unlist(col.sub), labels = labels)
+
+  par(new = TRUE)
+  pie(x, border = NA, radius = radius[1L],
+      col = unlist(col.main), labels = NA)
+}
+
+with(data,
+     donuts(N, Phylum, sprintf('%s: %s%%', Phylum, Group),
+            col = c('cyan2','red','orange','green','dodgerblue2'))
+)
+
+
+```
+
+
+
+```{r}
+
+
+top1099 <-list(flokkur = structure(c(1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 2L, 
+2L), levels = c("Polychaeta", "Clitellata"), class = "factor"), 
+    tegund = c("Oligochaeta", "Tubificoides kozloffi", "Acarina", 
+    "Tubificoides benedii", "Crassicorophium bonellii", "Ophiuroidea", 
+    "Arctica islandica", "Bivalvia", "Polyplacophora", "Capitella capitata"
+    ), heild = c(47, 20, 3, 1, 1, 1, 1, 1, 1, 5274), .Names = c("flokkur", 
+    "tegund", "heild"), row.names = c(NA, -10L), class = "data.frame")
+
+
+
+  plot.new(); op <- par(no.readonly = TRUE); on.exit(par(op))
+  ## useful values and colors to work with
+  ## each group will have a specific color
+  ## each subgroup will have a specific shade of that color
+  nr <- 10
+  width <- max(sqrt(top1099$heild)) / 0.8
+  tbl <- with(top1099, table(flokkur)[order(unique(flokkur))])
+  cols <- c('brown','red')#,'orange')#,'green','dodgerblue2')
+  cols <- unlist(Map(rep, cols, tbl))
+  ## loop creates pie slices
+  plot.new()
+  par(omi = c(0.5,0.5,0.75,0.5), mai = c(0.1,0.1,0.1,0.1), las = 1)
+  for (i in 1:10) {
+    par(new = TRUE)
+    ## create color/shades
+    rgb <- col2rgb(cols[i])
+    f0 <- rep(NA, 10)
+    f0[i] <- rgb(rgb[1], rgb[2], rgb[3], 190 / sequence(tbl)[i], maxColorValue = 255)
+    
+    ## stick labels on the outermost section
+    lab <- with(top1099, sprintf('%s: %s', tegund, round(top1099$heild/(3*7*0.04))))
+
+    if (with(top1099, tegund[i] == max(heild))) {
+      lab0 <- lab
+    } else lab0 <- NA
+    
+#     if(top1099$tegund[i] == "Capitella capitata") {
+#   lab <- with(top1099, sprintf('%s: %s', tegund[i], round(heild[i]/(3*7*0.04))))
+# } else {
+#   lab <- NA
+# }
+    
+    ## plot the outside pie and shades of subgroups
+    pie(top1099$heild, border = NA, radius = 6*20 / width, col = f0,
+        labels = lab[], cex = 1,font=3)
+
+    par(new = TRUE)
+    rgb <- col2rgb(cols[i])
+    f0[i] <- rgb(rgb[1], rgb[2], rgb[3], maxColorValue = 255)
+    pie(top1099$heild, border = NA, radius = 6*16 / width, col = f0, labels = NA)
+  }
+  text(x = c(0, 0.65), y = c(.4, -0.1),
+       labels = unique(top1099$flokkur), col = 'white', cex = 1.2)
+
+
+```
+
+
