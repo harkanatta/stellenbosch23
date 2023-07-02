@@ -220,46 +220,93 @@ Anyway the sorting took me more than two years on and off.
 ![](images/sp-ind-organic.png)
 
 
+## {background-image="images/DominantPoly.png"}
 
-##  {background-image="images/DominantPoly.png"}
 
 ## {background-image="images/stationdendo.png"}
 
 ::: {.notes}
-As a reminder, we had these regular stations that we sampled every year. This dendrogram is designed to illustrate the hierarchical relationship among the various species detected at these stations, allowing us to identify clusters and patterns of similarity based on the ecological data collected.
+We had these regular stations that we sampled every year. This dendrogram is designed to illustrate the hierarchical relationship among the various species detected at these stations, allowing us to identify clusters and patterns of similarity based on the ecological data collected.
 :::
 
-##  {background-image="images/11.png"}
+
+## {background-image="images/11.png"}
 
 ::: {.notes}
-This dendogram show how all the 2013 stations and most of the 2014 stations stand out in the bottom 
+This dendogram shows how all the 2013 stations and most of the 2014 stations stand out in the bottom 
 :::
 
 <br>
 <br>
 
-::: {.fragment}
+
 <span style="display: inline-block; width: 30%;">
 <b>Normalized Quality indexes.</b>
 </span>
-:::
 
-::: {.fragment}
+
+
+
+## {background-image="images/sationdendo2.png"}
+
+<br>
+<br>
+
+<span style="display: inline-block; width: 30%;">
+<b>Normalized Quality indexes.</b>
+</span>
+
+<br>
+
 <span style="display: inline-block; width: 30%;">
 The 2013 samples are all at the bottom.
 </span>
-:::
 
-::: {.fragment}
+
+
+
+## {background-image="images/sationdendo3.png"}
+
+<br>
+<br>
+
+<span style="display: inline-block; width: 30%;">
+<b>Normalized Quality indexes.</b>
+</span>
+
+<br>
+
+<span style="display: inline-block; width: 30%;">
+The 2013 samples are all at the bottom.
+</span>
+
+<br>
+
 <span style="display: inline-block; width: 30%;">
 The samples from 1999 are not at the top!
 </span>
+
+## 
+
+::: columns
+::: {.column width="50%"}
+
+<br>
+
+- We matched our data with a Canadian dataset that includes detailed information on benthic macro-faunal feeding habits.
+
+- This cross-referencing allowed us to infer feeding guilds, shedding light on marine fauna succession post-catastrophe
+
+:::
+
+::: {.column width="50%"}
+
+![](images/canada.png){width=80%}
+:::
 :::
 
 
-## {background-image="images/stationdendo2.png"}
 
-## {background-image="images/stationdendo3.png"}
 
 ##  {background-iframe="https://valtyrio.shinyapps.io/docs/" background-interactive="true"}
 
